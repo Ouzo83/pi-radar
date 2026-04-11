@@ -255,6 +255,27 @@ def get_price_target(symbol: str) -> dict:
         "target_median": data.get("targetMedian"),
     }
 
+def get_company_news(symbol: str, days: int = 3) -> list[str]:
+    """Posledních N dní novinek z Finnhub – vrátí max 5 headlines."""
+    from datetime import timedelta
+    date_to   = datetime.now().strftime("%Y-%m-%d")
+    date_from = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
+    data = finnhub_get("company-news", {
+        "symbol": symbol,
+        "from":   date_from,
+        "to":     date_to,
+    })
+    if not data or not isinstance(data, list):
+        return []
+    headlines = []
+    for item in data[:5]:
+        headline = item.get("headline", "").strip()
+        source   = item.get("source", "")
+        if headline:
+            headlines.append(f"{headline} [{source}]")
+    return headlines
+
+
 def get_sector_pe(sector: str) -> float | None:
     """Hardcoded sektorové průměry P/E."""
     SECTOR_PE = {
@@ -476,6 +497,7 @@ def claude_analyze(shortlist: list[dict]) -> str:
             "investor_count":  w.get("investor_count"),
             "investors":       w.get("investors", []),
             "conviction_pct":  w.get("conviction"),
+            "recent_news":     t.get("news", []),
         })
 
     prompt = f"""Jsi investiční analytik specializující se na hodnotové investování.
@@ -499,6 +521,8 @@ Pravidla:
 - Margin of safety záporné = cena pod fair value = příležitost
 - Buď konkrétní v číslech, vyhni se vágním formulacím
 - Řaď od nejzajímavější příležitosti po méně zajímavé
+- Pokud jsou k dispozici recent_news, VŽDY je použij pro vysvětlení proč akcie klesla/rostla
+- Pokud news chybí nebo jsou prázdné, analyzuj pouze z čísel a to výslovně uveď
 - Na konci přidej 2–3 věty celkové tržní summary
 
 Odpovídej česky."""
@@ -553,6 +577,7 @@ def fetch_market_data(watchlist: list[dict], alert_only: bool = False) -> list[d
             "price_target":  None,
             "profile":       None,
             "valuation":     None,
+            "news":          [],
             "score":         0,
         }
 
@@ -570,6 +595,9 @@ def fetch_market_data(watchlist: list[dict], alert_only: bool = False) -> list[d
             price_target = get_price_target(symbol)
             time.sleep(SLEEP_FINNHUB)
 
+            news = get_company_news(symbol)
+            time.sleep(SLEEP_FINNHUB)
+
             valuation = {}
             if quote.get("price") and fundamentals:
                 valuation = estimate_fair_value(
@@ -585,6 +613,7 @@ def fetch_market_data(watchlist: list[dict], alert_only: bool = False) -> list[d
                 "price_target": price_target,
                 "profile":      profile,
                 "valuation":    valuation,
+                "news":         news,
             })
 
         entry["score"] = compute_score(entry)
