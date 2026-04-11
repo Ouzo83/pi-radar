@@ -1,0 +1,49 @@
+name: PIRadar Daily Report
+
+on:
+  schedule:
+    - cron: '0 21 * * 1-5'   # Po–Pá 21:00 UTC = 23:00 CEST
+  workflow_dispatch:           # možnost spustit ručně z Actions tabu
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests yfinance
+
+      - name: Write config.py
+        run: |
+          cat > config.py << 'EOF'
+          BULLAWARE_API_KEY  = "${{ secrets.BULLAWARE_API_KEY }}"
+          FINNHUB_API_KEY    = "${{ secrets.FINNHUB_API_KEY }}"
+          CLAUDE_API_KEY     = "${{ secrets.CLAUDE_API_KEY }}"
+          GMAIL_FROM         = "${{ secrets.GMAIL_FROM }}"
+          GMAIL_APP_PASSWORD = "${{ secrets.GMAIL_APP_PASSWORD }}"
+          GMAIL_TO           = "${{ secrets.GMAIL_TO }}"
+          ETORO_API_KEY      = ""
+          ETORO_USER_KEY     = ""
+          EOF
+
+      - name: Run ticker collector (refresh watchlist)
+        run: python ticker_collector.py
+
+      - name: Run full report
+        run: python dip_screener.py
+
+      - name: Commit updated data.json
+        run: |
+          git config user.name  "PIRadar Bot"
+          git config user.email "actions@github.com"
+          git add dashboard/data.json watchlist.json
+          git diff --staged --quiet || git commit -m "📊 PIRadar report $(date +'%Y-%m-%d')"
+          git push

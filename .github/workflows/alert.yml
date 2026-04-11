@@ -1,0 +1,46 @@
+name: PIRadar Alert Check
+
+on:
+  schedule:
+    - cron: '*/30 14-21 * * 1-5'  # každých 30 min, Po–Pá 14:00–21:00 UTC
+  workflow_dispatch:                # možnost spustit ručně
+
+jobs:
+  alert:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests yfinance
+
+      - name: Write config.py
+        run: |
+          cat > config.py << 'EOF'
+          BULLAWARE_API_KEY  = "${{ secrets.BULLAWARE_API_KEY }}"
+          FINNHUB_API_KEY    = "${{ secrets.FINNHUB_API_KEY }}"
+          CLAUDE_API_KEY     = "${{ secrets.CLAUDE_API_KEY }}"
+          GMAIL_FROM         = "${{ secrets.GMAIL_FROM }}"
+          GMAIL_APP_PASSWORD = "${{ secrets.GMAIL_APP_PASSWORD }}"
+          GMAIL_TO           = "${{ secrets.GMAIL_TO }}"
+          ETORO_API_KEY      = ""
+          ETORO_USER_KEY     = ""
+          EOF
+
+      - name: Run alert check
+        run: python dip_screener.py --alert
+
+      - name: Commit alert state
+        run: |
+          git config user.name  "PIRadar Bot"
+          git config user.email "actions@github.com"
+          git add alert_state.json
+          git diff --staged --quiet || git commit -m "🔔 Alert state $(date +'%Y-%m-%d %H:%M')"
+          git push
