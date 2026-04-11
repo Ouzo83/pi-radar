@@ -50,7 +50,7 @@ CLAUDE_BASE     = "https://api.anthropic.com/v1"
 
 # Alert prahy
 ALERT_DIP_PCT       = -10.0   # pokles o víc než 10 % → alert
-ALERT_SURGE_PCT     =  10.0   # nárůst o víc než 10 % → alert
+ALERT_SURGE_PCT     =  15.0   # nárůst o víc než 15 % → alert (value investor = surge méně důležitý)
 SCREENER_DIP_PCT    =  -5.0   # pro denní report: zajímavý pokles
 CONVICTION_MIN      =  2      # minimální počet PI investorů pro doporučení
 CONVICTION_MIN_DIP  =  1      # stačí 1 PI investor pokud pokles > ALERT_DIP_PCT
