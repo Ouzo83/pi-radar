@@ -394,25 +394,27 @@ def send_alert_email(alerts: list[dict]):
         inv    = ", ".join(a.get("investors", []))
         rows += f"""
         <tr>
-          <td style="font-weight:600;padding:8px 12px">{a['symbol']}</td>
+          <td style="font-weight:600;padding:8px 12px;color:#e6edf3">{a['symbol']}</td>
           <td style="color:{color};font-weight:600;padding:8px 12px">{sign}{a['change_pct']:.1f}%</td>
-          <td style="padding:8px 12px">${a['price']:.2f}</td>
+          <td style="padding:8px 12px;color:#e6edf3">${a['price']:.2f}</td>
           <td style="color:#8b949e;padding:8px 12px">{inv}</td>
-          <td style="padding:8px 12px">{a.get('conviction', 0)}% conviction</td>
+          <td style="padding:8px 12px;color:#e6edf3">{a.get('conviction', 0)}% conviction</td>
         </tr>"""
 
+    from zoneinfo import ZoneInfo
+    prague_time = datetime.now(ZoneInfo("Europe/Prague")).strftime('%d.%m.%Y %H:%M')
     html = f"""
     <html><body style="background:#0d1117;color:#e6edf3;font-family:sans-serif;padding:24px">
-    <h2 style="color:#f0883e">⚡ PIRadar Alert — {datetime.now().strftime('%d.%m.%Y %H:%M')}</h2>
+    <h2 style="color:#f0883e">⚡ PIRadar Alert — {prague_time}</h2>
     <p style="color:#8b949e">Detekován pohyb &gt; ±10% u sledovaných PI akcií:</p>
-    <table style="border-collapse:collapse;background:#161b22;border-radius:8px;width:100%">
+    <table style="border-collapse:collapse;background:#161b22;border-radius:8px;width:100%;color:#e6edf3">
       <thead>
         <tr style="color:#8b949e;font-size:12px;text-transform:uppercase">
-          <th style="padding:8px 12px;text-align:left">Symbol</th>
-          <th style="padding:8px 12px;text-align:left">Změna</th>
-          <th style="padding:8px 12px;text-align:left">Cena</th>
-          <th style="padding:8px 12px;text-align:left">PI investoři</th>
-          <th style="padding:8px 12px;text-align:left">Conviction</th>
+          <th style="padding:8px 12px;text-align:left;color:#8b949e">Symbol</th>
+          <th style="padding:8px 12px;text-align:left;color:#8b949e">Změna</th>
+          <th style="padding:8px 12px;text-align:left;color:#8b949e">Cena</th>
+          <th style="padding:8px 12px;text-align:left;color:#8b949e">PI investoři</th>
+          <th style="padding:8px 12px;text-align:left;color:#8b949e">Conviction</th>
         </tr>
       </thead>
       <tbody>{rows}</tbody>
@@ -423,6 +425,8 @@ def send_alert_email(alerts: list[dict]):
     </body></html>"""
 
     msg = MIMEMultipart("alternative")
+    from zoneinfo import ZoneInfo
+    prague_time = datetime.now(ZoneInfo("Europe/Prague")).strftime('%d.%m.%Y %H:%M')
     msg["Subject"] = f"⚡ PIRadar Alert: {', '.join(a['symbol'] for a in alerts[:3])} pohyb >{abs(ALERT_DIP_PCT):.0f}%"
     msg["From"]    = GMAIL_USER
     msg["To"]      = GMAIL_TO
