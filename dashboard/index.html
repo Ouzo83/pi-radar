@@ -534,7 +534,7 @@ tr:hover td { background: rgba(255,255,255,.02); }
       <div class="stat-card">
         <div class="stat-label">100% Conviction</div>
         <div class="stat-value" id="s-conviction" style="color:var(--purple)">—</div>
-        <div class="stat-sub">drží všichni 4 PI</div>
+        <div class="stat-sub" id="s-conviction-label">drží všichni PI</div>
       </div>
     </div>
 
@@ -619,7 +619,7 @@ const pct = (v) => {
   return `<span class="${cls}">${sign}${(+v).toFixed(2)}%</span>`;
 };
 
-const convDots = (count, max=4) => {
+const convDots = (count, max) => {
   let html = '<div class="conviction-bar">';
   for (let i = 0; i < max; i++)
     html += `<div class="conv-dot${i < count ? ' filled' : ''}"></div>`;
@@ -648,6 +648,7 @@ let sortKey = 'score', sortDir = -1;
 let activeFilter = 'all';
 let searchQuery = '';
 let allTickers = [];
+let totalPI = 7;
 
 // ── Dip card render ───────────────────────────────────────────────────────────
 function dipCard(t, showName=true) {
@@ -662,7 +663,7 @@ function dipCard(t, showName=true) {
   <div class="dip-card ${cls}">
     <div>
       <div class="dip-symbol">${t.symbol}</div>
-      ${convDots(w.investor_count || 0)}
+      ${convDots(w.investor_count || 0, totalPI)}
     </div>
     <div class="dip-name">${name}</div>
     <div class="dip-price mono">${cur}${fmt(q.price)}</div>
@@ -691,7 +692,7 @@ function tableRow(t) {
     <td class="mono">${cur}${fmt(q.price)}</td>
     <td class="mono">${pct(q.change_pct)}</td>
     <td>${scoreFill}</td>
-    <td>${convDots(w.investor_count || 0)} <span style="font-family:var(--mono);font-size:10px;color:var(--dim)">${w.conviction||0}%</span></td>
+    <td>${convDots(w.investor_count || 0, totalPI)} <span style="font-family:var(--mono);font-size:10px;color:var(--dim)">${w.conviction||0}%</span></td>
     <td class="mono">${fmt(f.pe_ttm, 1)}</td>
     <td class="mono">${fmt(f.roe, 1)}</td>
     <td style="color:${analystColor(a.consensus)};font-size:12px">${a.consensus || '—'}</td>
@@ -745,6 +746,7 @@ async function init() {
     const data = await res.json();
 
     allTickers = data.tickers || [];
+    totalPI = (data.pi_investors || []).length || 7;
 
     // Header
     const gen = new Date(data.generated_at);
@@ -754,13 +756,14 @@ async function init() {
     // Stats
     const dips    = allTickers.filter(t => (t.quote?.change_pct||0) <= -5);
     const surges  = allTickers.filter(t => (t.quote?.change_pct||0) >= 5);
-    const conv100 = allTickers.filter(t => t.watchlist_meta?.investor_count >= 4);
+    const conv100 = allTickers.filter(t => t.watchlist_meta?.investor_count >= totalPI);
 
     document.getElementById('s-total').textContent     = data.total_tickers;
     document.getElementById('s-dips').textContent      = dips.length;
     document.getElementById('s-surges').textContent    = surges.length;
     document.getElementById('s-shortlist').textContent = data.shortlist_count;
     document.getElementById('s-conviction').textContent= conv100.length;
+    document.getElementById('s-conviction-label').textContent = `drží všichni ${totalPI} PI`;
 
     // Claude analysis
     document.getElementById('claude-text').innerHTML =

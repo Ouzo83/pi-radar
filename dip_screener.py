@@ -25,8 +25,8 @@ try:
     BULLAWARE_API_KEY = config.BULLAWARE_API_KEY
     FINNHUB_API_KEY   = config.FINNHUB_API_KEY
     CLAUDE_API_KEY    = config.CLAUDE_API_KEY
-    GMAIL_USER        = config.GMAIL_USER
-    GMAIL_PASS        = config.GMAIL_PASS
+    GMAIL_USER        = config.GMAIL_FROM
+    GMAIL_PASS        = config.GMAIL_APP_PASSWORD
     GMAIL_TO          = config.GMAIL_TO
 except (ImportError, AttributeError) as e:
     print(f"[CHYBA] Nelze načíst config.py: {e}")
