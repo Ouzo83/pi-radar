@@ -461,6 +461,148 @@ def send_alert_email(alerts: list[dict]):
     except Exception as e:
         log(f"  [CHYBA] Email: {e}")
 
+# ── Notifikační email po full reportu ─────────────────────────────────────────
+def send_report_ready_email(dashboard_data: dict):
+    """Odešle teasing email po úspěšném vygenerování denního reportu.
+    Subject obsahuje rychlé shrnutí, body stat strip + top 3 dipy + CTA."""
+    DASHBOARD_URL = "https://pi-radar.netlify.app"
+
+    tickers = dashboard_data.get("tickers", []) or []
+    if not tickers:
+        log("  [Notifikace] Přeskočeno — žádná ticker data.")
+        return
+
+    # Dipy ≥ 5 % pokles, seřazené od největšího
+    dips = [
+        t for t in tickers
+        if ((t.get("quote", {}) or {}).get("change_pct") is not None
+            and (t.get("quote", {}) or {}).get("change_pct") <= SCREENER_DIP_PCT)
+    ]
+    dips.sort(key=lambda x: (x.get("quote", {}) or {}).get("change_pct", 0))
+    top_dips = dips[:3]
+
+    # Nejvyšší conviction ticker
+    def _conv(t):
+        return (t.get("watchlist_meta", {}) or {}).get("conviction", 0) or 0
+    top_conv_ticker = max(tickers, key=_conv) if tickers else None
+    top_conv_symbol = top_conv_ticker["symbol"] if top_conv_ticker else "-"
+    top_conv_value  = _conv(top_conv_ticker) if top_conv_ticker else 0
+
+    # Prague time
+    from zoneinfo import ZoneInfo
+    now_prague = datetime.now(ZoneInfo("Europe/Prague"))
+    date_str   = f"{now_prague.day}.{now_prague.month}."
+
+    # Subject - teasing s hlavní metrikou
+    if top_dips:
+        top = top_dips[0]
+        top_sym = top["symbol"]
+        top_pct = (top.get("quote", {}) or {}).get("change_pct", 0)
+        subject = f"🎯 PI Radar [{date_str}] · {len(dips)} dipů · top: {top_sym} {top_pct:+.1f}%"
+    else:
+        subject = f"🎯 PI Radar [{date_str}] · klidný den (žádné dipy ≥5 %)"
+
+    # Tabulka top 3 dipů
+    if top_dips:
+        dip_rows = ""
+        for t in top_dips:
+            q    = t.get("quote", {}) or {}
+            w    = t.get("watchlist_meta", {}) or {}
+            chg  = q.get("change_pct", 0)
+            inv  = w.get("investor_count", 0)
+            dots = "●" * min(inv, 7) + "○" * max(7 - inv, 0)
+            dip_rows += f"""
+            <tr>
+              <td style="font-weight:600;padding:10px 14px;color:#e6edf3;font-size:15px">{t['symbol']}</td>
+              <td style="color:#f85149;font-weight:700;padding:10px 14px;text-align:right;font-size:15px">{chg:+.1f}%</td>
+              <td style="color:#8b949e;padding:10px 14px;text-align:right;font-size:13px">{dots} ({inv}/7)</td>
+            </tr>"""
+        dips_section = f"""
+        <h3 style="color:#e6edf3;margin:28px 0 12px 0;font-size:16px">🔻 Top dipy dnes</h3>
+        <table style="border-collapse:collapse;background:#161b22;border-radius:8px;width:100%;overflow:hidden">
+          <tbody>{dip_rows}</tbody>
+        </table>"""
+    else:
+        dips_section = """
+        <div style="padding:20px;background:#161b22;border-radius:8px;text-align:center;color:#8b949e;margin:24px 0">
+          Žádné výrazné poklesy (≥5 %). Klidný trh.
+        </div>"""
+
+    # HTML email
+    html = f"""<html><body style="background:#0d1117;color:#e6edf3;font-family:sans-serif;padding:24px;margin:0">
+    <div style="max-width:560px;margin:0 auto">
+      <h2 style="color:#f0883e;margin:0 0 6px 0">🎯 PI Radar — {date_str}</h2>
+      <p style="color:#8b949e;margin:0 0 24px 0;font-size:14px">Tvůj denní report je připravený.</p>
+
+      <table style="border-collapse:separate;border-spacing:8px 0;width:100%;margin-bottom:8px">
+        <tr>
+          <td style="background:#161b22;border-radius:8px;padding:14px;text-align:center;width:33%">
+            <div style="color:#8b949e;font-size:11px;text-transform:uppercase;letter-spacing:0.5px">Dipy ≥5 %</div>
+            <div style="color:#f85149;font-size:24px;font-weight:700;margin-top:4px">{len(dips)}</div>
+          </td>
+          <td style="background:#161b22;border-radius:8px;padding:14px;text-align:center;width:33%">
+            <div style="color:#8b949e;font-size:11px;text-transform:uppercase;letter-spacing:0.5px">Watchlist</div>
+            <div style="color:#e6edf3;font-size:24px;font-weight:700;margin-top:4px">{dashboard_data.get("total_tickers", len(tickers))}</div>
+          </td>
+          <td style="background:#161b22;border-radius:8px;padding:14px;text-align:center;width:33%">
+            <div style="color:#8b949e;font-size:11px;text-transform:uppercase;letter-spacing:0.5px">Top conv.</div>
+            <div style="color:#3fb950;font-size:18px;font-weight:700;margin-top:4px">{top_conv_symbol}</div>
+            <div style="color:#8b949e;font-size:11px;margin-top:2px">{top_conv_value}%</div>
+          </td>
+        </tr>
+      </table>
+
+      {dips_section}
+
+      <div style="text-align:center;margin:32px 0 20px 0">
+        <a href="{DASHBOARD_URL}" style="display:inline-block;background:#238636;color:#fff;padding:14px 32px;border-radius:8px;text-decoration:none;font-weight:700;font-size:15px">
+          Otevřít full report →
+        </a>
+      </div>
+
+      <p style="color:#484f58;font-size:11px;text-align:center;margin:24px 0 0 0">
+        Automaticky generováno PIRadar · @Ouzo83
+      </p>
+    </div>
+    </body></html>"""
+
+    # Plain text fallback
+    plain_lines = [
+        f"PI Radar - {date_str}",
+        "",
+        f"Dipy >=5%:      {len(dips)}",
+        f"Watchlist:      {dashboard_data.get('total_tickers', len(tickers))} tickerů",
+        f"Top conviction: {top_conv_symbol} ({top_conv_value}%)",
+        "",
+    ]
+    if top_dips:
+        plain_lines.append("Top dipy:")
+        for t in top_dips:
+            q   = t.get("quote", {}) or {}
+            w   = t.get("watchlist_meta", {}) or {}
+            plain_lines.append(
+                f"  {t['symbol']:<8} {q.get('change_pct', 0):+.1f}%   ({w.get('investor_count', 0)}/7 PI)"
+            )
+        plain_lines.append("")
+    plain_lines.append(f"Full report: {DASHBOARD_URL}")
+    plain_text = "\n".join(plain_lines)
+
+    # Odeslání
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = subject
+    msg["From"]    = GMAIL_USER
+    msg["To"]      = GMAIL_TO
+    msg.attach(MIMEText(plain_text, "plain", "utf-8"))
+    msg.attach(MIMEText(html, "html", "utf-8"))
+
+    try:
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
+            s.login(GMAIL_USER, GMAIL_PASS)
+            s.send_message(msg)
+        log(f"  ✓ Notifikační email odeslán: {subject}")
+    except Exception as e:
+        log(f"  [CHYBA] Notifikační email: {e}")
+
 # ── Claude analýza ────────────────────────────────────────────────────────────
 def claude_analyze(shortlist: list[dict]) -> str:
     """Pošle shortlist podhodnocených akcií Claudovi a dostane narativní analýzu."""
@@ -716,6 +858,12 @@ def run_full_report(watchlist: list[dict]):
         json.dumps(dashboard_data, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     log(f"\n✓ Dashboard data uložena: {DASHBOARD_FILE}")
+
+    # Odeslat notifikační email o hotovém reportu (non-blocking)
+    try:
+        send_report_ready_email(dashboard_data)
+    except Exception as e:
+        log(f"  [CHYBA] Notifikační email (non-blocking): {e}")
 
     # Shrnutí do terminálu
     print()
