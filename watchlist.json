@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T21:57:54.569515",
+  "generated_at": "2026-06-22T22:42:10.000809",
   "pi_investors": [
     "Ouzo83",
     "smudliczek",
@@ -9,7 +9,7 @@
     "JeppeKirkBonde",
     "triangulacapital"
   ],
-  "total_tickers": 156,
+  "total_tickers": 152,
   "per_investor": {
     "Ouzo83": [
       "1810.HK",
@@ -150,11 +150,12 @@
     ],
     "thomaspj": [
       "AAPL",
+      "AMD",
       "AMZN",
+      "ASML",
       "BAC",
-      "BP.L",
       "C",
-      "EQNR.OL",
+      "GE",
       "GOOG",
       "GS",
       "INTC",
@@ -162,9 +163,7 @@
       "KLAC",
       "MU",
       "NVDA",
-      "SHEL.L",
-      "SLV",
-      "TTE.PA"
+      "SLV"
     ],
     "JeppeKirkBonde": [
       "1810.HK",
@@ -261,9 +260,9 @@
         "thomaspj",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 3.62,
+      "avg_weight_pct": 3.68,
       "direction": "long",
-      "avg_profit_pct": 26.41,
+      "avg_profit_pct": 22.73,
       "conviction": 86
     },
     {
@@ -276,9 +275,9 @@
         "thomaspj",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 4.58,
+      "avg_weight_pct": 4.53,
       "direction": "long",
-      "avg_profit_pct": 314.47,
+      "avg_profit_pct": 313.19,
       "conviction": 71
     },
     {
@@ -290,9 +289,9 @@
         "thomaspj",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 7.88,
+      "avg_weight_pct": 8.28,
       "direction": "long",
-      "avg_profit_pct": 349.37,
+      "avg_profit_pct": 370.38,
       "conviction": 57
     },
     {
@@ -304,9 +303,23 @@
         "michalhla",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 5.38,
+      "avg_weight_pct": 5.43,
       "direction": "long",
-      "avg_profit_pct": 94.14,
+      "avg_profit_pct": 95.81,
+      "conviction": 57
+    },
+    {
+      "symbol": "ASML",
+      "investor_count": 4,
+      "investors": [
+        "Ouzo83",
+        "michalhla",
+        "thomaspj",
+        "JeppeKirkBonde"
+      ],
+      "avg_weight_pct": 4.12,
+      "direction": "long",
+      "avg_profit_pct": 109.98,
       "conviction": 57
     },
     {
@@ -318,9 +331,9 @@
         "thomaspj",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 2.63,
+      "avg_weight_pct": 2.87,
       "direction": "long",
-      "avg_profit_pct": 52.9,
+      "avg_profit_pct": 52.81,
       "conviction": 57
     },
     {
@@ -332,9 +345,9 @@
         "Ctalbot44",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 1.73,
+      "avg_weight_pct": 1.71,
       "direction": "long",
-      "avg_profit_pct": 11.08,
+      "avg_profit_pct": 8.84,
       "conviction": 57
     },
     {
@@ -345,9 +358,9 @@
         "smudliczek",
         "Ctalbot44"
       ],
-      "avg_weight_pct": 5.19,
+      "avg_weight_pct": 5.21,
       "direction": "long",
-      "avg_profit_pct": 96.88,
+      "avg_profit_pct": 97.52,
       "conviction": 43
     },
     {
@@ -358,22 +371,22 @@
         "Ctalbot44",
         "thomaspj"
       ],
-      "avg_weight_pct": 4.94,
+      "avg_weight_pct": 5.1,
       "direction": "long",
-      "avg_profit_pct": 82.38,
+      "avg_profit_pct": 78.91,
       "conviction": 43
     },
     {
-      "symbol": "ASML",
+      "symbol": "AMD",
       "investor_count": 3,
       "investors": [
-        "Ouzo83",
-        "michalhla",
-        "JeppeKirkBonde"
+        "smudliczek",
+        "Ctalbot44",
+        "thomaspj"
       ],
-      "avg_weight_pct": 4.8,
+      "avg_weight_pct": 4.74,
       "direction": "long",
-      "avg_profit_pct": 145.8,
+      "avg_profit_pct": 171.55,
       "conviction": 43
     },
     {
@@ -384,9 +397,9 @@
         "smudliczek",
         "michalhla"
       ],
-      "avg_weight_pct": 4.28,
+      "avg_weight_pct": 4.3,
       "direction": "long",
-      "avg_profit_pct": -9.97,
+      "avg_profit_pct": -9.65,
       "conviction": 43
     },
     {
@@ -397,9 +410,9 @@
         "smudliczek",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 3.83,
+      "avg_weight_pct": 3.77,
       "direction": "long",
-      "avg_profit_pct": 495.27,
+      "avg_profit_pct": 484.37,
       "conviction": 43
     },
     {
@@ -410,9 +423,9 @@
         "Ctalbot44",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 3.06,
+      "avg_weight_pct": 3.02,
       "direction": "long",
-      "avg_profit_pct": 62.4,
+      "avg_profit_pct": 60.49,
       "conviction": 43
     },
     {
@@ -423,9 +436,9 @@
         "smudliczek",
         "michalhla"
       ],
-      "avg_weight_pct": 2.59,
+      "avg_weight_pct": 2.55,
       "direction": "long",
-      "avg_profit_pct": -0.76,
+      "avg_profit_pct": -2.04,
       "conviction": 43
     },
     {
@@ -436,9 +449,9 @@
         "smudliczek",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 2.39,
+      "avg_weight_pct": 2.4,
       "direction": "long",
-      "avg_profit_pct": 7.39,
+      "avg_profit_pct": 8.87,
       "conviction": 43
     },
     {
@@ -449,9 +462,9 @@
         "Ctalbot44",
         "michalhla"
       ],
-      "avg_weight_pct": 1.89,
+      "avg_weight_pct": 1.83,
       "direction": "long",
-      "avg_profit_pct": 9.75,
+      "avg_profit_pct": 5.25,
       "conviction": 43
     },
     {
@@ -462,9 +475,9 @@
         "smudliczek",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 1.42,
+      "avg_weight_pct": 1.39,
       "direction": "long",
-      "avg_profit_pct": 16.31,
+      "avg_profit_pct": 14.01,
       "conviction": 43
     },
     {
@@ -475,9 +488,9 @@
         "smudliczek",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 1.3,
+      "avg_weight_pct": 1.28,
       "direction": "long",
-      "avg_profit_pct": 1.19,
+      "avg_profit_pct": -1.5,
       "conviction": 43
     },
     {
@@ -488,9 +501,9 @@
         "michalhla",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 1.19,
+      "avg_weight_pct": 1.17,
       "direction": "long",
-      "avg_profit_pct": -23.06,
+      "avg_profit_pct": -24.21,
       "conviction": 43
     },
     {
@@ -500,9 +513,9 @@
         "Ouzo83",
         "Ctalbot44"
       ],
-      "avg_weight_pct": 12.21,
+      "avg_weight_pct": 12.35,
       "direction": "long",
-      "avg_profit_pct": 40.01,
+      "avg_profit_pct": 41.03,
       "conviction": 29
     },
     {
@@ -512,9 +525,9 @@
         "Ctalbot44",
         "thomaspj"
       ],
-      "avg_weight_pct": 8.82,
+      "avg_weight_pct": 10.19,
       "direction": "long",
-      "avg_profit_pct": 92.49,
+      "avg_profit_pct": 99.45,
       "conviction": 29
     },
     {
@@ -524,21 +537,9 @@
         "Ouzo83",
         "smudliczek"
       ],
-      "avg_weight_pct": 5.19,
+      "avg_weight_pct": 5.29,
       "direction": "long",
-      "avg_profit_pct": 93.3,
-      "conviction": 29
-    },
-    {
-      "symbol": "AMD",
-      "investor_count": 2,
-      "investors": [
-        "smudliczek",
-        "Ctalbot44"
-      ],
-      "avg_weight_pct": 5.04,
-      "direction": "long",
-      "avg_profit_pct": 250.43,
+      "avg_profit_pct": 98.81,
       "conviction": 29
     },
     {
@@ -548,9 +549,9 @@
         "Ouzo83",
         "smudliczek"
       ],
-      "avg_weight_pct": 4.73,
+      "avg_weight_pct": 4.79,
       "direction": "long",
-      "avg_profit_pct": 251.47,
+      "avg_profit_pct": 255.32,
       "conviction": 29
     },
     {
@@ -560,9 +561,9 @@
         "thomaspj",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 4.62,
+      "avg_weight_pct": 4.61,
       "direction": "long",
-      "avg_profit_pct": 103.57,
+      "avg_profit_pct": 104.67,
       "conviction": 29
     },
     {
@@ -572,9 +573,9 @@
         "thomaspj",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 3.77,
+      "avg_weight_pct": 3.8,
       "direction": "long",
-      "avg_profit_pct": 112.75,
+      "avg_profit_pct": 116.25,
       "conviction": 29
     },
     {
@@ -584,9 +585,21 @@
         "smudliczek",
         "michalhla"
       ],
-      "avg_weight_pct": 3.26,
+      "avg_weight_pct": 3.28,
       "direction": "long",
-      "avg_profit_pct": 1.22,
+      "avg_profit_pct": 1.24,
+      "conviction": 29
+    },
+    {
+      "symbol": "GE",
+      "investor_count": 2,
+      "investors": [
+        "Ctalbot44",
+        "thomaspj"
+      ],
+      "avg_weight_pct": 3.08,
+      "direction": "long",
+      "avg_profit_pct": 10.15,
       "conviction": 29
     },
     {
@@ -596,9 +609,9 @@
         "Ouzo83",
         "smudliczek"
       ],
-      "avg_weight_pct": 3.1,
+      "avg_weight_pct": 3.06,
       "direction": "long",
-      "avg_profit_pct": 70.86,
+      "avg_profit_pct": 68.84,
       "conviction": 29
     },
     {
@@ -608,9 +621,9 @@
         "Ouzo83",
         "michalhla"
       ],
-      "avg_weight_pct": 2.69,
+      "avg_weight_pct": 2.79,
       "direction": "long",
-      "avg_profit_pct": 1.71,
+      "avg_profit_pct": 4.6,
       "conviction": 29
     },
     {
@@ -620,9 +633,9 @@
         "Ouzo83",
         "smudliczek"
       ],
-      "avg_weight_pct": 2.5,
+      "avg_weight_pct": 2.46,
       "direction": "long",
-      "avg_profit_pct": 0.72,
+      "avg_profit_pct": -0.72,
       "conviction": 29
     },
     {
@@ -632,21 +645,9 @@
         "smudliczek",
         "Ctalbot44"
       ],
-      "avg_weight_pct": 2.31,
+      "avg_weight_pct": 2.33,
       "direction": "long",
-      "avg_profit_pct": -31.57,
-      "conviction": 29
-    },
-    {
-      "symbol": "GOOGL",
-      "investor_count": 2,
-      "investors": [
-        "smudliczek",
-        "JeppeKirkBonde"
-      ],
-      "avg_weight_pct": 2.13,
-      "direction": "long",
-      "avg_profit_pct": 142.21,
+      "avg_profit_pct": -30.74,
       "conviction": 29
     },
     {
@@ -656,9 +657,21 @@
         "michalhla",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 1.99,
+      "avg_weight_pct": 2.04,
       "direction": "long",
-      "avg_profit_pct": 13.56,
+      "avg_profit_pct": 15.55,
+      "conviction": 29
+    },
+    {
+      "symbol": "GOOGL",
+      "investor_count": 2,
+      "investors": [
+        "smudliczek",
+        "JeppeKirkBonde"
+      ],
+      "avg_weight_pct": 2.01,
+      "direction": "long",
+      "avg_profit_pct": 130.41,
       "conviction": 29
     },
     {
@@ -670,7 +683,7 @@
       ],
       "avg_weight_pct": 1.58,
       "direction": "long",
-      "avg_profit_pct": -31.35,
+      "avg_profit_pct": -31.65,
       "conviction": 29
     },
     {
@@ -680,9 +693,9 @@
         "Ouzo83",
         "smudliczek"
       ],
-      "avg_weight_pct": 1.53,
+      "avg_weight_pct": 1.54,
       "direction": "long",
-      "avg_profit_pct": -4.96,
+      "avg_profit_pct": -3.74,
       "conviction": 29
     },
     {
@@ -692,9 +705,9 @@
         "Ouzo83",
         "smudliczek"
       ],
-      "avg_weight_pct": 1.3,
+      "avg_weight_pct": 1.29,
       "direction": "long",
-      "avg_profit_pct": 20.63,
+      "avg_profit_pct": 20.34,
       "conviction": 29
     },
     {
@@ -704,9 +717,9 @@
         "Ouzo83",
         "smudliczek"
       ],
-      "avg_weight_pct": 1.22,
+      "avg_weight_pct": 1.21,
       "direction": "long",
-      "avg_profit_pct": 8.06,
+      "avg_profit_pct": 6.97,
       "conviction": 29
     },
     {
@@ -716,9 +729,9 @@
         "smudliczek",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 0.91,
+      "avg_weight_pct": 0.92,
       "direction": "long",
-      "avg_profit_pct": -31.54,
+      "avg_profit_pct": -30.39,
       "conviction": 29
     },
     {
@@ -728,9 +741,9 @@
         "smudliczek",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 0.91,
+      "avg_weight_pct": 0.88,
       "direction": "long",
-      "avg_profit_pct": 27.6,
+      "avg_profit_pct": 23.98,
       "conviction": 29
     },
     {
@@ -740,9 +753,9 @@
         "smudliczek",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 0.78,
+      "avg_weight_pct": 0.77,
       "direction": "long",
-      "avg_profit_pct": 10.53,
+      "avg_profit_pct": 9.93,
       "conviction": 29
     },
     {
@@ -752,9 +765,9 @@
         "michalhla",
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 0.67,
+      "avg_weight_pct": 0.6,
       "direction": "long",
-      "avg_profit_pct": -12.14,
+      "avg_profit_pct": -21.68,
       "conviction": 29
     },
     {
@@ -763,42 +776,9 @@
       "investors": [
         "michalhla"
       ],
-      "avg_weight_pct": 14.29,
+      "avg_weight_pct": 14.37,
       "direction": "long",
       "avg_profit_pct": 2.78,
-      "conviction": 14
-    },
-    {
-      "symbol": "UL.US",
-      "investor_count": 1,
-      "investors": [
-        "triangulacapital"
-      ],
-      "avg_weight_pct": 7.03,
-      "direction": "long",
-      "avg_profit_pct": 2.68,
-      "conviction": 14
-    },
-    {
-      "symbol": "BCS",
-      "investor_count": 1,
-      "investors": [
-        "triangulacapital"
-      ],
-      "avg_weight_pct": 6.82,
-      "direction": "long",
-      "avg_profit_pct": 13.51,
-      "conviction": 14
-    },
-    {
-      "symbol": "C",
-      "investor_count": 1,
-      "investors": [
-        "thomaspj"
-      ],
-      "avg_weight_pct": 6.51,
-      "direction": "long",
-      "avg_profit_pct": 10.19,
       "conviction": 14
     },
     {
@@ -807,9 +787,42 @@
       "investors": [
         "thomaspj"
       ],
-      "avg_weight_pct": 6.44,
+      "avg_weight_pct": 7.79,
       "direction": "long",
-      "avg_profit_pct": 6.76,
+      "avg_profit_pct": 8.62,
+      "conviction": 14
+    },
+    {
+      "symbol": "BCS",
+      "investor_count": 1,
+      "investors": [
+        "triangulacapital"
+      ],
+      "avg_weight_pct": 7.04,
+      "direction": "long",
+      "avg_profit_pct": 17.7,
+      "conviction": 14
+    },
+    {
+      "symbol": "UL.US",
+      "investor_count": 1,
+      "investors": [
+        "triangulacapital"
+      ],
+      "avg_weight_pct": 6.92,
+      "direction": "long",
+      "avg_profit_pct": 1.47,
+      "conviction": 14
+    },
+    {
+      "symbol": "C",
+      "investor_count": 1,
+      "investors": [
+        "thomaspj"
+      ],
+      "avg_weight_pct": 6.57,
+      "direction": "long",
+      "avg_profit_pct": 12.19,
       "conviction": 14
     },
     {
@@ -818,31 +831,9 @@
       "investors": [
         "triangulacapital"
       ],
-      "avg_weight_pct": 6.41,
+      "avg_weight_pct": 6.45,
       "direction": "long",
-      "avg_profit_pct": -11.42,
-      "conviction": 14
-    },
-    {
-      "symbol": "VNA.DE",
-      "investor_count": 1,
-      "investors": [
-        "triangulacapital"
-      ],
-      "avg_weight_pct": 6.37,
-      "direction": "long",
-      "avg_profit_pct": -4.57,
-      "conviction": 14
-    },
-    {
-      "symbol": "RF.PA",
-      "investor_count": 1,
-      "investors": [
-        "triangulacapital"
-      ],
-      "avg_weight_pct": 6.37,
-      "direction": "long",
-      "avg_profit_pct": -15.93,
+      "avg_profit_pct": -10.5,
       "conviction": 14
     },
     {
@@ -851,20 +842,9 @@
       "investors": [
         "triangulacapital"
       ],
-      "avg_weight_pct": 6.36,
+      "avg_weight_pct": 6.45,
       "direction": "long",
-      "avg_profit_pct": -5.47,
-      "conviction": 14
-    },
-    {
-      "symbol": "ROP.ZU",
-      "investor_count": 1,
-      "investors": [
-        "triangulacapital"
-      ],
-      "avg_weight_pct": 6.36,
-      "direction": "long",
-      "avg_profit_pct": -3.95,
+      "avg_profit_pct": -3.77,
       "conviction": 14
     },
     {
@@ -873,20 +853,20 @@
       "investors": [
         "thomaspj"
       ],
-      "avg_weight_pct": 6.34,
+      "avg_weight_pct": 6.41,
       "direction": "long",
-      "avg_profit_pct": 5.11,
+      "avg_profit_pct": 7.26,
       "conviction": 14
     },
     {
-      "symbol": "SAN.PA",
+      "symbol": "VNA.DE",
       "investor_count": 1,
       "investors": [
         "triangulacapital"
       ],
-      "avg_weight_pct": 6.32,
+      "avg_weight_pct": 6.38,
       "direction": "long",
-      "avg_profit_pct": -10.57,
+      "avg_profit_pct": -3.98,
       "conviction": 14
     },
     {
@@ -895,9 +875,42 @@
       "investors": [
         "triangulacapital"
       ],
+      "avg_weight_pct": 6.32,
+      "direction": "long",
+      "avg_profit_pct": -4.89,
+      "conviction": 14
+    },
+    {
+      "symbol": "RF.PA",
+      "investor_count": 1,
+      "investors": [
+        "triangulacapital"
+      ],
       "avg_weight_pct": 6.31,
       "direction": "long",
-      "avg_profit_pct": -5.48,
+      "avg_profit_pct": -16.38,
+      "conviction": 14
+    },
+    {
+      "symbol": "ROP.ZU",
+      "investor_count": 1,
+      "investors": [
+        "triangulacapital"
+      ],
+      "avg_weight_pct": 6.29,
+      "direction": "long",
+      "avg_profit_pct": -4.62,
+      "conviction": 14
+    },
+    {
+      "symbol": "SAN.PA",
+      "investor_count": 1,
+      "investors": [
+        "triangulacapital"
+      ],
+      "avg_weight_pct": 6.18,
+      "direction": "long",
+      "avg_profit_pct": -12.28,
       "conviction": 14
     },
     {
@@ -906,20 +919,9 @@
       "investors": [
         "triangulacapital"
       ],
-      "avg_weight_pct": 5.93,
+      "avg_weight_pct": 6.15,
       "direction": "long",
-      "avg_profit_pct": 7.72,
-      "conviction": 14
-    },
-    {
-      "symbol": "DBK.DE",
-      "investor_count": 1,
-      "investors": [
-        "triangulacapital"
-      ],
-      "avg_weight_pct": 5.7,
-      "direction": "long",
-      "avg_profit_pct": 12.75,
+      "avg_profit_pct": 12.21,
       "conviction": 14
     },
     {
@@ -928,20 +930,20 @@
       "investors": [
         "triangulacapital"
       ],
-      "avg_weight_pct": 5.69,
+      "avg_weight_pct": 5.7,
       "direction": "long",
-      "avg_profit_pct": -11.91,
+      "avg_profit_pct": -11.32,
       "conviction": 14
     },
     {
-      "symbol": "SLV",
+      "symbol": "DBK.DE",
       "investor_count": 1,
       "investors": [
-        "thomaspj"
+        "triangulacapital"
       ],
-      "avg_weight_pct": 5.54,
+      "avg_weight_pct": 5.68,
       "direction": "long",
-      "avg_profit_pct": -18.44,
+      "avg_profit_pct": 12.99,
       "conviction": 14
     },
     {
@@ -950,9 +952,9 @@
       "investors": [
         "triangulacapital"
       ],
-      "avg_weight_pct": 5.4,
+      "avg_weight_pct": 5.36,
       "direction": "long",
-      "avg_profit_pct": -2.86,
+      "avg_profit_pct": -3.12,
       "conviction": 14
     },
     {
@@ -961,9 +963,9 @@
       "investors": [
         "Ctalbot44"
       ],
-      "avg_weight_pct": 5.36,
+      "avg_weight_pct": 5.25,
       "direction": "long",
-      "avg_profit_pct": -10.48,
+      "avg_profit_pct": -12.62,
       "conviction": 14
     },
     {
@@ -972,20 +974,9 @@
       "investors": [
         "triangulacapital"
       ],
-      "avg_weight_pct": 5.21,
+      "avg_weight_pct": 5.13,
       "direction": "long",
-      "avg_profit_pct": -5.34,
-      "conviction": 14
-    },
-    {
-      "symbol": "NTR",
-      "investor_count": 1,
-      "investors": [
-        "triangulacapital"
-      ],
-      "avg_weight_pct": 4.81,
-      "direction": "long",
-      "avg_profit_pct": -13.47,
+      "avg_profit_pct": -6.4,
       "conviction": 14
     },
     {
@@ -994,20 +985,20 @@
       "investors": [
         "michalhla"
       ],
-      "avg_weight_pct": 4.78,
+      "avg_weight_pct": 4.75,
       "direction": "long",
-      "avg_profit_pct": -28.41,
+      "avg_profit_pct": -29.37,
       "conviction": 14
     },
     {
-      "symbol": "GE",
+      "symbol": "NTR",
       "investor_count": 1,
       "investors": [
-        "Ctalbot44"
+        "triangulacapital"
       ],
-      "avg_weight_pct": 4.15,
+      "avg_weight_pct": 4.74,
       "direction": "long",
-      "avg_profit_pct": 20.43,
+      "avg_profit_pct": -14.28,
       "conviction": 14
     },
     {
@@ -1018,7 +1009,7 @@
       ],
       "avg_weight_pct": 3.94,
       "direction": "long",
-      "avg_profit_pct": -3.95,
+      "avg_profit_pct": -3.49,
       "conviction": 14
     },
     {
@@ -1029,7 +1020,7 @@
       ],
       "avg_weight_pct": 3.44,
       "direction": "long",
-      "avg_profit_pct": 73.44,
+      "avg_profit_pct": 75.01,
       "conviction": 14
     },
     {
@@ -1038,9 +1029,20 @@
       "investors": [
         "Ctalbot44"
       ],
-      "avg_weight_pct": 3.43,
+      "avg_weight_pct": 3.39,
       "direction": "long",
-      "avg_profit_pct": -11.24,
+      "avg_profit_pct": -12.64,
+      "conviction": 14
+    },
+    {
+      "symbol": "SLV",
+      "investor_count": 1,
+      "investors": [
+        "thomaspj"
+      ],
+      "avg_weight_pct": 3.39,
+      "direction": "long",
+      "avg_profit_pct": -17.3,
       "conviction": 14
     },
     {
@@ -1049,31 +1051,9 @@
       "investors": [
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 3.25,
+      "avg_weight_pct": 3.27,
       "direction": "long",
-      "avg_profit_pct": 123.98,
-      "conviction": 14
-    },
-    {
-      "symbol": "B",
-      "investor_count": 1,
-      "investors": [
-        "JeppeKirkBonde"
-      ],
-      "avg_weight_pct": 3.18,
-      "direction": "long",
-      "avg_profit_pct": 119.2,
-      "conviction": 14
-    },
-    {
-      "symbol": "NFLX",
-      "investor_count": 1,
-      "investors": [
-        "Ctalbot44"
-      ],
-      "avg_weight_pct": 3.15,
-      "direction": "long",
-      "avg_profit_pct": -6.35,
+      "avg_profit_pct": 127.58,
       "conviction": 14
     },
     {
@@ -1082,9 +1062,20 @@
       "investors": [
         "michalhla"
       ],
+      "avg_weight_pct": 3.2,
+      "direction": "long",
+      "avg_profit_pct": 11.41,
+      "conviction": 14
+    },
+    {
+      "symbol": "B",
+      "investor_count": 1,
+      "investors": [
+        "JeppeKirkBonde"
+      ],
       "avg_weight_pct": 3.13,
       "direction": "long",
-      "avg_profit_pct": 9.69,
+      "avg_profit_pct": 118.0,
       "conviction": 14
     },
     {
@@ -1093,9 +1084,9 @@
       "investors": [
         "Ctalbot44"
       ],
-      "avg_weight_pct": 3.11,
+      "avg_weight_pct": 3.1,
       "direction": "long",
-      "avg_profit_pct": -7.47,
+      "avg_profit_pct": -7.94,
       "conviction": 14
     },
     {
@@ -1104,31 +1095,20 @@
       "investors": [
         "triangulacapital"
       ],
-      "avg_weight_pct": 3.08,
+      "avg_weight_pct": 3.07,
       "direction": "long",
-      "avg_profit_pct": -5.36,
+      "avg_profit_pct": -5.27,
       "conviction": 14
     },
     {
-      "symbol": "TTE.PA",
+      "symbol": "NFLX",
       "investor_count": 1,
       "investors": [
-        "thomaspj"
+        "Ctalbot44"
       ],
-      "avg_weight_pct": 3.01,
+      "avg_weight_pct": 2.96,
       "direction": "long",
-      "avg_profit_pct": 4.36,
-      "conviction": 14
-    },
-    {
-      "symbol": "MELI",
-      "investor_count": 1,
-      "investors": [
-        "michalhla"
-      ],
-      "avg_weight_pct": 2.79,
-      "direction": "long",
-      "avg_profit_pct": -0.38,
+      "avg_profit_pct": -12.39,
       "conviction": 14
     },
     {
@@ -1137,31 +1117,20 @@
       "investors": [
         "JeppeKirkBonde"
       ],
+      "avg_weight_pct": 2.78,
+      "direction": "long",
+      "avg_profit_pct": 37.16,
+      "conviction": 14
+    },
+    {
+      "symbol": "MELI",
+      "investor_count": 1,
+      "investors": [
+        "michalhla"
+      ],
       "avg_weight_pct": 2.76,
       "direction": "long",
-      "avg_profit_pct": 35.09,
-      "conviction": 14
-    },
-    {
-      "symbol": "SHEL.L",
-      "investor_count": 1,
-      "investors": [
-        "thomaspj"
-      ],
-      "avg_weight_pct": 2.71,
-      "direction": "long",
-      "avg_profit_pct": -7.05,
-      "conviction": 14
-    },
-    {
-      "symbol": "SOFI",
-      "investor_count": 1,
-      "investors": [
-        "smudliczek"
-      ],
-      "avg_weight_pct": 2.7,
-      "direction": "long",
-      "avg_profit_pct": 0.29,
+      "avg_profit_pct": -2.22,
       "conviction": 14
     },
     {
@@ -1176,14 +1145,25 @@
       "conviction": 14
     },
     {
+      "symbol": "SOFI",
+      "investor_count": 1,
+      "investors": [
+        "smudliczek"
+      ],
+      "avg_weight_pct": 2.57,
+      "direction": "long",
+      "avg_profit_pct": -4.04,
+      "conviction": 14
+    },
+    {
       "symbol": "BA.L",
       "investor_count": 1,
       "investors": [
         "Ctalbot44"
       ],
-      "avg_weight_pct": 2.55,
+      "avg_weight_pct": 2.51,
       "direction": "long",
-      "avg_profit_pct": 1.12,
+      "avg_profit_pct": -0.86,
       "conviction": 14
     },
     {
@@ -1192,20 +1172,9 @@
       "investors": [
         "michalhla"
       ],
-      "avg_weight_pct": 2.49,
-      "direction": "long",
-      "avg_profit_pct": 48.34,
-      "conviction": 14
-    },
-    {
-      "symbol": "BP.L",
-      "investor_count": 1,
-      "investors": [
-        "thomaspj"
-      ],
       "avg_weight_pct": 2.44,
       "direction": "long",
-      "avg_profit_pct": -0.63,
+      "avg_profit_pct": 44.6,
       "conviction": 14
     },
     {
@@ -1214,20 +1183,9 @@
       "investors": [
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 2.34,
+      "avg_weight_pct": 2.32,
       "direction": "long",
-      "avg_profit_pct": -10.95,
-      "conviction": 14
-    },
-    {
-      "symbol": "LEU",
-      "investor_count": 1,
-      "investors": [
-        "smudliczek"
-      ],
-      "avg_weight_pct": 2.31,
-      "direction": "long",
-      "avg_profit_pct": 42.15,
+      "avg_profit_pct": -10.7,
       "conviction": 14
     },
     {
@@ -1236,9 +1194,20 @@
       "investors": [
         "michalhla"
       ],
+      "avg_weight_pct": 2.24,
+      "direction": "long",
+      "avg_profit_pct": 19.4,
+      "conviction": 14
+    },
+    {
+      "symbol": "LEU",
+      "investor_count": 1,
+      "investors": [
+        "smudliczek"
+      ],
       "avg_weight_pct": 2.21,
       "direction": "long",
-      "avg_profit_pct": 18.64,
+      "avg_profit_pct": 36.65,
       "conviction": 14
     },
     {
@@ -1247,20 +1216,20 @@
       "investors": [
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 2.21,
+      "avg_weight_pct": 2.2,
       "direction": "long",
-      "avg_profit_pct": 44.78,
+      "avg_profit_pct": 45.36,
       "conviction": 14
     },
     {
-      "symbol": "EQNR.OL",
+      "symbol": "KO",
       "investor_count": 1,
       "investors": [
-        "thomaspj"
+        "Ctalbot44"
       ],
-      "avg_weight_pct": 2.18,
+      "avg_weight_pct": 2.02,
       "direction": "long",
-      "avg_profit_pct": -3.51,
+      "avg_profit_pct": 19.56,
       "conviction": 14
     },
     {
@@ -1271,18 +1240,7 @@
       ],
       "avg_weight_pct": 2.02,
       "direction": "long",
-      "avg_profit_pct": 303.63,
-      "conviction": 14
-    },
-    {
-      "symbol": "KO",
-      "investor_count": 1,
-      "investors": [
-        "Ctalbot44"
-      ],
-      "avg_weight_pct": 2.0,
-      "direction": "long",
-      "avg_profit_pct": 18.9,
+      "avg_profit_pct": 307.09,
       "conviction": 14
     },
     {
@@ -1291,9 +1249,9 @@
       "investors": [
         "Ctalbot44"
       ],
-      "avg_weight_pct": 1.97,
+      "avg_weight_pct": 1.99,
       "direction": "long",
-      "avg_profit_pct": -22.05,
+      "avg_profit_pct": -21.34,
       "conviction": 14
     },
     {
@@ -1308,25 +1266,14 @@
       "conviction": 14
     },
     {
-      "symbol": "RIVN",
-      "investor_count": 1,
-      "investors": [
-        "Ctalbot44"
-      ],
-      "avg_weight_pct": 1.96,
-      "direction": "long",
-      "avg_profit_pct": 16.66,
-      "conviction": 14
-    },
-    {
-      "symbol": "SPY5.L",
+      "symbol": "BE",
       "investor_count": 1,
       "investors": [
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 1.92,
+      "avg_weight_pct": 1.95,
       "direction": "long",
-      "avg_profit_pct": 16.41,
+      "avg_profit_pct": 43.02,
       "conviction": 14
     },
     {
@@ -1335,31 +1282,31 @@
       "investors": [
         "smudliczek"
       ],
-      "avg_weight_pct": 1.87,
+      "avg_weight_pct": 1.92,
       "direction": "long",
-      "avg_profit_pct": 300.51,
+      "avg_profit_pct": 313.58,
       "conviction": 14
     },
     {
-      "symbol": "BE",
+      "symbol": "SPY5.L",
       "investor_count": 1,
       "investors": [
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 1.87,
+      "avg_weight_pct": 1.89,
       "direction": "long",
-      "avg_profit_pct": 35.96,
+      "avg_profit_pct": 15.77,
       "conviction": 14
     },
     {
-      "symbol": "RACE",
+      "symbol": "RIVN",
       "investor_count": 1,
       "investors": [
         "Ctalbot44"
       ],
-      "avg_weight_pct": 1.82,
+      "avg_weight_pct": 1.84,
       "direction": "long",
-      "avg_profit_pct": 8.31,
+      "avg_profit_pct": 8.87,
       "conviction": 14
     },
     {
@@ -1370,7 +1317,18 @@
       ],
       "avg_weight_pct": 1.8,
       "direction": "long",
-      "avg_profit_pct": 57.69,
+      "avg_profit_pct": 56.48,
+      "conviction": 14
+    },
+    {
+      "symbol": "RACE",
+      "investor_count": 1,
+      "investors": [
+        "Ctalbot44"
+      ],
+      "avg_weight_pct": 1.76,
+      "direction": "long",
+      "avg_profit_pct": 4.34,
       "conviction": 14
     },
     {
@@ -1379,9 +1337,20 @@
       "investors": [
         "smudliczek"
       ],
-      "avg_weight_pct": 1.76,
+      "avg_weight_pct": 1.75,
       "direction": "long",
-      "avg_profit_pct": 38.61,
+      "avg_profit_pct": 37.75,
+      "conviction": 14
+    },
+    {
+      "symbol": "FSLR",
+      "investor_count": 1,
+      "investors": [
+        "JeppeKirkBonde"
+      ],
+      "avg_weight_pct": 1.71,
+      "direction": "long",
+      "avg_profit_pct": 148.37,
       "conviction": 14
     },
     {
@@ -1396,47 +1365,14 @@
       "conviction": 14
     },
     {
-      "symbol": "FSLR",
-      "investor_count": 1,
-      "investors": [
-        "JeppeKirkBonde"
-      ],
-      "avg_weight_pct": 1.69,
-      "direction": "long",
-      "avg_profit_pct": 143.65,
-      "conviction": 14
-    },
-    {
       "symbol": "VRTX",
       "investor_count": 1,
       "investors": [
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 1.67,
+      "avg_weight_pct": 1.68,
       "direction": "long",
-      "avg_profit_pct": 61.52,
-      "conviction": 14
-    },
-    {
-      "symbol": "SPOT",
-      "investor_count": 1,
-      "investors": [
-        "Ctalbot44"
-      ],
-      "avg_weight_pct": 1.66,
-      "direction": "long",
-      "avg_profit_pct": -1.54,
-      "conviction": 14
-    },
-    {
-      "symbol": "BOL.ST",
-      "investor_count": 1,
-      "investors": [
-        "JeppeKirkBonde"
-      ],
-      "avg_weight_pct": 1.65,
-      "direction": "long",
-      "avg_profit_pct": 86.17,
+      "avg_profit_pct": 63.31,
       "conviction": 14
     },
     {
@@ -1447,7 +1383,29 @@
       ],
       "avg_weight_pct": 1.64,
       "direction": "long",
-      "avg_profit_pct": -21.3,
+      "avg_profit_pct": -20.41,
+      "conviction": 14
+    },
+    {
+      "symbol": "BOL.ST",
+      "investor_count": 1,
+      "investors": [
+        "JeppeKirkBonde"
+      ],
+      "avg_weight_pct": 1.63,
+      "direction": "long",
+      "avg_profit_pct": 84.76,
+      "conviction": 14
+    },
+    {
+      "symbol": "SPOT",
+      "investor_count": 1,
+      "investors": [
+        "Ctalbot44"
+      ],
+      "avg_weight_pct": 1.62,
+      "direction": "long",
+      "avg_profit_pct": -4.56,
       "conviction": 14
     },
     {
@@ -1456,20 +1414,9 @@
       "investors": [
         "michalhla"
       ],
-      "avg_weight_pct": 1.61,
+      "avg_weight_pct": 1.6,
       "direction": "long",
-      "avg_profit_pct": -13.33,
-      "conviction": 14
-    },
-    {
-      "symbol": "RKLB",
-      "investor_count": 1,
-      "investors": [
-        "michalhla"
-      ],
-      "avg_weight_pct": 1.55,
-      "direction": "long",
-      "avg_profit_pct": 2656.45,
+      "avg_profit_pct": -14.62,
       "conviction": 14
     },
     {
@@ -1478,9 +1425,20 @@
       "investors": [
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 1.53,
+      "avg_weight_pct": 1.55,
       "direction": "long",
-      "avg_profit_pct": 38.5,
+      "avg_profit_pct": 41.33,
+      "conviction": 14
+    },
+    {
+      "symbol": "RKLB",
+      "investor_count": 1,
+      "investors": [
+        "michalhla"
+      ],
+      "avg_weight_pct": 1.46,
+      "direction": "long",
+      "avg_profit_pct": 2493.69,
       "conviction": 14
     },
     {
@@ -1489,9 +1447,9 @@
       "investors": [
         "Ctalbot44"
       ],
-      "avg_weight_pct": 1.36,
+      "avg_weight_pct": 1.33,
       "direction": "long",
-      "avg_profit_pct": -35.49,
+      "avg_profit_pct": -37.31,
       "conviction": 14
     },
     {
@@ -1500,20 +1458,9 @@
       "investors": [
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 1.26,
+      "avg_weight_pct": 1.27,
       "direction": "long",
-      "avg_profit_pct": 304.77,
-      "conviction": 14
-    },
-    {
-      "symbol": "EEFT",
-      "investor_count": 1,
-      "investors": [
-        "smudliczek"
-      ],
-      "avg_weight_pct": 1.22,
-      "direction": "long",
-      "avg_profit_pct": -14.58,
+      "avg_profit_pct": 311.99,
       "conviction": 14
     },
     {
@@ -1524,7 +1471,18 @@
       ],
       "avg_weight_pct": 1.2,
       "direction": "long",
-      "avg_profit_pct": 49.87,
+      "avg_profit_pct": 50.84,
+      "conviction": 14
+    },
+    {
+      "symbol": "EEFT",
+      "investor_count": 1,
+      "investors": [
+        "smudliczek"
+      ],
+      "avg_weight_pct": 1.18,
+      "direction": "long",
+      "avg_profit_pct": -17.2,
       "conviction": 14
     },
     {
@@ -1533,42 +1491,9 @@
       "investors": [
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 1.14,
+      "avg_weight_pct": 1.16,
       "direction": "long",
-      "avg_profit_pct": 130.38,
-      "conviction": 14
-    },
-    {
-      "symbol": "ASTS",
-      "investor_count": 1,
-      "investors": [
-        "michalhla"
-      ],
-      "avg_weight_pct": 1.13,
-      "direction": "long",
-      "avg_profit_pct": 2581.47,
-      "conviction": 14
-    },
-    {
-      "symbol": "KLAR",
-      "investor_count": 1,
-      "investors": [
-        "michalhla"
-      ],
-      "avg_weight_pct": 1.13,
-      "direction": "long",
-      "avg_profit_pct": 26.45,
-      "conviction": 14
-    },
-    {
-      "symbol": "ABT.US",
-      "investor_count": 1,
-      "investors": [
-        "smudliczek"
-      ],
-      "avg_weight_pct": 1.11,
-      "direction": "long",
-      "avg_profit_pct": 1.05,
+      "avg_profit_pct": 134.78,
       "conviction": 14
     },
     {
@@ -1583,14 +1508,58 @@
       "conviction": 14
     },
     {
+      "symbol": "ABT.US",
+      "investor_count": 1,
+      "investors": [
+        "smudliczek"
+      ],
+      "avg_weight_pct": 1.1,
+      "direction": "long",
+      "avg_profit_pct": 0.25,
+      "conviction": 14
+    },
+    {
+      "symbol": "KLAR",
+      "investor_count": 1,
+      "investors": [
+        "michalhla"
+      ],
+      "avg_weight_pct": 1.09,
+      "direction": "long",
+      "avg_profit_pct": 20.94,
+      "conviction": 14
+    },
+    {
+      "symbol": "COHR",
+      "investor_count": 1,
+      "investors": [
+        "smudliczek"
+      ],
+      "avg_weight_pct": 1.07,
+      "direction": "long",
+      "avg_profit_pct": 277.9,
+      "conviction": 14
+    },
+    {
       "symbol": "UNH",
+      "investor_count": 1,
+      "investors": [
+        "michalhla"
+      ],
+      "avg_weight_pct": 1.05,
+      "direction": "long",
+      "avg_profit_pct": 34.11,
+      "conviction": 14
+    },
+    {
+      "symbol": "ASTS",
       "investor_count": 1,
       "investors": [
         "michalhla"
       ],
       "avg_weight_pct": 1.03,
       "direction": "long",
-      "avg_profit_pct": 32.16,
+      "avg_profit_pct": 2329.98,
       "conviction": 14
     },
     {
@@ -1601,29 +1570,7 @@
       ],
       "avg_weight_pct": 1.01,
       "direction": "long",
-      "avg_profit_pct": 69.04,
-      "conviction": 14
-    },
-    {
-      "symbol": "COHR",
-      "investor_count": 1,
-      "investors": [
-        "smudliczek"
-      ],
-      "avg_weight_pct": 0.98,
-      "direction": "long",
-      "avg_profit_pct": 245.97,
-      "conviction": 14
-    },
-    {
-      "symbol": "PLTR",
-      "investor_count": 1,
-      "investors": [
-        "JeppeKirkBonde"
-      ],
-      "avg_weight_pct": 0.98,
-      "direction": "long",
-      "avg_profit_pct": 1298.72,
+      "avg_profit_pct": 68.92,
       "conviction": 14
     },
     {
@@ -1632,9 +1579,9 @@
       "investors": [
         "triangulacapital"
       ],
-      "avg_weight_pct": 0.96,
+      "avg_weight_pct": 0.95,
       "direction": "long",
-      "avg_profit_pct": -5.28,
+      "avg_profit_pct": -5.66,
       "conviction": 14
     },
     {
@@ -1645,7 +1592,18 @@
       ],
       "avg_weight_pct": 0.9,
       "direction": "long",
-      "avg_profit_pct": 5.16,
+      "avg_profit_pct": 5.8,
+      "conviction": 14
+    },
+    {
+      "symbol": "PLTR",
+      "investor_count": 1,
+      "investors": [
+        "JeppeKirkBonde"
+      ],
+      "avg_weight_pct": 0.9,
+      "direction": "long",
+      "avg_profit_pct": 1200.9,
       "conviction": 14
     },
     {
@@ -1654,9 +1612,9 @@
       "investors": [
         "smudliczek"
       ],
-      "avg_weight_pct": 0.89,
+      "avg_weight_pct": 0.88,
       "direction": "long",
-      "avg_profit_pct": 2.15,
+      "avg_profit_pct": 1.97,
       "conviction": 14
     },
     {
@@ -1665,20 +1623,9 @@
       "investors": [
         "Ctalbot44"
       ],
-      "avg_weight_pct": 0.89,
+      "avg_weight_pct": 0.88,
       "direction": "long",
-      "avg_profit_pct": -11.49,
-      "conviction": 14
-    },
-    {
-      "symbol": "EMAAR.AE",
-      "investor_count": 1,
-      "investors": [
-        "JeppeKirkBonde"
-      ],
-      "avg_weight_pct": 0.87,
-      "direction": "long",
-      "avg_profit_pct": 5.17,
+      "avg_profit_pct": -13.07,
       "conviction": 14
     },
     {
@@ -1687,20 +1634,20 @@
       "investors": [
         "smudliczek"
       ],
-      "avg_weight_pct": 0.86,
+      "avg_weight_pct": 0.87,
       "direction": "long",
-      "avg_profit_pct": 75.29,
+      "avg_profit_pct": 79.6,
       "conviction": 14
     },
     {
-      "symbol": "CDI.PA",
+      "symbol": "EMAAR.AE",
       "investor_count": 1,
       "investors": [
         "JeppeKirkBonde"
       ],
       "avg_weight_pct": 0.86,
       "direction": "long",
-      "avg_profit_pct": 30.99,
+      "avg_profit_pct": 5.17,
       "conviction": 14
     },
     {
@@ -1709,20 +1656,20 @@
       "investors": [
         "michalhla"
       ],
-      "avg_weight_pct": 0.84,
+      "avg_weight_pct": 0.85,
       "direction": "long",
-      "avg_profit_pct": 11.47,
+      "avg_profit_pct": 12.19,
       "conviction": 14
     },
     {
-      "symbol": "0700.HK",
+      "symbol": "CDI.PA",
       "investor_count": 1,
       "investors": [
-        "smudliczek"
+        "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 0.78,
+      "avg_weight_pct": 0.82,
       "direction": "long",
-      "avg_profit_pct": -2.36,
+      "avg_profit_pct": 25.99,
       "conviction": 14
     },
     {
@@ -1731,20 +1678,20 @@
       "investors": [
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 0.77,
+      "avg_weight_pct": 0.81,
       "direction": "long",
-      "avg_profit_pct": -10.45,
+      "avg_profit_pct": -5.16,
       "conviction": 14
     },
     {
-      "symbol": "SONY",
+      "symbol": "0700.HK",
       "investor_count": 1,
       "investors": [
-        "Ctalbot44"
+        "smudliczek"
       ],
-      "avg_weight_pct": 0.74,
+      "avg_weight_pct": 0.77,
       "direction": "long",
-      "avg_profit_pct": -29.5,
+      "avg_profit_pct": -3.29,
       "conviction": 14
     },
     {
@@ -1753,9 +1700,20 @@
       "investors": [
         "smudliczek"
       ],
-      "avg_weight_pct": 0.7,
+      "avg_weight_pct": 0.73,
       "direction": "long",
-      "avg_profit_pct": 28.33,
+      "avg_profit_pct": 34.22,
+      "conviction": 14
+    },
+    {
+      "symbol": "SONY",
+      "investor_count": 1,
+      "investors": [
+        "Ctalbot44"
+      ],
+      "avg_weight_pct": 0.72,
+      "direction": "long",
+      "avg_profit_pct": -31.99,
       "conviction": 14
     },
     {
@@ -1766,7 +1724,7 @@
       ],
       "avg_weight_pct": 0.67,
       "direction": "long",
-      "avg_profit_pct": 29.32,
+      "avg_profit_pct": 30.05,
       "conviction": 14
     },
     {
@@ -1775,20 +1733,9 @@
       "investors": [
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 0.67,
-      "direction": "long",
-      "avg_profit_pct": 154.55,
-      "conviction": 14
-    },
-    {
-      "symbol": "HO.PA",
-      "investor_count": 1,
-      "investors": [
-        "JeppeKirkBonde"
-      ],
       "avg_weight_pct": 0.66,
       "direction": "long",
-      "avg_profit_pct": -13.29,
+      "avg_profit_pct": 154.19,
       "conviction": 14
     },
     {
@@ -1797,9 +1744,20 @@
       "investors": [
         "smudliczek"
       ],
-      "avg_weight_pct": 0.64,
+      "avg_weight_pct": 0.63,
       "direction": "long",
-      "avg_profit_pct": 3.78,
+      "avg_profit_pct": 3.19,
+      "conviction": 14
+    },
+    {
+      "symbol": "HO.PA",
+      "investor_count": 1,
+      "investors": [
+        "JeppeKirkBonde"
+      ],
+      "avg_weight_pct": 0.63,
+      "direction": "long",
+      "avg_profit_pct": -16.67,
       "conviction": 14
     },
     {
@@ -1810,18 +1768,7 @@
       ],
       "avg_weight_pct": 0.62,
       "direction": "long",
-      "avg_profit_pct": -1.57,
-      "conviction": 14
-    },
-    {
-      "symbol": "NHY.OL",
-      "investor_count": 1,
-      "investors": [
-        "JeppeKirkBonde"
-      ],
-      "avg_weight_pct": 0.62,
-      "direction": "long",
-      "avg_profit_pct": 39.82,
+      "avg_profit_pct": -0.72,
       "conviction": 14
     },
     {
@@ -1830,9 +1777,9 @@
       "investors": [
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 0.61,
+      "avg_weight_pct": 0.6,
       "direction": "long",
-      "avg_profit_pct": 22.66,
+      "avg_profit_pct": 21.83,
       "conviction": 14
     },
     {
@@ -1841,20 +1788,20 @@
       "investors": [
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 0.61,
+      "avg_weight_pct": 0.59,
       "direction": "long",
-      "avg_profit_pct": 17.42,
+      "avg_profit_pct": 14.71,
       "conviction": 14
     },
     {
-      "symbol": "PGNY",
+      "symbol": "NHY.OL",
       "investor_count": 1,
       "investors": [
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 0.56,
+      "avg_weight_pct": 0.59,
       "direction": "long",
-      "avg_profit_pct": 60.68,
+      "avg_profit_pct": 34.57,
       "conviction": 14
     },
     {
@@ -1865,7 +1812,18 @@
       ],
       "avg_weight_pct": 0.55,
       "direction": "long",
-      "avg_profit_pct": -12.45,
+      "avg_profit_pct": -12.23,
+      "conviction": 14
+    },
+    {
+      "symbol": "PGNY",
+      "investor_count": 1,
+      "investors": [
+        "JeppeKirkBonde"
+      ],
+      "avg_weight_pct": 0.55,
+      "direction": "long",
+      "avg_profit_pct": 61.85,
       "conviction": 14
     },
     {
@@ -1874,9 +1832,9 @@
       "investors": [
         "smudliczek"
       ],
-      "avg_weight_pct": 0.52,
+      "avg_weight_pct": 0.51,
       "direction": "long",
-      "avg_profit_pct": 37.15,
+      "avg_profit_pct": 35.1,
       "conviction": 14
     },
     {
@@ -1887,7 +1845,7 @@
       ],
       "avg_weight_pct": 0.51,
       "direction": "long",
-      "avg_profit_pct": 15.85,
+      "avg_profit_pct": 16.22,
       "conviction": 14
     },
     {
@@ -1896,9 +1854,9 @@
       "investors": [
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 0.5,
+      "avg_weight_pct": 0.51,
       "direction": "long",
-      "avg_profit_pct": 69.29,
+      "avg_profit_pct": 73.53,
       "conviction": 14
     },
     {
@@ -1909,7 +1867,7 @@
       ],
       "avg_weight_pct": 0.47,
       "direction": "long",
-      "avg_profit_pct": 1.97,
+      "avg_profit_pct": 2.32,
       "conviction": 14
     },
     {
@@ -1918,9 +1876,20 @@
       "investors": [
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 0.42,
+      "avg_weight_pct": 0.41,
       "direction": "long",
-      "avg_profit_pct": 20.97,
+      "avg_profit_pct": 19.27,
+      "conviction": 14
+    },
+    {
+      "symbol": "OCGN",
+      "investor_count": 1,
+      "investors": [
+        "Ctalbot44"
+      ],
+      "avg_weight_pct": 0.38,
+      "direction": "long",
+      "avg_profit_pct": -50.96,
       "conviction": 14
     },
     {
@@ -1931,18 +1900,18 @@
       ],
       "avg_weight_pct": 0.38,
       "direction": "long",
-      "avg_profit_pct": 39.22,
+      "avg_profit_pct": 40.45,
       "conviction": 14
     },
     {
-      "symbol": "OCGN",
+      "symbol": "DEWA.AE",
       "investor_count": 1,
       "investors": [
-        "Ctalbot44"
+        "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 0.37,
+      "avg_weight_pct": 0.34,
       "direction": "long",
-      "avg_profit_pct": -52.1,
+      "avg_profit_pct": 4.38,
       "conviction": 14
     },
     {
@@ -1957,17 +1926,6 @@
       "conviction": 14
     },
     {
-      "symbol": "DEWA.AE",
-      "investor_count": 1,
-      "investors": [
-        "JeppeKirkBonde"
-      ],
-      "avg_weight_pct": 0.34,
-      "direction": "long",
-      "avg_profit_pct": 2.2,
-      "conviction": 14
-    },
-    {
       "symbol": "HAS",
       "investor_count": 1,
       "investors": [
@@ -1975,7 +1933,7 @@
       ],
       "avg_weight_pct": 0.32,
       "direction": "long",
-      "avg_profit_pct": 4.2,
+      "avg_profit_pct": 3.36,
       "conviction": 14
     },
     {
@@ -1986,7 +1944,7 @@
       ],
       "avg_weight_pct": 0.32,
       "direction": "long",
-      "avg_profit_pct": 16.24,
+      "avg_profit_pct": 15.52,
       "conviction": 14
     },
     {
@@ -1995,9 +1953,9 @@
       "investors": [
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 0.3,
+      "avg_weight_pct": 0.29,
       "direction": "long",
-      "avg_profit_pct": 16.09,
+      "avg_profit_pct": 12.15,
       "conviction": 14
     },
     {
@@ -2006,9 +1964,9 @@
       "investors": [
         "JeppeKirkBonde"
       ],
-      "avg_weight_pct": 0.24,
+      "avg_weight_pct": 0.23,
       "direction": "long",
-      "avg_profit_pct": 33.84,
+      "avg_profit_pct": 28.84,
       "conviction": 14
     },
     {
@@ -2019,7 +1977,7 @@
       ],
       "avg_weight_pct": 0.16,
       "direction": "long",
-      "avg_profit_pct": 10.43,
+      "avg_profit_pct": 12.85,
       "conviction": 14
     },
     {
