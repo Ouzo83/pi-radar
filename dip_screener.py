@@ -684,7 +684,7 @@ Odpovídej česky."""
             timeout=60,
         )
         r.raise_for_status()
-        return r.json()["content"][0]["text"]
+        return "".join(b.get("text", "") for b in r.json()["content"] if b.get("type") == "text")
     except Exception as e:
         log(f"  [CHYBA] Claude API: {e}")
         return f"Claude analýza nedostupná: {e}"
