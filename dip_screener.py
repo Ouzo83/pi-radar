@@ -22,7 +22,6 @@ from email.mime.multipart import MIMEMultipart
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 try:
     import config
-    BULLAWARE_API_KEY = config.BULLAWARE_API_KEY
     FINNHUB_API_KEY   = config.FINNHUB_API_KEY
     CLAUDE_API_KEY    = config.CLAUDE_API_KEY
     GMAIL_USER        = config.GMAIL_FROM
@@ -441,7 +440,7 @@ def send_alert_email(alerts: list[dict]):
       <tbody>{rows}</tbody>
     </table>
     <p style="color:#8b949e;margin-top:20px;font-size:12px">
-      PIRadar — automatický alert | <a href="https://piradar.netlify.app" style="color:#58a6ff">Otevřít dashboard ↗</a>
+      PIRadar — automatický alert | <a href="https://ouzo83.github.io/pi-radar/" style="color:#58a6ff">Otevřít dashboard ↗</a>
     </p>
     </body></html>"""
 
@@ -465,7 +464,7 @@ def send_alert_email(alerts: list[dict]):
 def send_report_ready_email(dashboard_data: dict):
     """Odešle teasing email po úspěšném vygenerování denního reportu.
     Subject obsahuje rychlé shrnutí, body stat strip + top 3 dipy + CTA."""
-    DASHBOARD_URL = "https://pi-radar.netlify.app"
+    DASHBOARD_URL = "https://ouzo83.github.io/pi-radar/"
 
     tickers = dashboard_data.get("tickers", []) or []
     if not tickers:

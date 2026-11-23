@@ -24,14 +24,13 @@ jobs:
       - name: Write config.py
         run: |
           cat > config.py << 'EOF'
-          BULLAWARE_API_KEY  = "${{ secrets.BULLAWARE_API_KEY }}"
           FINNHUB_API_KEY    = "${{ secrets.FINNHUB_API_KEY }}"
           CLAUDE_API_KEY     = "${{ secrets.CLAUDE_API_KEY }}"
           GMAIL_FROM         = "${{ secrets.GMAIL_FROM }}"
           GMAIL_APP_PASSWORD = "${{ secrets.GMAIL_APP_PASSWORD }}"
           GMAIL_TO           = "${{ secrets.GMAIL_TO }}"
-          ETORO_API_KEY      = ""
-          ETORO_USER_KEY     = ""
+          ETORO_API_KEY      = "${{ secrets.ETORO_API_KEY }}"
+          ETORO_USER_KEY     = "${{ secrets.ETORO_USER_KEY }}"
           EOF
 
       - name: Run alert check

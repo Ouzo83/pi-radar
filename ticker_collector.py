@@ -9,6 +9,7 @@
 import sys
 import time
 import json
+import uuid
 from datetime import datetime
 from pathlib import Path
 
@@ -16,7 +17,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 try:
     import config
-    BULLAWARE_API_KEY = config.BULLAWARE_API_KEY
+    ETORO_API_KEY  = config.ETORO_API_KEY
+    ETORO_USER_KEY = config.ETORO_USER_KEY
+    if not ETORO_API_KEY or not ETORO_USER_KEY:
+        raise AttributeError("ETORO_API_KEY / ETORO_USER_KEY jsou prázdné")
 except (ImportError, AttributeError) as e:
     print(f"[CHYBA] Nelze načíst config.py: {e}")
     sys.exit(1)
@@ -38,9 +42,8 @@ PI_USERNAMES = [
     "triangulacapital",
 ]
 
-BA_BASE    = "https://api.bullaware.com/v1"
-BA_HEADERS = {"Authorization": f"Bearer {BULLAWARE_API_KEY}"}
-SLEEP      = 1.2   # pauza mezi API voláními
+ET_BASE    = "https://public-api.etoro.com"
+SLEEP      = 1.2   # pauza mezi API voláními (limit 60 req/min)
 
 # Tickery které nikdy nechceme ve watchlistu
 # (ruské sankcionované akcie, delistované, duplikáty apod.)
@@ -69,11 +72,22 @@ def log(msg: str):
     print(f"[{ts}] {msg}")
 
 
-def ba_get(path: str, retries: int = 3) -> dict | None:
-    url = f"{BA_BASE}{path}"
+def et_get(path: str, params: dict | None = None, retries: int = 3) -> dict | None:
+    """GET na oficiální eToro Public API (x-api-key + x-user-key)."""
+    url = f"{ET_BASE}{path}"
     for attempt in range(1, retries + 1):
+        headers = {
+            "x-api-key":    ETORO_API_KEY,
+            "x-user-key":   ETORO_USER_KEY,
+            "x-request-id": str(uuid.uuid4()),
+        }
         try:
-            r = requests.get(url, headers=BA_HEADERS, timeout=20)
+            r = requests.get(url, headers=headers, params=params, timeout=20)
+            if r.status_code == 429:
+                wait = int(r.headers.get("Retry-After", 60))
+                log(f"  429 — čekám {wait}s ({path})")
+                time.sleep(wait)
+                continue
             r.raise_for_status()
             return r.json()
         except requests.exceptions.HTTPError:
@@ -85,14 +99,56 @@ def ba_get(path: str, retries: int = 3) -> dict | None:
     return None
 
 
+_SYMBOL_CACHE: dict[int, str] = {}
+
+
+def resolve_symbols(instrument_ids: set[int]) -> dict[int, str]:
+    """instrumentId → ticker (symbolFull), dávkově po 100."""
+    missing = sorted(i for i in instrument_ids if i not in _SYMBOL_CACHE)
+    for k in range(0, len(missing), 100):
+        chunk = missing[k:k + 100]
+        r = et_get("/api/v1/market-data/instruments",
+                   {"instrumentIds": ",".join(map(str, chunk))})
+        for d in (r or {}).get("instrumentDisplayDatas", []):
+            _SYMBOL_CACHE[d["instrumentID"]] = (d.get("symbolFull") or "").upper().strip()
+        time.sleep(0.5)
+    return {i: _SYMBOL_CACHE.get(i, "") for i in instrument_ids}
+
+
 def fetch_portfolio(username: str) -> list[dict]:
-    """Vrátí seznam pozic z portfolia investora."""
-    r = ba_get(f"/investors/{username}/portfolio")
+    """Vrátí agregované pozice investora ve formátu kompatibilním s původním
+    BullAware výstupem: symbol, value (% portfolia), direction (1/-1), netProfit (%).
+    Zdroj: eToro /user-info/people/{username}/portfolio/live (jen přímé pozice)."""
+    r = et_get(f"/api/v1/user-info/people/{username}/portfolio/live")
     if not r:
         log(f"  [{username}] Portfolio nedostupné.")
         return []
-    positions = r.get("positions", [])
-    log(f"  [{username}] {len(positions)} pozic načteno.")
+    raw = r.get("positions", []) or []
+
+    agg: dict[int, dict] = {}
+    for p in raw:
+        iid = p.get("instrumentId")
+        w   = float(p.get("investmentPct") or 0.0)
+        if iid is None:
+            continue
+        a = agg.setdefault(iid, {"w": 0.0, "long_w": 0.0, "short_w": 0.0, "pw": 0.0})
+        a["w"]  += w
+        a["pw"] += w * float(p.get("netProfit") or 0.0)
+        if p.get("isBuy", True):
+            a["long_w"] += w
+        else:
+            a["short_w"] += w
+
+    symbols = resolve_symbols(set(agg))
+    positions = []
+    for iid, a in agg.items():
+        positions.append({
+            "symbol":    symbols.get(iid, ""),
+            "value":     a["w"],
+            "direction": 1 if a["long_w"] >= a["short_w"] else -1,
+            "netProfit": (a["pw"] / a["w"]) if a["w"] else None,
+        })
+    log(f"  [{username}] {len(raw)} pozic → {len(positions)} instrumentů.")
     return positions
 
 # ── Hlavní logika ─────────────────────────────────────────────────────────────

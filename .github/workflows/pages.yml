@@ -1,0 +1,40 @@
+name: Deploy dashboard to GitHub Pages
+
+# Nahrazuje Netlify auto-deploy (Netlify Free = 300 kreditů, denní deploy by je vyčerpal).
+# Commity z PIRadar Daily Report (GITHUB_TOKEN) nespouští push eventy,
+# proto navazujeme přes workflow_run.
+on:
+  push:
+    branches: [main]
+    paths: ['dashboard/**']
+  workflow_run:
+    workflows: ['PIRadar Daily Report']
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard
+      - id: deployment
+        uses: actions/deploy-pages@v4
