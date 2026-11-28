@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-27T03:32:18.707791",
-  "total_tickers": 146,
+  "generated_at": "2026-11-28T03:09:56.682529",
+  "total_tickers": 147,
   "shortlist_count": 4,
-  "claude_analysis": "**Poznámka k datům:** u žádného tickeru nejsou k dispozici recent_news. Důvody dnešního pohybu proto nelze vysvětlit a analýza vychází jen z čísel. Konsenzus analytiků ani cílové ceny v datech také nejsou.\n\n---\n\n**0700.HK, Tencent Holdings Limited**\n- Proč je zajímavá: Cena 343 je o 39,6 % pod fair value 568,2 a jen 3 % nad 52w minimem (333). Přitom firma roste (tržby +7,5 %), má čistou marži 29,4 %, ROE 18,9 % a P/E 12,1. Drží ji 3 ze 7 sledovaných investorů (conviction 43 %).\n- Vstupní pásmo: 333–355. Dolní hranice je 52w minimum, horní je asi +3,5 % od dnešní ceny. Nákup po částech je rozumný, protože cena je od maxima (639) níž o 46 %.\n- Výstupní cíl: První target je 455 (půlka cesty k fair value). Stop-loss je 315, tedy asi 5 % pod 52w minimem.\n- Riziko: Cena je u 52w minima a trend je stále klesající. Důvod poklesu z dat nevyplývá, protože zprávy chybí.\n\n**3750.HK, Contemporary Amperex Technology (CATL)**\n- Proč je zajímavá: Růst tržeb je +58,6 %, ROE 24,4 %, čistá marže 15 % a P/E 14,0. Cena 305,2 je o 30,1 % pod fair value 436,6 a o 62 % pod maximem (794,5). Dnes +2,76 % (bez vysvětlení ve zprávách). Drží ji 2 ze 7 investorů (conviction 29 %).\n- Vstupní pásmo: 292–310. Spodek je 52w minimum (292,2), horní hranice je asi +1,5 % od dnešní ceny. Po dnešním růstu raději nehonit cenu výš.\n- Výstupní c",
+  "claude_analysis": "**Poznámka k datům:** u žádného tickeru nejsou k dispozici `recent_news`, takže pohyby (Xiaomi +4,51 %, Tencent +3,23 %, CATL +5,79 %) nedokážu vysvětlit zprávami a analyzuji jen čísla. Pole `analyst_consensus` a `analyst_target_mean` jsou prázdná. Conviction odpovídá podílu investorů (count/7) a zahrnuje i investory mimo čtyři prověřené (JeppeKirkBonde, triangulacapital).\n\n---\n\n**0700.HK — Tencent Holdings Limited**\n- Proč je zajímavá: P/E 12,4, čistá marže 29,4 %, ROE 18,9 % a růst tržeb 7,5 %. Cena 352 je o 38 % pod fair value 568,2 a jen 5,7 % nad 52w minimem 333. Drží ji 2 ze 4 prověřených investorů (smudliczek, michalhla), conviction 43 %.\n- Vstupní pásmo: 333–352. Spodek pásma je 52w minimum, horní hranice je dnešní cena po růstu o 3,23 %, takže je rozumné postupné nakupování.\n- Výstupní cíl: 1. target 460 (půlka vzdálenosti k fair value, +31 %). Stop-loss 318 (cca −9 %, pod 52w minimem).\n- Riziko: Cena je 45 % pod 52w maximem 639 a data nev",
   "tickers": [
     {
       "symbol": "AMZN",
@@ -19,17 +19,17 @@
         ],
         "avg_weight_pct": 4.49,
         "direction": "long",
-        "avg_profit_pct": 29.36,
+        "avg_profit_pct": 31.57,
         "conviction": 86
       },
       "quote": {
         "symbol": "AMZN",
-        "price": 244.43,
-        "change_pct": -3.1155,
-        "change_abs": -7.86,
-        "high_today": 246.56,
-        "low_today": 235.96,
-        "prev_close": 252.29,
+        "price": 254.12,
+        "change_pct": 3.9643,
+        "change_abs": 9.69,
+        "high_today": 255.275,
+        "low_today": 248.45,
+        "prev_close": 244.43,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
@@ -62,7 +62,7 @@
         "name": "Amazon.com Inc",
         "sector": "Retail",
         "industry": "Retail",
-        "market_cap": 2643055.167667,
+        "market_cap": 2747834.468794903,
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "currency": "USD"
       },
@@ -71,13 +71,13 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Weeks Before His Wife Needs a Nursing Home, He Buys a $75,000 SUV Online. Medicaid Ignores One Car Whatever It Costs, Taking $75,000 Off the Savings It Expects Them to Spend Down [Yahoo]",
-        "Amazon tried to kill Musk’s plan for 1 million AI satellites. The FCC chair scolded it and gave SpaceX the green light [Yahoo]",
-        "Steve Cohen’s 5 Biggest Stock Bets for 2027 [Yahoo]",
-        "Jensen Huang’s Return Doesn’t Make Nvidia Stock (NVDA) a Buy [Yahoo]",
-        "SpaceX Stocks Rise 1.3% as FCC Approves 1 Million Orbital Data Center Satellites [Yahoo]"
+        "e.l.f. Beauty vs. Wendy's: Which Consumer Goods Stock Is a Better Buy for 2027? [Yahoo]",
+        "Plot Twist: Nvidia’s Vera Rubin Gets 2-6.5x GB300’s Tokens per Dollar. Amazon’s Trainium Edge Was Against the Old Chip [Yahoo]",
+        "Meta’s (META) Muse Could Unlock a New Revenue Stream [Yahoo]",
+        "Amazon Hits Its Lowest P/E Ever. Jim Cramer Predicts It Will “Prove to Be the Winner” [Yahoo]",
+        "What Amazon.com (AMZN)'s UK Car Marketplace Launch Means For Shareholders [Yahoo]"
       ],
-      "score": 80
+      "score": 75
     },
     {
       "symbol": "NVDA",
@@ -93,17 +93,17 @@
         ],
         "avg_weight_pct": 4.29,
         "direction": "long",
-        "avg_profit_pct": 217.61,
+        "avg_profit_pct": 209.1,
         "conviction": 71
       },
       "quote": {
         "symbol": "NVDA",
-        "price": 149.3,
-        "change_pct": -3.913,
-        "change_abs": -6.08,
-        "high_today": 150.37,
-        "low_today": 141.17,
-        "prev_close": 155.38,
+        "price": 150.49,
+        "change_pct": 0.7971,
+        "change_abs": 1.19,
+        "high_today": 151.98,
+        "low_today": 145.39,
+        "prev_close": 149.3,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
@@ -136,7 +136,7 @@
         "name": "NVIDIA Corporation",
         "sector": "Semiconductors",
         "industry": "Semiconductors",
-        "market_cap": 3598130.0735469996,
+        "market_cap": 3626809.074133208,
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "currency": "USD"
       },
@@ -145,13 +145,13 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "1 Incredibly Cheap Artificial Intelligence (AI) Stock to Buy Before It Doubles in 2027 [Yahoo]",
-        "These 2 AI Chip Stocks Are Down 36% to 39% From Their Highs. Here’s What History Says Happens Next. [Yahoo]",
-        "2 Dividend Stocks to Buy in November and 1 to Leave on the Shelf [Yahoo]",
-        "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday [Yahoo]",
-        "Not Nvidia. Not Micron. If I Could Buy and Hold Only 1 Artificial Intelligence (AI) Semiconductor Stock Through 2030, This Would Be It. [Yahoo]"
+        "Apple Is Beating the Rest of the \"Magnificent Seven\" in 2026. Can It Do It Again in 2027? [Yahoo]",
+        "Nvidia Stock Is Still Down 38% From Its Peak Despite Jensen Huang's Return. History Suggests a $10,000 Investment Today Will Be Worth This Much by Year-End 2027. [Yahoo]",
+        "Vanguard's Growth ETF Has 3 Stocks Making Up More Than a Third of It. Only 1 Has Held Up in the Tech Sell-Off. [Yahoo]",
+        "3 Reasons I Might Buy More Nvidia in December [Yahoo]",
+        "Why Monte Rosa Therapeutics Stock Slumped Today [Yahoo]"
       ],
-      "score": 70
+      "score": 65
     },
     {
       "symbol": "MSFT",
@@ -167,17 +167,17 @@
         ],
         "avg_weight_pct": 3.9,
         "direction": "long",
-        "avg_profit_pct": 36.62,
+        "avg_profit_pct": 35.17,
         "conviction": 71
       },
       "quote": {
         "symbol": "MSFT",
-        "price": 489.93,
-        "change_pct": -1.2497,
-        "change_abs": -6.2,
-        "high_today": 493.437,
-        "low_today": 477.39,
-        "prev_close": 496.13,
+        "price": 492.85,
+        "change_pct": 0.596,
+        "change_abs": 2.92,
+        "high_today": 500.465,
+        "low_today": 488.83,
+        "prev_close": 489.93,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
@@ -210,7 +210,7 @@
         "name": "Microsoft Corporation",
         "sector": "Technology",
         "industry": "Technology",
-        "market_cap": 3638315.336615,
+        "market_cap": 3659999.8237517662,
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "currency": "USD"
       },
@@ -219,11 +219,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "LUNR Aerospace Appoints Draganfly CEO Cameron Chell to Board of Directors [Yahoo]",
-        "Tech Stock Sell-Off: Down 13%, Is Microsoft a Buy Now? [Yahoo]",
-        "Steve Cohen’s 5 Biggest Stock Bets for 2027 [Yahoo]",
-        "Jensen Huang’s Return Doesn’t Make Nvidia Stock (NVDA) a Buy [Yahoo]",
-        "Microsoft Stocks Slip 1.25% While Nadella Backs Cheaper In-House AI Models [Yahoo]"
+        "Vanguard's Growth ETF Has 3 Stocks Making Up More Than a Third of It. Only 1 Has Held Up in the Tech Sell-Off. [Yahoo]",
+        "Billionaire Chase Coleman’s Tiger Global Raised Its Cerebras Stake 48% to $790 Million [Yahoo]",
+        "Should You Pick Palantir Over Its Big Tech Rivals? [Yahoo]",
+        "Big Tech Turns Down The Volume On 'AI' [SeekingAlpha]",
+        "IREN (NasdaqGS:IREN) Stock Sees Modest Fair Value Cut After AI Cloud Sentiment Swings [Yahoo]"
       ],
       "score": 65
     },
@@ -240,14 +240,14 @@
         ],
         "avg_weight_pct": 2.0,
         "direction": "long",
-        "avg_profit_pct": 11.25,
+        "avg_profit_pct": 15.2,
         "conviction": 57
       },
       "quote": {
         "symbol": "1810.HK",
-        "price": 26.84000015258789,
-        "change_pct": 0.9,
-        "change_abs": 0.24,
+        "price": 27.799999237060547,
+        "change_pct": 4.51,
+        "change_abs": 1.2,
         "high_today": null,
         "low_today": null,
         "prev_close": 26.600000381469727,
@@ -256,9 +256,9 @@
         "source": "yfinance"
       },
       "fundamentals": {
-        "pe_ttm": 20.333332,
-        "pb": 2.1771717,
-        "ps": 1.597237,
+        "pe_ttm": 21.060604,
+        "pb": 2.2550435,
+        "ps": 1.6543661,
         "eps_ttm": 1.32,
         "revenue_growth": -0.052,
         "gross_margin": 0.20683001,
@@ -274,15 +274,15 @@
         "name": "Xiaomi Corporation",
         "sector": "Technology",
         "industry": "Consumer Electronics",
-        "market_cap": 690356617216,
+        "market_cap": 715048943616,
         "exchange": "HKG",
         "currency": "HKD"
       },
       "valuation": {
         "fair_value": 36.96,
-        "margin_of_safety_pct": -27.4,
+        "margin_of_safety_pct": -24.8,
         "fair_pe_method": 36.96,
-        "discount_to_sector_pe": -27.4
+        "discount_to_sector_pe": -24.8
       },
       "news": [],
       "score": 58
@@ -300,25 +300,25 @@
         ],
         "avg_weight_pct": 4.6,
         "direction": "long",
-        "avg_profit_pct": 49.55,
+        "avg_profit_pct": 49.53,
         "conviction": 57
       },
       "quote": {
         "symbol": "TSM",
-        "price": 342.34,
-        "change_pct": -1.9645,
-        "change_abs": -6.86,
-        "high_today": 343.165,
-        "low_today": 321.1,
-        "prev_close": 349.2,
+        "price": 353.34,
+        "change_pct": 3.2132,
+        "change_abs": 11,
+        "high_today": 354.36,
+        "low_today": 344.5953,
+        "prev_close": 342.34,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 21.883,
+        "pe_ttm": 21.8321,
         "pb": 7.2731,
-        "ps": 11.2754,
+        "ps": 11.2491,
         "eps_ttm": null,
         "revenue_growth": 36.17,
         "gross_margin": 65.85,
@@ -343,7 +343,7 @@
         "name": "Taiwan Semiconductor Manufacturing Co Ltd",
         "sector": "Semiconductors",
         "industry": "Semiconductors",
-        "market_cap": 55754593.652344,
+        "market_cap": 55624919.238281,
         "exchange": "TAIWAN STOCK EXCHANGE",
         "currency": "TWD"
       },
@@ -352,11 +352,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Taiwan Semiconductor Stocks Slip 1.96% as Taiwan's Market Sinks 4.8% in Chip Rout [Yahoo]",
-        "3 Top Stocks to Buy Before 2027 as Quantum Enters AI Data Centers [Yahoo]",
-        "This AI Investing Prodigy Lost 65% in a Single Quarter and Is Still Up 88.5% in 2026. Here’s the Lesson for Investors. [Yahoo]",
-        "NVIDIA Just Dropped 31% in a Month. Will NVDA Stock Hit $125 or $200 First? [Yahoo]",
-        "TSMC (TSM) Upgraded to Strong Buy: Here's Why [Yahoo]"
+        "TSMC Stocks Climb 1.84% as U.S. Tariff Proposal Leaves Chips Off the List [Yahoo]",
+        "Stanley Druckenmiller, David Tepper and 5 Other Famous Investors Own Taiwan Semiconductor. Here’s Who Sold Recently [Yahoo]",
+        "Trump Is Heading to Arizona to Break Ground on TSMC’s Newest Chip Plant [Yahoo]",
+        "No Threat to TSMC Before 2028: Intel’s Foundry Gap Is Still Huge [Yahoo]",
+        "5 Strong Buy Stocks to Buy and Hold For the Next 5 Years [Yahoo]"
       ],
       "score": 55
     },
@@ -370,16 +370,16 @@
           "michalhla",
           "triangulacapital"
         ],
-        "avg_weight_pct": 3.46,
+        "avg_weight_pct": 3.58,
         "direction": "long",
-        "avg_profit_pct": -18.64,
+        "avg_profit_pct": -16.36,
         "conviction": 43
       },
       "quote": {
         "symbol": "0700.HK",
-        "price": 343.0,
-        "change_pct": 0.59,
-        "change_abs": 2.0,
+        "price": 352.0,
+        "change_pct": 3.23,
+        "change_abs": 11.0,
         "high_today": null,
         "low_today": null,
         "prev_close": 341.0,
@@ -388,9 +388,9 @@
         "source": "yfinance"
       },
       "fundamentals": {
-        "pe_ttm": 12.073214,
-        "pb": 2.1711128,
-        "ps": 3.8465412,
+        "pe_ttm": 12.390003,
+        "pb": 2.2280807,
+        "ps": 3.947471,
         "eps_ttm": 28.41,
         "revenue_growth": 0.075,
         "gross_margin": 0.56563,
@@ -406,15 +406,15 @@
         "name": "Tencent Holdings Limited",
         "sector": "Communication Services",
         "industry": "Internet Content & Information",
-        "market_cap": 3088580345856,
+        "market_cap": 3169621901312,
         "exchange": "HKG",
         "currency": "HKD"
       },
       "valuation": {
         "fair_value": 568.2,
-        "margin_of_safety_pct": -39.6,
+        "margin_of_safety_pct": -38.0,
         "fair_pe_method": 568.2,
-        "discount_to_sector_pe": -39.6
+        "discount_to_sector_pe": -38.0
       },
       "news": [],
       "score": 55
@@ -431,25 +431,25 @@
         ],
         "avg_weight_pct": 6.17,
         "direction": "long",
-        "avg_profit_pct": 42.41,
+        "avg_profit_pct": 39.73,
         "conviction": 43
       },
       "quote": {
         "symbol": "GOOG",
-        "price": 270.98,
-        "change_pct": -2.0247,
-        "change_abs": -5.6,
-        "high_today": 271.6,
-        "low_today": 260.692,
-        "prev_close": 276.58,
+        "price": 272.44,
+        "change_pct": 0.5388,
+        "change_abs": 1.46,
+        "high_today": 277.3,
+        "low_today": 268.2,
+        "prev_close": 270.98,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 14.2451,
+        "pe_ttm": 14.2498,
         "pb": 9.1044,
-        "ps": 7.1269,
+        "ps": 7.1293,
         "eps_ttm": null,
         "revenue_growth": 22.21,
         "gross_margin": 60.86,
@@ -474,7 +474,7 @@
         "name": "Alphabet Inc.",
         "sector": "Media",
         "industry": "Media",
-        "market_cap": 3357491.4000000004,
+        "market_cap": 3380358.2399999998,
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "currency": "USD"
       },
@@ -483,157 +483,13 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Jim Lebenthal Says This Is “a Correction, Not Something Worse.” Why He’s Buying More Alphabet [Yahoo]",
-        "Jensen Huang’s Return Doesn’t Make Nvidia Stock (NVDA) a Buy [Yahoo]",
-        "Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278 [Yahoo]",
-        "Alphabet Stocks Slip 2.13% as Credit Swaps Hit Record Amid $9.1 Billion Cash Burn [Yahoo]",
-        "George Soros and 64 Other Big Funds Bought Meta Last Quarter. David Tepper and 33 Others Sold. Who’s Right? [Yahoo]"
+        "Plot Twist: Nvidia’s Vera Rubin Gets 2-6.5x GB300’s Tokens per Dollar. Amazon’s Trainium Edge Was Against the Old Chip [Yahoo]",
+        "Amazon Hits Its Lowest P/E Ever. Jim Cramer Predicts It Will “Prove to Be the Winner” [Yahoo]",
+        "Warning for Alphabet Investors: MScience Data Show Q4 Search Revenue Tracking Below Consensus [Yahoo]",
+        "Jensen Huang Is Back. Nvidia’s (NVDA) Bull Case Remains [Yahoo]",
+        "Alphabet Down Nearly 20%: What Would Its CEO Say? [Yahoo]"
       ],
-      "score": 50
-    },
-    {
-      "symbol": "ASML",
-      "watchlist_meta": {
-        "symbol": "ASML",
-        "investor_count": 3,
-        "investors": [
-          "Ouzo83",
-          "michalhla",
-          "JeppeKirkBonde"
-        ],
-        "avg_weight_pct": 2.89,
-        "direction": "long",
-        "avg_profit_pct": 71.51,
-        "conviction": 43
-      },
-      "quote": {
-        "symbol": "ASML",
-        "price": 1303.08,
-        "change_pct": -2.4685,
-        "change_abs": -32.98,
-        "high_today": 1307.47,
-        "low_today": 1235.1,
-        "prev_close": 1336.06,
-        "high_52w": null,
-        "low_52w": null,
-        "source": "finnhub"
-      },
-      "fundamentals": {
-        "pe_ttm": 41.4931,
-        "pb": 14.5055,
-        "ps": 12.2356,
-        "eps_ttm": null,
-        "revenue_growth": 9.84,
-        "gross_margin": 50.71,
-        "net_margin": 29.49,
-        "roe": 41.52,
-        "debt_equity": 0.1919,
-        "current_ratio": 1.2374,
-        "beta": 2.0928893
-      },
-      "analyst": {
-        "consensus": "Strong Buy",
-        "strong_buy": 9,
-        "buy": 27,
-        "hold": 4,
-        "sell": 2,
-        "strong_sell": 0,
-        "total": 42,
-        "period": "2026-11-01"
-      },
-      "price_target": {},
-      "profile": {
-        "name": "ASML Holding NV",
-        "sector": "Semiconductors",
-        "industry": "Semiconductors",
-        "market_cap": 432254.096497,
-        "exchange": "NYSE EURONEXT - EURONEXT AMSTERDAM",
-        "currency": "EUR"
-      },
-      "valuation": {
-        "fair_value": null,
-        "margin_of_safety_pct": null
-      },
-      "news": [
-        "ASML Can’t Build Enough Machines for 2028. Is a 20% China Risk a Reason to Sell, or Buy More? [Yahoo]",
-        "ASML Sinks 7% in a Week: Dutch Lawmaker Warns the MATCH Act Is “Disastrous for ASML.” Time to Buy? [Yahoo]",
-        "ASML (ASML) Can’t Meet Demand. Is That a Strength or Risk? [Yahoo]",
-        "Why My Analysis Points to Nearly 40% Semiconductor Equipment Growth in 2026 [Yahoo]",
-        "Chips and iPhones Are Safe From New Tariffs. Here’s What Isn’t. [Yahoo]"
-      ],
-      "score": 50
-    },
-    {
-      "symbol": "MU",
-      "watchlist_meta": {
-        "symbol": "MU",
-        "investor_count": 3,
-        "investors": [
-          "Ouzo83",
-          "smudliczek",
-          "JeppeKirkBonde"
-        ],
-        "avg_weight_pct": 1.93,
-        "direction": "long",
-        "avg_profit_pct": 224.07,
-        "conviction": 43
-      },
-      "quote": {
-        "symbol": "MU",
-        "price": 601.25,
-        "change_pct": -4.5317,
-        "change_abs": -28.54,
-        "high_today": 604.945,
-        "low_today": 548.13,
-        "prev_close": 629.79,
-        "high_52w": null,
-        "low_52w": null,
-        "source": "finnhub"
-      },
-      "fundamentals": {
-        "pe_ttm": 8.0155,
-        "pb": 7.8202,
-        "ps": 5.1136,
-        "eps_ttm": null,
-        "revenue_growth": 256.33,
-        "gross_margin": 80.72,
-        "net_margin": 63.8,
-        "roe": 91.77,
-        "debt_equity": 0.0374,
-        "current_ratio": 3.3138,
-        "beta": 2.538588
-      },
-      "analyst": {
-        "consensus": "Strong Buy",
-        "strong_buy": 18,
-        "buy": 35,
-        "hold": 4,
-        "sell": 0,
-        "strong_sell": 0,
-        "total": 57,
-        "period": "2026-11-01"
-      },
-      "price_target": {},
-      "profile": {
-        "name": "Micron Technology, Inc.",
-        "sector": "Semiconductors",
-        "industry": "Semiconductors",
-        "market_cap": 770161.7636110001,
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "currency": "USD"
-      },
-      "valuation": {
-        "fair_value": null,
-        "margin_of_safety_pct": null
-      },
-      "news": [
-        "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday [Yahoo]",
-        "Not Nvidia. Not Micron. If I Could Buy and Hold Only 1 Artificial Intelligence (AI) Semiconductor Stock Through 2030, This Would Be It. [Yahoo]",
-        "Why It’s Hard to Write Off Micron (MU) Even with a Memory Peak in Sight [Yahoo]",
-        "5 Most Oversold Semiconductor Stocks to Buy for 2027 [Yahoo]",
-        "Sandisk Trades at Under 3x Earnings After an 8-for-1 Split and a 70% Crash. Why SNDK Stock Isn’t Doomed Despite NAND Price Warnings. [Yahoo]"
-      ],
-      "score": 50
+      "score": 45
     },
     {
       "symbol": "NU",
@@ -647,25 +503,25 @@
         ],
         "avg_weight_pct": 6.1,
         "direction": "long",
-        "avg_profit_pct": -12.02,
+        "avg_profit_pct": -8.18,
         "conviction": 43
       },
       "quote": {
         "symbol": "NU",
-        "price": 12.36,
-        "change_pct": 4.2159,
-        "change_abs": 0.5,
-        "high_today": 12.53,
-        "low_today": 11.57,
-        "prev_close": 11.86,
+        "price": 12.91,
+        "change_pct": 4.4498,
+        "change_abs": 0.55,
+        "high_today": 13.515,
+        "low_today": 12.86,
+        "prev_close": 12.36,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 15.2738,
+        "pe_ttm": 15.9535,
         "pb": 7.066,
-        "ps": 2.8495,
+        "ps": 2.9763,
         "eps_ttm": null,
         "revenue_growth": 49.08,
         "gross_margin": 40.94,
@@ -690,7 +546,7 @@
         "name": "Nu Holdings Ltd.",
         "sector": "Banking",
         "industry": "Banking",
-        "market_cap": 59804.28218499999,
+        "market_cap": 62465.47597154935,
         "exchange": "NEW YORK STOCK EXCHANGE, INC.",
         "currency": "USD"
       },
@@ -699,11 +555,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Nu Holdings (NU): Why Investors Gave the Stock a Mixed Reception Despite Strong Results? [Yahoo]",
-        "Nu Holdings (NU) Posts Strong Third Quarter Results, Is It Still A Bargain? [Yahoo]",
-        "Nu Holdings: Further Penetrating Core Markets [SeekingAlpha]",
-        "Susquehanna Maintains Neutral on Nu Holdings, Lowers Price Target to $13 [Benzinga]",
-        "5 Dirt-Cheap Stocks Positioned to Soar in 2027 [Yahoo]"
+        "Nu Holdings vs. SoFi: Which Fintech Powerhouse Is the Smarter Buy? [Yahoo]",
+        "Bladex (BLX) Stock Is Up 4.4% Today as Latin America Names Rally [Yahoo]",
+        "Patria Investments (PAX) Stock Is Up 6.7% Today in Broad Market Rally [Yahoo]",
+        "Chip stocks lead a Black Friday rally, but Nvidia misses out: AlphaCheck [Yahoo]",
+        "Inter (INTR) Stock Jumps 14.5% Premarket: Latin American Stocks Rally [Yahoo]"
       ],
       "score": 45
     },
@@ -719,25 +575,25 @@
         ],
         "avg_weight_pct": 5.53,
         "direction": "long",
-        "avg_profit_pct": 112.01,
+        "avg_profit_pct": 111.47,
         "conviction": 43
       },
       "quote": {
         "symbol": "AMD",
-        "price": 406.03,
-        "change_pct": -1.7519,
-        "change_abs": -7.24,
-        "high_today": 407.77,
-        "low_today": 370.4,
-        "prev_close": 413.27,
+        "price": 424.54,
+        "change_pct": 4.5588,
+        "change_abs": 18.51,
+        "high_today": 426.88,
+        "low_today": 398.5901,
+        "prev_close": 406.03,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 87.4032,
+        "pe_ttm": 91.3877,
         "pb": 5.5719,
-        "ps": 14.6563,
+        "ps": 15.3245,
         "eps_ttm": null,
         "revenue_growth": 41.87,
         "gross_margin": 53.72,
@@ -762,7 +618,7 @@
         "name": "Advanced Micro Devices, Inc.",
         "sector": "Semiconductors",
         "industry": "Semiconductors",
-        "market_cap": 665924.636407,
+        "market_cap": 696282.6518735754,
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "currency": "USD"
       },
@@ -771,11 +627,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "5 Most Oversold Semiconductor Stocks to Buy for 2027 [Yahoo]",
-        "KHC, PINS, AMD: 3 Bets I’d Consider Waging From Thanksgiving Eve’s Top 25 Unusually Active Options [Yahoo]",
-        "AMD Stocks Slip 1.75% After Filing Registers 337 Million Shares for Resale [Yahoo]",
-        "nVent Electric (NVT) Brings AI Data Center Cooling And Power Systems To SC26 [Yahoo]",
-        "Cerebras Expands AI Inference Reach: Can It Challenge NVDA & AMD? [Yahoo]"
+        "Jensen Huang Is Back. Nvidia’s (NVDA) Bull Case Remains [Yahoo]",
+        "AMD Stocks Rise Despite Erste Group Downgrade on Valuation [Yahoo]",
+        "Jim Cramer Is Still Bullish On These 5 Tech Stocks Despite AI Bear Market [Yahoo]",
+        "Not AMD. This Is the 1 Company Nvidia Should Worry About Most. [Yahoo]",
+        "Dual AI Growth Catalysts Position Advanced Micro Devices (AMD) for Revenue Acceleration [Yahoo]"
       ],
       "score": 45
     },
@@ -791,17 +647,17 @@
         ],
         "avg_weight_pct": 4.36,
         "direction": "long",
-        "avg_profit_pct": 76.31,
+        "avg_profit_pct": 78.67,
         "conviction": 43
       },
       "quote": {
         "symbol": "META",
-        "price": 609.89,
-        "change_pct": 3.4027,
-        "change_abs": 20.07,
-        "high_today": 611.055,
-        "low_today": 567.75,
-        "prev_close": 589.82,
+        "price": 628.96,
+        "change_pct": 3.1268,
+        "change_abs": 19.07,
+        "high_today": 636.62,
+        "low_today": 620.8,
+        "prev_close": 609.89,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
@@ -817,7 +673,7 @@
         "roe": 30.270000000000003,
         "debt_equity": 0.2759,
         "current_ratio": 2.5988,
-        "beta": 1.2866877
+        "beta": 1.2596647
       },
       "analyst": {
         "consensus": "Strong Buy",
@@ -834,7 +690,7 @@
         "name": "Meta Platforms, Inc.",
         "sector": "Media",
         "industry": "Media",
-        "market_cap": 1559025.89385,
+        "market_cap": 1607773.411920012,
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "currency": "USD"
       },
@@ -843,11 +699,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Jensen Huang’s Return Doesn’t Make Nvidia Stock (NVDA) a Buy [Yahoo]",
-        "Apple Enters the AI Agent Race as It Takes on OpenAI, Anthropic, and Meta. What That Means for AAPL Stock. [Yahoo]",
-        "AMD Stocks Slip 1.75% After Filing Registers 337 Million Shares for Resale [Yahoo]",
-        "Stanley Druckenmiller, Bill Ackman and 7 Other Famous Investors Own Amazon. Here’s Who Bought and Sold Recently [Yahoo]",
-        "George Soros and 64 Other Big Funds Bought Meta Last Quarter. David Tepper and 33 Others Sold. Who’s Right? [Yahoo]"
+        "Meta’s (META) Muse Could Unlock a New Revenue Stream [Yahoo]",
+        "Jensen Huang Is Back. Nvidia’s (NVDA) Bull Case Remains [Yahoo]",
+        "Can Meta's Business Pay For Its Spending? [Yahoo]",
+        "Big Tech Turns Down The Volume On 'AI' [SeekingAlpha]",
+        "Don't have time to shop Black Friday? AI will do it for you [Yahoo]"
       ],
       "score": 45
     },
@@ -863,25 +719,25 @@
         ],
         "avg_weight_pct": 3.91,
         "direction": "long",
-        "avg_profit_pct": -15.78,
+        "avg_profit_pct": -12.78,
         "conviction": 43
       },
       "quote": {
         "symbol": "BABA",
-        "price": 86.26,
-        "change_pct": 1.6498,
-        "change_abs": 1.4,
-        "high_today": 86.31,
-        "low_today": 81.06,
-        "prev_close": 84.86,
+        "price": 89.68,
+        "change_pct": 3.9648,
+        "change_abs": 3.42,
+        "high_today": 90.5795,
+        "low_today": 89.4,
+        "prev_close": 86.26,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 11.7473,
-        "pb": 1.8845,
-        "ps": 1.2847,
+        "pe_ttm": 11.9248,
+        "pb": 1.8821,
+        "ps": 1.3041,
         "eps_ttm": null,
         "revenue_growth": 5.6,
         "gross_margin": 37.92,
@@ -889,7 +745,7 @@
         "roe": 10.81,
         "debt_equity": 0.2451,
         "current_ratio": 1.2821,
-        "beta": 0.48332196
+        "beta": 0.4761846
       },
       "analyst": {
         "consensus": "Strong Buy",
@@ -906,7 +762,7 @@
         "name": "Alibaba Group Holding Limited",
         "sector": "Retail",
         "industry": "Retail",
-        "market_cap": 206061.1542337714,
+        "market_cap": 209442.26631800065,
         "exchange": "NEW YORK STOCK EXCHANGE, INC.",
         "currency": "CNY"
       },
@@ -915,11 +771,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Alibaba Stocks Rise 1.65% as AI Cloud Growth of 53% Outweighs Tech Rout [Yahoo]",
-        "Don’t Give Up on Alibaba (BABA) Stock Just Yet: The Math May Be More Compelling Than You Think [Yahoo]",
-        "This Week In E-Commerce - Holiday Shopping Trends: Blending Online and In-Store Buys [Yahoo]",
-        "5 things I'm thankful for in AI [Yahoo]",
-        "Could Alibaba Actually Climb 87%? Or Is Jefferies Totally Wrong? [Yahoo]"
+        "Alibaba Stocks Climb 4.38% as Beijing Calls on State Funds to Steady Markets [Yahoo]",
+        "Nvidia freezing chip orders to four Southeast Asian countries [Yahoo]",
+        "China Stocks Jump After Beijing Soothes the Market [Yahoo]",
+        "How Does Capex-Led Margin Pressure Shape Alibaba Group Stock's Future? [Yahoo]",
+        "Stock Market Today: Dow, S&P 500, Nasdaq 100 Futures Rise as Wall Street Returns to Wrap Up Holiday-Shortened Week — SPCX, PANW, HPQ In Focus (UPDATED) [Benzinga]"
       ],
       "score": 45
     },
@@ -935,25 +791,25 @@
         ],
         "avg_weight_pct": 3.56,
         "direction": "long",
-        "avg_profit_pct": -18.54,
+        "avg_profit_pct": -19.15,
         "conviction": 43
       },
       "quote": {
         "symbol": "VST",
-        "price": 121.32,
-        "change_pct": 0.497,
-        "change_abs": 0.6,
-        "high_today": 121.87,
-        "low_today": 115.51,
-        "prev_close": 120.72,
+        "price": 122.65,
+        "change_pct": 1.0963,
+        "change_abs": 1.33,
+        "high_today": 124.295,
+        "low_today": 120.8,
+        "prev_close": 121.32,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 14.6213,
+        "pe_ttm": 14.7189,
         "pb": 10.7245,
-        "ps": 1.9595,
+        "ps": 1.9726,
         "eps_ttm": null,
         "revenue_growth": 22.84,
         "gross_margin": 8.71458,
@@ -987,11 +843,83 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "3 AI Infrastructure Stocks That Pay You While You Wait [Yahoo]",
-        "Energy Transition Update - Green Rain Energy Expands With Innovative EV Charging Deal [Yahoo]",
-        "What Are Wall Street Analysts' Target Price for Vistra Corp. Stock? [Yahoo]",
-        "Vistra Has Slumped for a Year: Why Morgan Stanley Still Sees 82% Upside [Yahoo]",
-        "Vistra Underperforms Industry in the Past Year: Time to Buy or Wait? [Yahoo]"
+        "Texas Is Racing to Approve SpaceX’s $24 Billion Starbase Data Center Before Its New Governor Can Halt It [Yahoo]",
+        "Has Vistra Changed What You Own? [Yahoo]",
+        "The Nuclear Stock AI Investors Loved Is Down 33% This Year. Is Constellation Energy a Buy Now? [Yahoo]",
+        "Which Gives You More Power Demand, Exelon Or Vistra? [Yahoo]",
+        "3 AI Infrastructure Stocks That Pay You While You Wait [Yahoo]"
+      ],
+      "score": 45
+    },
+    {
+      "symbol": "ASML",
+      "watchlist_meta": {
+        "symbol": "ASML",
+        "investor_count": 3,
+        "investors": [
+          "Ouzo83",
+          "michalhla",
+          "JeppeKirkBonde"
+        ],
+        "avg_weight_pct": 2.89,
+        "direction": "long",
+        "avg_profit_pct": 69.01,
+        "conviction": 43
+      },
+      "quote": {
+        "symbol": "ASML",
+        "price": 1325.82,
+        "change_pct": 1.7451,
+        "change_abs": 22.74,
+        "high_today": 1330,
+        "low_today": 1291.39,
+        "prev_close": 1303.08,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": 42.8351,
+        "pb": 14.5055,
+        "ps": 12.6314,
+        "eps_ttm": null,
+        "revenue_growth": 9.84,
+        "gross_margin": 50.71,
+        "net_margin": 29.49,
+        "roe": 41.52,
+        "debt_equity": 0.1919,
+        "current_ratio": 1.2374,
+        "beta": 2.0928893
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 9,
+        "buy": 27,
+        "hold": 4,
+        "sell": 2,
+        "strong_sell": 0,
+        "total": 42,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "ASML Holding NV",
+        "sector": "Semiconductors",
+        "industry": "Semiconductors",
+        "market_cap": 446234.734284,
+        "exchange": "NYSE EURONEXT - EURONEXT AMSTERDAM",
+        "currency": "EUR"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "Dutch Trade Minister: “The US Is Not the Boss of Veldhoven.” That’s Good News for ASML’s China Sales [Yahoo]",
+        "Is ASML Holding (ENXTAM:ASML) Undervalued As Dutch Lawmakers Push Back On US Chip Curbs? [Yahoo]",
+        "Stanley Druckenmiller, David Tepper and 5 Other Famous Investors Own Taiwan Semiconductor. Here’s Who Sold Recently [Yahoo]",
+        "ASML Stocks Edge Higher 0.07% as Dutch Government Pushes Back on U.S. Export Curbs [Yahoo]",
+        "AMD vs. ASML: As Wall Street Questions the AI Boom, Which Chip Stock Wins in 2027? [Yahoo]"
       ],
       "score": 45
     },
@@ -1007,25 +935,25 @@
         ],
         "avg_weight_pct": 2.69,
         "direction": "long",
-        "avg_profit_pct": -42.68,
+        "avg_profit_pct": -41.45,
         "conviction": 43
       },
       "quote": {
         "symbol": "NIO",
-        "price": 2.69,
-        "change_pct": 4.2636,
-        "change_abs": 0.11,
-        "high_today": 2.7,
-        "low_today": 2.509,
-        "prev_close": 2.58,
+        "price": 2.85,
+        "change_pct": 5.948,
+        "change_abs": 0.16,
+        "high_today": 2.9,
+        "low_today": 2.82,
+        "prev_close": 2.69,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
         "pe_ttm": null,
-        "pb": 17.7732,
-        "ps": 0.3529,
+        "pb": 17.7505,
+        "ps": 0.3737,
         "eps_ttm": null,
         "revenue_growth": 64.38,
         "gross_margin": 17.41,
@@ -1050,7 +978,7 @@
         "name": "NIO Inc.",
         "sector": "Automobiles",
         "industry": "Automobiles",
-        "market_cap": 6044.51481186079,
+        "market_cap": 6407.89273401972,
         "exchange": "NEW YORK STOCK EXCHANGE, INC.",
         "currency": "CNY"
       },
@@ -1059,11 +987,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Li Auto: Profitability Inflection A Catalyst In 2027 (Rating Upgrade) [SeekingAlpha]",
-        "EV Stocks’ Big Split: Legacy Value Outperforms as Premium Pure Plays Face Earnings Test [ChartMill]",
-        "Li Auto’s Losses Narrow and a Weak Sales Outlook Isn’t Spoiling the Stock’s Rally [Yahoo]",
-        "NIO Just Dropped 22% in a Month. Is It a Buy Before Its Dec. 1 Report? [Yahoo]",
-        "Global youths see Chinese modernization up close in Hefei [Yahoo]"
+        "NIO And 2 Other Top EV Stocks [Yahoo]",
+        "Asian Equities Traded in the US as American Depositary Receipts Rise Sharply in Friday Trading [Yahoo]",
+        "Investors Heavily Search NIO Inc. (NIO): Here is What You Need to Know [Yahoo]",
+        "NIO Pre-Q3 Earnings Analysis: Buy, Hold or Sell the Stock Now? [Yahoo]",
+        "Beijing Calls in the 'National Team,' Silver Answers: 10 Metal Stocks To Watch Friday [Benzinga]"
       ],
       "score": 45
     },
@@ -1079,17 +1007,17 @@
         ],
         "avg_weight_pct": 1.97,
         "direction": "long",
-        "avg_profit_pct": -58.04,
+        "avg_profit_pct": -58.96,
         "conviction": 43
       },
       "quote": {
         "symbol": "CRWV",
-        "price": 42.57,
-        "change_pct": -0.0821,
-        "change_abs": -0.035,
-        "high_today": 43.02,
-        "low_today": 37.4,
-        "prev_close": 42.605,
+        "price": 44.15,
+        "change_pct": 3.7115,
+        "change_abs": 1.58,
+        "high_today": 44.52,
+        "low_today": 40.8801,
+        "prev_close": 42.57,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
@@ -1122,7 +1050,7 @@
         "name": "CoreWeave, Inc.",
         "sector": "Technology",
         "industry": "Technology",
-        "market_cap": 23674.271275,
+        "market_cap": 24552.949889388066,
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "currency": "USD"
       },
@@ -1131,11 +1059,83 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "3 AI Infrastructure Stocks Retail Investors Are Watching As Compute Spending Shifts [Yahoo]",
-        "Alphabet Stocks Slip 2.13% as Credit Swaps Hit Record Amid $9.1 Billion Cash Burn [Yahoo]",
-        "Wells Fargo Doubles Down on CoreWeave Stock Amid Selloff [Yahoo]",
-        "Applied Digital Just Tumbled 33% in a Month. Can APLD Stock Get Back to $20 in 2027? [Yahoo]",
-        "CoreWeave Seeks $4.5 Billion Meta-Backed Loan as Bond Yields Hit 18% [Yahoo]"
+        "Dell's Strong Results Fail to Ease Concerns About AI Spending Durability, UBS Says [Yahoo]",
+        "CoreWeave Eyes $4.5B Loan, but Bankruptcy Odds Rise to 21% on Prediction Markets [Yahoo]",
+        "AI Chip Stocks Roar Back -- Sandisk and Micron Lead the Rally [Yahoo]",
+        "Nvidia, CoreWeave Face New U.S. Restrictions on China AI Chip Access [Yahoo]",
+        "IREN Ramps Up AI Cloud: Can It Capitalize on Rising Demand? [Yahoo]"
+      ],
+      "score": 45
+    },
+    {
+      "symbol": "MU",
+      "watchlist_meta": {
+        "symbol": "MU",
+        "investor_count": 3,
+        "investors": [
+          "Ouzo83",
+          "smudliczek",
+          "JeppeKirkBonde"
+        ],
+        "avg_weight_pct": 1.93,
+        "direction": "long",
+        "avg_profit_pct": 231.71,
+        "conviction": 43
+      },
+      "quote": {
+        "symbol": "MU",
+        "price": 646.95,
+        "change_pct": 7.6008,
+        "change_abs": 45.7,
+        "high_today": 654.44,
+        "low_today": 607.2704,
+        "prev_close": 601.25,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": 9.5895,
+        "pb": 7.8202,
+        "ps": 6.1177,
+        "eps_ttm": null,
+        "revenue_growth": 256.33,
+        "gross_margin": 80.72,
+        "net_margin": 63.8,
+        "roe": 91.77,
+        "debt_equity": 0.0374,
+        "current_ratio": 3.3138,
+        "beta": 2.538588
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 18,
+        "buy": 35,
+        "hold": 4,
+        "sell": 0,
+        "strong_sell": 0,
+        "total": 57,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "Micron Technology, Inc.",
+        "sector": "Semiconductors",
+        "industry": "Semiconductors",
+        "market_cap": 828700.462317067,
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "currency": "USD"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "A 60-Year-Old Who Bought 1,000 Micron Shares at $192 Just Watched Jim Cramer’s Investing Club Call It ‘Comically Cheap.’ Here’s What’s Left of His $1 Million Gain [Yahoo]",
+        "Micron Stocks Climb 4.29% as Chip Rebound Meets Tight 2027 Memory Supply [Yahoo]",
+        "Jim Cramer Is Still Bullish On These 5 Tech Stocks Despite AI Bear Market [Yahoo]",
+        "Micron CEO Expects Memory Shortages to Worsen in 2028, but TrendForce Sees Prices Falling [Yahoo]",
+        "SanDisk Stocks Jump 12.85% After Kioxia and Nvidia Stretch GPU Memory With SSDs [Yahoo]"
       ],
       "score": 45
     },
@@ -1151,17 +1151,17 @@
         ],
         "avg_weight_pct": 1.6,
         "direction": "long",
-        "avg_profit_pct": -61.31,
+        "avg_profit_pct": -60.66,
         "conviction": 43
       },
       "quote": {
         "symbol": "ETOR",
-        "price": 19.66,
-        "change_pct": 3.9112,
-        "change_abs": 0.74,
-        "high_today": 19.81,
-        "low_today": 18.44,
-        "prev_close": 18.92,
+        "price": 19.97,
+        "change_pct": 1.5768,
+        "change_abs": 0.31,
+        "high_today": 20.28,
+        "low_today": 19.82,
+        "prev_close": 19.66,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
@@ -1194,7 +1194,7 @@
         "name": "eToro Group Ltd.",
         "sector": "Financial Services",
         "industry": "Financial Services",
-        "market_cap": 1592.659106,
+        "market_cap": 1617.7722455147507,
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "currency": "USD"
       },
@@ -1203,68 +1203,8 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Showdown between Alberta and TC Energy [Yahoo]",
-        "Oportun Appoints Laura Unger to its Board of Directors [Yahoo]",
-        "Goldman Sachs Maintains Neutral on Etoro Group, Lowers Price Target to $22 [Benzinga]"
+        "Showdown between Alberta and TC Energy [Yahoo]"
       ],
-      "score": 45
-    },
-    {
-      "symbol": "3750.HK",
-      "watchlist_meta": {
-        "symbol": "3750.HK",
-        "investor_count": 2,
-        "investors": [
-          "Ouzo83",
-          "smudliczek"
-        ],
-        "avg_weight_pct": 3.79,
-        "direction": "long",
-        "avg_profit_pct": -16.02,
-        "conviction": 29
-      },
-      "quote": {
-        "symbol": "3750.HK",
-        "price": 305.20001220703125,
-        "change_pct": 2.76,
-        "change_abs": 8.2,
-        "high_today": null,
-        "low_today": null,
-        "prev_close": 297.0,
-        "high_52w": 794.5,
-        "low_52w": 292.20001220703125,
-        "source": "yfinance"
-      },
-      "fundamentals": {
-        "pe_ttm": 13.980761,
-        "pb": 3.086915,
-        "ps": 2.4233286,
-        "eps_ttm": 21.83,
-        "revenue_growth": 0.586,
-        "gross_margin": 0.23159,
-        "net_margin": 0.15048,
-        "roe": 0.24405001,
-        "debt_equity": 44.877,
-        "current_ratio": 1.568,
-        "beta": 0.576
-      },
-      "analyst": {},
-      "price_target": {},
-      "profile": {
-        "name": "Contemporary Amperex Technology Co., Limited",
-        "sector": "Industrials",
-        "industry": "Electrical Equipment & Parts",
-        "market_cap": 1412236705792,
-        "exchange": "HKG",
-        "currency": "HKD"
-      },
-      "valuation": {
-        "fair_value": 436.6,
-        "margin_of_safety_pct": -30.1,
-        "fair_pe_method": 436.6,
-        "discount_to_sector_pe": -30.1
-      },
-      "news": [],
       "score": 45
     },
     {
@@ -1278,7 +1218,7 @@
         ],
         "avg_weight_pct": 2.65,
         "direction": "long",
-        "avg_profit_pct": -25.23,
+        "avg_profit_pct": -21.73,
         "conviction": 29
       },
       "quote": {
@@ -1338,25 +1278,25 @@
         ],
         "avg_weight_pct": 6.22,
         "direction": "long",
-        "avg_profit_pct": 57.44,
+        "avg_profit_pct": 59.33,
         "conviction": 57
       },
       "quote": {
         "symbol": "RR.L",
-        "price": 1294.4,
-        "change_pct": 4.24,
-        "change_abs": 52.6,
+        "price": 1310.0,
+        "change_pct": 1.35,
+        "change_abs": 17.4,
         "high_today": null,
         "low_today": null,
-        "prev_close": 1241.800048828125,
+        "prev_close": 1292.5999755859375,
         "high_52w": 1586.0,
         "low_52w": 990.0,
         "source": "yfinance"
       },
       "fundamentals": {
-        "pe_ttm": 35.955555,
-        "pb": 37.73761,
-        "ps": 4.565013,
+        "pe_ttm": 36.38889,
+        "pb": 38.19242,
+        "ps": 4.62003,
         "eps_ttm": 0.36,
         "revenue_growth": 0.206,
         "gross_margin": 0.28802,
@@ -1372,88 +1312,17 @@
         "name": "Rolls-Royce Holdings plc",
         "sector": "Industrials",
         "industry": "Aerospace & Defense",
-        "market_cap": 105748520960,
+        "market_cap": 107022991360,
         "exchange": "LSE",
         "currency": "GBp"
       },
       "valuation": {
         "fair_value": 7.2,
-        "margin_of_safety_pct": 17877.8,
+        "margin_of_safety_pct": 18094.4,
         "fair_pe_method": 7.2,
-        "discount_to_sector_pe": 17877.8
+        "discount_to_sector_pe": 18094.4
       },
       "news": [],
-      "score": 40
-    },
-    {
-      "symbol": "J",
-      "watchlist_meta": {
-        "symbol": "J",
-        "investor_count": 2,
-        "investors": [
-          "Ouzo83",
-          "smudliczek"
-        ],
-        "avg_weight_pct": 3.31,
-        "direction": "long",
-        "avg_profit_pct": 18.64,
-        "conviction": 29
-      },
-      "quote": {
-        "symbol": "J",
-        "price": 145.49,
-        "change_pct": -4.2703,
-        "change_abs": -6.49,
-        "high_today": 149.76,
-        "low_today": 142.15,
-        "prev_close": 151.98,
-        "high_52w": null,
-        "low_52w": null,
-        "source": "finnhub"
-      },
-      "fundamentals": {
-        "pe_ttm": 44.2772,
-        "pb": 4.8305,
-        "ps": 1.0711,
-        "eps_ttm": null,
-        "revenue_growth": 31.15,
-        "gross_margin": 20.84,
-        "net_margin": 2.42,
-        "roe": 11.44,
-        "debt_equity": 1.0704,
-        "current_ratio": 1.2779,
-        "beta": 0.71884835
-      },
-      "analyst": {
-        "consensus": "Strong Buy",
-        "strong_buy": 6,
-        "buy": 12,
-        "hold": 6,
-        "sell": 0,
-        "strong_sell": 0,
-        "total": 24,
-        "period": "2026-11-01"
-      },
-      "price_target": {},
-      "profile": {
-        "name": "Jacobs Solutions Inc",
-        "sector": "Professional Services",
-        "industry": "Professional Services",
-        "market_cap": 16898.91744,
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "currency": "USD"
-      },
-      "valuation": {
-        "fair_value": null,
-        "margin_of_safety_pct": null
-      },
-      "news": [
-        "S&P 500 Top Movers: November 25, 2026 Gainers and Losers [ChartMill]",
-        "Jacobs (J) Stock Is Down 5.7% Today: AI-Led Market Selloff [Yahoo]",
-        "Do Wall Street Analysts Like Jacobs Solutions Stock? [Yahoo]",
-        "Argus Research Maintains Buy on Jacobs Solutions, Raises Price Target to $180 [Benzinga]",
-        "Truist Securities Maintains Hold on Jacobs Solutions, Raises Price Target to $168 [Benzinga]"
-      ],
       "score": 40
     },
     {
@@ -1468,25 +1337,25 @@
         ],
         "avg_weight_pct": 1.56,
         "direction": "long",
-        "avg_profit_pct": 36.05,
+        "avg_profit_pct": 38.12,
         "conviction": 43
       },
       "quote": {
         "symbol": "LMT",
-        "price": 599.24,
-        "change_pct": 2.1496,
-        "change_abs": 12.61,
-        "high_today": 602.57,
-        "low_today": 581.22,
-        "prev_close": 586.63,
+        "price": 605.88,
+        "change_pct": 1.1081,
+        "change_abs": 6.64,
+        "high_today": 606.48,
+        "low_today": 599.63,
+        "prev_close": 599.24,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 21.254,
+        "pe_ttm": 21.3826,
         "pb": 16.6523,
-        "ps": 1.7497,
+        "ps": 1.7603,
         "eps_ttm": null,
         "revenue_growth": 7.86,
         "gross_margin": 11.73,
@@ -1511,7 +1380,7 @@
         "name": "Lockheed Martin Corporation",
         "sector": "Aerospace & Defense",
         "industry": "Aerospace & Defense",
-        "market_cap": 138427.21742199996,
+        "market_cap": 139961.0881977861,
         "exchange": "NEW YORK STOCK EXCHANGE, INC.",
         "currency": "USD"
       },
@@ -1520,13 +1389,205 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Better Defense Stock to Own in 2027: Lockheed Martin vs. L3Harris Technologies [Yahoo]",
-        "Invest in the Fighter Jets, Submarines and Stealth Bombers for Passive Income: $90,000 Across These 3 Defense Contractors Pays More Than $1,700 a Year [Yahoo]",
-        "Global Aircraft Structural Repair and Overhaul Services Market Report 2026-2035 | $80 Billion Opportunity Fueled by AI, Aging Fleets, and Rising MRO Demand [Yahoo]",
-        "Military Reconnaissance Market Report 2026 | Capitalize on AI, Autonomous ISR and Space-Based Surveillance as Lockheed Martin, RTX, Northrop Grumman and Airbus Drive 8.7% CAGR [Yahoo]",
-        "Lockheed Martin: From Buyback Machine To Munitions Compounder [SeekingAlpha]"
+        "What Lockheed Martin Buyers Were Betting On [Yahoo]",
+        "National Presto (NPK) Stock Is Up 4.9% Today Without Company News [Yahoo]",
+        "The Dividend Portfolio It Takes to Pay $85,000 a Year [Yahoo]",
+        "Global Hypersonic Defense Market Report 2026: Trends and Forecast to 2030 | Capitalize on 17.9% CAGR as Lockheed Martin, RTX, Northrop Grumman, and Boeing Scale AI Defense [Yahoo]",
+        "Global Weapon Systems Market Intelligence Report 2026-2030: Growth and Strategic Forecast | Lockheed Martin, RTX, BAE Systems, Rheinmetall Accelerate Hypersonic, Directed Energy and Counter-UAV Defense [Yahoo]"
       ],
       "score": 38
+    },
+    {
+      "symbol": "3750.HK",
+      "watchlist_meta": {
+        "symbol": "3750.HK",
+        "investor_count": 2,
+        "investors": [
+          "Ouzo83",
+          "smudliczek"
+        ],
+        "avg_weight_pct": 3.79,
+        "direction": "long",
+        "avg_profit_pct": -13.65,
+        "conviction": 29
+      },
+      "quote": {
+        "symbol": "3750.HK",
+        "price": 314.20001220703125,
+        "change_pct": 5.79,
+        "change_abs": 17.2,
+        "high_today": null,
+        "low_today": null,
+        "prev_close": 297.0,
+        "high_52w": 794.5,
+        "low_52w": 292.20001220703125,
+        "source": "yfinance"
+      },
+      "fundamentals": {
+        "pe_ttm": 14.393038,
+        "pb": 3.1779444,
+        "ps": 2.4947898,
+        "eps_ttm": 21.83,
+        "revenue_growth": 0.586,
+        "gross_margin": 0.23159,
+        "net_margin": 0.15048,
+        "roe": 0.24405001,
+        "debt_equity": 44.877,
+        "current_ratio": 1.568,
+        "beta": 0.576
+      },
+      "analyst": {},
+      "price_target": {},
+      "profile": {
+        "name": "Contemporary Amperex Technology Co., Limited",
+        "sector": "Industrials",
+        "industry": "Electrical Equipment & Parts",
+        "market_cap": 1453881950208,
+        "exchange": "HKG",
+        "currency": "HKD"
+      },
+      "valuation": {
+        "fair_value": 436.6,
+        "margin_of_safety_pct": -28.0,
+        "fair_pe_method": 436.6,
+        "discount_to_sector_pe": -28.0
+      },
+      "news": [],
+      "score": 38
+    },
+    {
+      "symbol": "VRTX",
+      "watchlist_meta": {
+        "symbol": "VRTX",
+        "investor_count": 1,
+        "investors": [
+          "JeppeKirkBonde"
+        ],
+        "avg_weight_pct": 1.81,
+        "direction": "long",
+        "avg_profit_pct": 91.8,
+        "conviction": 14
+      },
+      "quote": {
+        "symbol": "VRTX",
+        "price": 534.57,
+        "change_pct": -5.2382,
+        "change_abs": -29.55,
+        "high_today": 535.455,
+        "low_today": 502.9006,
+        "prev_close": 564.12,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": 34.5751,
+        "pb": 6.1624,
+        "ps": 10.6139,
+        "eps_ttm": null,
+        "revenue_growth": 10.48,
+        "gross_margin": 85.57,
+        "net_margin": 30.7,
+        "roe": 20.080000000000002,
+        "debt_equity": 0.006,
+        "current_ratio": 2.9009,
+        "beta": 0.22866987
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 12,
+        "buy": 20,
+        "hold": 6,
+        "sell": 0,
+        "strong_sell": 1,
+        "total": 39,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "Vertex Pharmaceuticals Incorporated",
+        "sector": "Biotechnology",
+        "industry": "Biotechnology",
+        "market_cap": 141654.24,
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "currency": "USD"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "Review Delay May Give Vera Therapeutics Stock More Time To Build TRUTAKNA Share [Yahoo]",
+        "Vertex Stocks Fall 7.06% as FDA Pushes Kidney Drug Decision to 2027 [Yahoo]",
+        "Here's Why Vera Therapeutics Stock Surged Today (Hint: It's Not Great News For Vertex Shareholders) [Yahoo]",
+        "Vertex shares drop after FDA delays kidney drug decision [Yahoo]",
+        "Citi Says Vertex’s Povetacicept Delay Is ‘Not Thesis Changing,’ Maintains Its ‘Buy’ Rating [Yahoo]"
+      ],
+      "score": 37
+    },
+    {
+      "symbol": "OCGN",
+      "watchlist_meta": {
+        "symbol": "OCGN",
+        "investor_count": 1,
+        "investors": [
+          "Ctalbot44"
+        ],
+        "avg_weight_pct": 0.93,
+        "direction": "long",
+        "avg_profit_pct": -70.49,
+        "conviction": 14
+      },
+      "quote": {
+        "symbol": "OCGN",
+        "price": 0.783,
+        "change_pct": -7.2495,
+        "change_abs": -0.0612,
+        "high_today": 0.875,
+        "low_today": 0.7601,
+        "prev_close": 0.8442,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": null,
+        "pb": 7.9142,
+        "ps": 53.4346,
+        "eps_ttm": null,
+        "revenue_growth": -7.41,
+        "gross_margin": null,
+        "net_margin": -1624.62,
+        "roe": -1306.71,
+        "debt_equity": 0.9676,
+        "current_ratio": 1.0563,
+        "beta": 1.8850387
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 3,
+        "buy": 8,
+        "hold": 1,
+        "sell": 0,
+        "strong_sell": 0,
+        "total": 12,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "Ocugen, Inc.",
+        "sector": "Biotechnology",
+        "industry": "Biotechnology",
+        "market_cap": 265.67705692963756,
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "currency": "USD"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [],
+      "score": 37
     },
     {
       "symbol": "GEV",
@@ -1539,25 +1600,25 @@
         ],
         "avg_weight_pct": 10.73,
         "direction": "long",
-        "avg_profit_pct": -7.55,
+        "avg_profit_pct": -7.3,
         "conviction": 29
       },
       "quote": {
         "symbol": "GEV",
-        "price": 715,
-        "change_pct": -0.784,
-        "change_abs": -5.65,
-        "high_today": 719.74,
-        "low_today": 671.79,
-        "prev_close": 720.65,
+        "price": 735.31,
+        "change_pct": 2.8406,
+        "change_abs": 20.31,
+        "high_today": 742.24,
+        "low_today": 721.1,
+        "prev_close": 715,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 18.2545,
+        "pe_ttm": 18.773,
         "pb": 15.8639,
-        "ps": 4.297,
+        "ps": 4.4191,
         "eps_ttm": null,
         "revenue_growth": 16.91,
         "gross_margin": 21.79,
@@ -1582,7 +1643,7 @@
         "name": "GE Vernova Inc.",
         "sector": "Electrical Equipment",
         "industry": "Electrical Equipment",
-        "market_cap": 189244.100037,
+        "market_cap": 194619.69118630272,
         "exchange": "NEW YORK STOCK EXCHANGE, INC.",
         "currency": "USD"
       },
@@ -1591,11 +1652,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Energy Transition Update - Green Rain Energy Expands With Innovative EV Charging Deal [Yahoo]",
-        "Morgan Stanley’s $335 Target Says Bloom Energy’s Selloff Went Too Far [Yahoo]",
-        "State Street Industrial Select Sector SPDR (XLI) Adds GE and RTX on Nov. 24 [Yahoo]",
-        "Musk Calls FCC’s Million-Satellite Approval “a Great Asset.” SpaceX Has Until 2033 to Fly the First One [Yahoo]",
-        "SpaceX Will “Pay $3.6B to Upgrade the Grid” for Its Arizona Supercomputer. That’s the New Price of AI [Yahoo]"
+        "GE Vernova’s Backlog Reached $197 Billion. Can It Turn Orders Into Earnings? [Yahoo]",
+        "GE Vernova Dropped Another 11% This Month: It Will Gain 95% Within 12 Months Predicts One Wall Street Pro [Yahoo]",
+        "GE Vernova (GEV) Down 19.5% Since Last Earnings Report: Can It Rebound? [Yahoo]",
+        "George Soros, Ken Fisher and 3 Other Big Funds Sold KKR Last Quarter, While 8 Bought. Who’s Right? [Yahoo]",
+        "Which Dates Could Move GE Vernova Stock The Most? [Yahoo]"
       ],
       "score": 35
     },
@@ -1610,25 +1671,25 @@
         ],
         "avg_weight_pct": 6.28,
         "direction": "long",
-        "avg_profit_pct": 863.91,
+        "avg_profit_pct": 884.57,
         "conviction": 29
       },
       "quote": {
         "symbol": "PLTR",
-        "price": 163.59,
-        "change_pct": 1.4952,
-        "change_abs": 2.41,
-        "high_today": 164.75,
-        "low_today": 151.51,
-        "prev_close": 161.18,
+        "price": 172.17,
+        "change_pct": 5.2448,
+        "change_abs": 8.58,
+        "high_today": 173.22,
+        "low_today": 164.8,
+        "prev_close": 163.59,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 107.4294,
+        "pe_ttm": 113.0639,
         "pb": 57.3495,
-        "ps": 54.0828,
+        "ps": 56.9194,
         "eps_ttm": null,
         "revenue_growth": 87.06,
         "gross_margin": 84.74,
@@ -1653,7 +1714,7 @@
         "name": "Palantir Technologies Inc.",
         "sector": "Technology",
         "industry": "Technology",
-        "market_cap": 394169.658126,
+        "market_cap": 414843.14468826586,
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "currency": "USD"
       },
@@ -1662,11 +1723,82 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Palantir Stocks Rise 1.5% After Peter Thiel Discloses a $122 Million Share Purchase [Yahoo]",
-        "Palantir Closed 212 Deals Worth at Least $1 Million. Here’s What That Means for Its Growth [Yahoo]",
-        "Michael Burry exits Nasdaq-100 short [Yahoo]",
-        "Michael Burry Turns Bullish, Exits Nasdaq Shorts but Eyes Nvidia at $200 [Yahoo]",
-        "Michael Burry flips mostly long as tech stocks slide [Yahoo]"
+        "Palantir's new military AI deal has a surprising catch [Yahoo]",
+        "Palantir Stock (PLTR) Has No Room for Error at This Valuation [Yahoo]",
+        "Should You Pick Palantir Over Its Big Tech Rivals? [Yahoo]",
+        "Palantir Stocks Climb 3.72% on $300 Million Poland Defense AI Deal [Yahoo]",
+        "Intel Stocks Climb 2.86% as Court Filings Detail Washington's 10% Stake Push [Yahoo]"
+      ],
+      "score": 35
+    },
+    {
+      "symbol": "J",
+      "watchlist_meta": {
+        "symbol": "J",
+        "investor_count": 2,
+        "investors": [
+          "Ouzo83",
+          "smudliczek"
+        ],
+        "avg_weight_pct": 3.31,
+        "direction": "long",
+        "avg_profit_pct": 21.91,
+        "conviction": 29
+      },
+      "quote": {
+        "symbol": "J",
+        "price": 146.57,
+        "change_pct": 0.7423,
+        "change_abs": 1.08,
+        "high_today": 149.17,
+        "low_today": 145.69,
+        "prev_close": 145.49,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": 44.6059,
+        "pb": 4.8305,
+        "ps": 1.0791,
+        "eps_ttm": null,
+        "revenue_growth": 31.15,
+        "gross_margin": 20.84,
+        "net_margin": 2.42,
+        "roe": 11.44,
+        "debt_equity": 1.0704,
+        "current_ratio": 1.2779,
+        "beta": 0.71884835
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 6,
+        "buy": 12,
+        "hold": 6,
+        "sell": 0,
+        "strong_sell": 0,
+        "total": 24,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "Jacobs Solutions Inc",
+        "sector": "Professional Services",
+        "industry": "Professional Services",
+        "market_cap": 17024.36132504502,
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "currency": "USD"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "ETFs Are Net Sellers of Jacobs Solutions (J) on Nov. 25 [Yahoo]",
+        "S&P 500 Top Movers: November 25, 2026 Gainers and Losers [ChartMill]",
+        "Jacobs (J) Stock Is Down 5.7% Today: AI-Led Market Selloff [Yahoo]",
+        "Do Wall Street Analysts Like Jacobs Solutions Stock? [Yahoo]",
+        "Argus Research Maintains Buy on Jacobs Solutions, Raises Price Target to $180 [Benzinga]"
       ],
       "score": 35
     },
@@ -1681,25 +1813,25 @@
         ],
         "avg_weight_pct": 2.77,
         "direction": "long",
-        "avg_profit_pct": 110.97,
+        "avg_profit_pct": 114.06,
         "conviction": 29
       },
       "quote": {
         "symbol": "DELL",
-        "price": 297.06,
-        "change_pct": 0.6028,
-        "change_abs": 1.78,
-        "high_today": 297.89,
-        "low_today": 265,
-        "prev_close": 295.28,
+        "price": 316.96,
+        "change_pct": 6.699,
+        "change_abs": 19.9,
+        "high_today": 317.5,
+        "low_today": 297.1,
+        "prev_close": 297.06,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 12.1831,
+        "pe_ttm": 12.9992,
         "pb": 18.5202,
-        "ps": 1.0544,
+        "ps": 1.125,
         "eps_ttm": null,
         "revenue_growth": 72.09,
         "gross_margin": 20.04,
@@ -1724,7 +1856,7 @@
         "name": "Dell Technologies Inc",
         "sector": "Technology",
         "industry": "Technology",
-        "market_cap": 188874.53664299997,
+        "market_cap": 201527.2104435645,
         "exchange": "NEW YORK STOCK EXCHANGE, INC.",
         "currency": "USD"
       },
@@ -1733,11 +1865,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "1 Incredibly Cheap Artificial Intelligence (AI) Stock to Buy Before It Doubles in 2027 [Yahoo]",
-        "Nvidia halts server shipments to 4 countries just weeks after Jensen Huang’s affair with alleged spy was exposed [Yahoo]",
-        "Nvidia hits pause on chip shipments to Southeast Asia [Yahoo]",
-        "BofA resets Dell stock price target by $100 after record earnings [Yahoo]",
-        "Stanley Druckenmiller and 10 Other Big Funds Bought Newmont Last Quarter. Ken Fisher and 5 Others Sold. Who’s Right? [Yahoo]"
+        "Plot Twist: Nvidia’s Vera Rubin Gets 2-6.5x GB300’s Tokens per Dollar. Amazon’s Trainium Edge Was Against the Old Chip [Yahoo]",
+        "Why DELL Stock Is Rising Today — and Why Analysts Still See 70%+ Upside [Yahoo]",
+        "Don't have time to shop Black Friday? AI will do it for you [Yahoo]",
+        "Dell Stocks Jump 5.28% as $132.3 Billion AI Backlog Keeps Buyers Coming [Yahoo]",
+        "Dell's Strong Results Fail to Ease Concerns About AI Spending Durability, UBS Says [Yahoo]"
       ],
       "score": 35
     },
@@ -1752,25 +1884,25 @@
         ],
         "avg_weight_pct": 2.76,
         "direction": "long",
-        "avg_profit_pct": 47.67,
+        "avg_profit_pct": 47.89,
         "conviction": 29
       },
       "quote": {
         "symbol": "AAPL",
-        "price": 355.58,
-        "change_pct": 0.4265,
-        "change_abs": 1.51,
-        "high_today": 356.75,
-        "low_today": 345.13,
-        "prev_close": 354.07,
+        "price": 358.54,
+        "change_pct": 0.8324,
+        "change_abs": 2.96,
+        "high_today": 359.5,
+        "low_today": 355.64,
+        "prev_close": 355.58,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 39.0948,
+        "pe_ttm": 39.4928,
         "pb": 44.0587,
-        "ps": 10.7915,
+        "ps": 10.9014,
         "eps_ttm": null,
         "revenue_growth": 15.06,
         "gross_margin": 48.79,
@@ -1795,7 +1927,7 @@
         "name": "Apple Inc.",
         "sector": "Technology",
         "industry": "Technology",
-        "market_cap": 5167352.952638999,
+        "market_cap": 5210368.208670868,
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "currency": "USD"
       },
@@ -1804,11 +1936,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Apple Enters the AI Agent Race as It Takes on OpenAI, Anthropic, and Meta. What That Means for AAPL Stock. [Yahoo]",
-        "Apple Stocks Rise as AI Selloff Spares the iPhone Maker [Yahoo]",
-        "Apple Removes Talkie From App Store After Reports of Inappropriate AI Messages [Yahoo]",
-        "Apple, Exxon and Lowe’s Are Rewarding Shareholders Beyond Their Regular Dividends [Yahoo]",
-        "The Economy Grew Way Faster Than First Reported: Q3 GDP Revised Up to 4.3% [Yahoo]"
+        "Apple Is Beating the Rest of the \"Magnificent Seven\" in 2026. Can It Do It Again in 2027? [Yahoo]",
+        "Vanguard's Growth ETF Has 3 Stocks Making Up More Than a Third of It. Only 1 Has Held Up in the Tech Sell-Off. [Yahoo]",
+        "OpenAI says a spy handed Apple secret plans for AI devices that could 'outcompete' the iPhone maker on its 'own turf' [Yahoo]",
+        "2027 smartphone market outlook: Apple to outperform as shipments fall 5% [Yahoo]",
+        "S&P 500, Nasdaq End Best Week In Over A Year As AI Optimism Makes Comeback — VZ, ANT, ADBE, TSLA In Focus [Yahoo]"
       ],
       "score": 35
     },
@@ -1823,25 +1955,25 @@
         ],
         "avg_weight_pct": 2.67,
         "direction": "long",
-        "avg_profit_pct": 79.8,
+        "avg_profit_pct": 82.34,
         "conviction": 29
       },
       "quote": {
         "symbol": "RTX",
-        "price": 196.19,
-        "change_pct": 0.4403,
-        "change_abs": 0.86,
-        "high_today": 197,
-        "low_today": 192.3825,
-        "prev_close": 195.33,
+        "price": 198.48,
+        "change_pct": 1.1672,
+        "change_abs": 2.29,
+        "high_today": 198.9,
+        "low_today": 196.29,
+        "prev_close": 196.19,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 31.5062,
+        "pe_ttm": 31.874,
         "pb": 3.7688,
-        "ps": 2.7582,
+        "ps": 2.7903,
         "eps_ttm": null,
         "revenue_growth": 11.63,
         "gross_margin": 21.1,
@@ -1866,7 +1998,7 @@
         "name": "RTX Corporation",
         "sector": "Aerospace & Defense",
         "industry": "Aerospace & Defense",
-        "market_cap": 264746.745144,
+        "market_cap": 267836.9640459815,
         "exchange": "NEW YORK STOCK EXCHANGE, INC.",
         "currency": "USD"
       },
@@ -1875,11 +2007,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "RTX (RTX) Lands Next Generation Nuclear Cruise Missile Work For The Navy [Yahoo]",
-        "Steve Cohen’s 10 Biggest Bets for 2027 [Yahoo]",
-        "3 Top Stocks to Buy Before 2027 as Quantum Enters AI Data Centers [Yahoo]",
-        "Why Is Boeing (BA) Down 1.6% Since Last Earnings Report? [Yahoo]",
-        "RTX vs. HEI: Which Defense Stock Has Greater Upside Potential? [Yahoo]"
+        "RTX Unit Pratt & Whitney Wins $2.5 Billion Navy Contract [Yahoo]",
+        "National Presto (NPK) Stock Is Up 4.9% Today Without Company News [Yahoo]",
+        "BA, NOC, RTX Secured Billion-Dollar Deals This Week But One Defense Stock Stole The Limelight – A Look At This Week’s Contracts [Yahoo]",
+        "Can L3Harris' Australian Defense Award Expand Its All-Domain Reach? [Yahoo]",
+        "RTX (RTX) Lands Next Generation Nuclear Cruise Missile Work For The Navy [Yahoo]"
       ],
       "score": 35
     },
@@ -1894,25 +2026,25 @@
         ],
         "avg_weight_pct": 2.58,
         "direction": "long",
-        "avg_profit_pct": -21.8,
+        "avg_profit_pct": -20.37,
         "conviction": 29
       },
       "quote": {
         "symbol": "NFLX",
-        "price": 59.41,
-        "change_pct": 0.9173,
-        "change_abs": 0.54,
-        "high_today": 59.57,
-        "low_today": 57.025,
-        "prev_close": 58.87,
+        "price": 60.93,
+        "change_pct": 2.5585,
+        "change_abs": 1.52,
+        "high_today": 61.12,
+        "low_today": 59.98,
+        "prev_close": 59.41,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 16.5208,
+        "pe_ttm": 16.9045,
         "pb": 16.0972,
-        "ps": 4.9052,
+        "ps": 5.0191,
         "eps_ttm": null,
         "revenue_growth": 14.65,
         "gross_margin": 50.68,
@@ -1937,7 +2069,7 @@
         "name": "Netflix, Inc.",
         "sector": "Media",
         "industry": "Media",
-        "market_cap": 243956.83724500003,
+        "market_cap": 250198.4530102315,
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "currency": "USD"
       },
@@ -1946,11 +2078,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Here's What Would Prove Me Wrong About Netflix Stock [Yahoo]",
-        "NFL's Thanksgiving Boom Raises Stakes for Disney, Netflix [Yahoo]",
-        "Netflix Stock Is Down 36% in 2026. Can Its Disney Partnership Make It a Buy Again? [Yahoo]",
-        "Netflix vs. Apple: Which Streaming Stock Has an Edge Right Now? [Yahoo]",
-        "Netflix Stock and Higher Content Spend: Can Margins Hold Firm in 2027? [Yahoo]"
+        "Netflix (NFLX) Beats Stock Market Upswing: What Investors Need to Know [Yahoo]",
+        "The Best 3 Stocks to Buy in December to Hold Into 2027 [Yahoo]",
+        "Is Netflix Stock Underperforming the Nasdaq? [Yahoo]",
+        "NFL games spread over different services unlikely to impact viewing: Lightshed Partner's Greenfield [CNBC]",
+        "Here's What Would Prove Me Wrong About Netflix Stock [Yahoo]"
       ],
       "score": 35
     },
@@ -1965,25 +2097,25 @@
         ],
         "avg_weight_pct": 1.52,
         "direction": "long",
-        "avg_profit_pct": -4.12,
+        "avg_profit_pct": -4.04,
         "conviction": 29
       },
       "quote": {
         "symbol": "AVGO",
-        "price": 300.86,
-        "change_pct": -0.0731,
-        "change_abs": -0.22,
-        "high_today": 301.27,
-        "low_today": 278,
-        "prev_close": 301.08,
+        "price": 312.34,
+        "change_pct": 3.8157,
+        "change_abs": 11.48,
+        "high_today": 313.125,
+        "low_today": 304.75,
+        "prev_close": 300.86,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 37.5328,
+        "pe_ttm": 38.7641,
         "pb": 21.061,
-        "ps": 16.1182,
+        "ps": 16.647,
         "eps_ttm": null,
         "revenue_growth": 48.69,
         "gross_margin": 68.82,
@@ -2008,7 +2140,7 @@
         "name": "Broadcom Inc",
         "sector": "Semiconductors",
         "industry": "Semiconductors",
-        "market_cap": 1436194.2166169998,
+        "market_cap": 1490995.485003502,
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "currency": "USD"
       },
@@ -2017,11 +2149,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "These 2 AI Chip Stocks Are Down 36% to 39% From Their Highs. Here’s What History Says Happens Next. [Yahoo]",
-        "5 Most Oversold Semiconductor Stocks to Buy for 2027 [Yahoo]",
-        "Goldman Sachs resets Broadcom's 12-month price target before earnings [Yahoo]",
-        "Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278 [Yahoo]",
-        "NVIDIA Just Dropped 31% in a Month. Will NVDA Stock Hit $125 or $200 First? [Yahoo]"
+        "Plot Twist: Nvidia’s Vera Rubin Gets 2-6.5x GB300’s Tokens per Dollar. Amazon’s Trainium Edge Was Against the Old Chip [Yahoo]",
+        "Jensen Huang Is Back. Nvidia’s (NVDA) Bull Case Remains [Yahoo]",
+        "What Broadcom Stock's Google Chip Order Cut Means For Shareholders [Yahoo]",
+        "Broadcom Stocks Climb 2.19% as $1 Billion Anthropic Stake Turns Positive [Yahoo]",
+        "Skyworks (SWKS) Stock Is Up 6.5% Today Along With Chip Rally [Yahoo]"
       ],
       "score": 35
     },
@@ -2036,17 +2168,17 @@
         ],
         "avg_weight_pct": 1.51,
         "direction": "long",
-        "avg_profit_pct": -28.68,
+        "avg_profit_pct": -25.19,
         "conviction": 29
       },
       "quote": {
         "symbol": "VALE",
-        "price": 9.81,
-        "change_pct": 4.6958,
-        "change_abs": 0.44,
-        "high_today": 9.86,
-        "low_today": 9.255,
-        "prev_close": 9.37,
+        "price": 10.27,
+        "change_pct": 4.6891,
+        "change_abs": 0.46,
+        "high_today": 10.555,
+        "low_today": 10.22,
+        "prev_close": 9.81,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
@@ -2088,11 +2220,10 @@
         "margin_of_safety_pct": null
       },
       "news": [
+        "Beijing Calls in the 'National Team,' Silver Answers: 10 Metal Stocks To Watch Friday [Benzinga]",
+        "Shares of integrated oil and gas companies are trading lower amid energy price declines after Iran's foreign minister said that the government has agreed to an accelerated two-day timeline to reopen the Strait of Hormuz that could be enacted if the U.S. meets its demands. [Benzinga]",
         "Vale: When Everyone Sells, I Start Looking (Upgrade) [SeekingAlpha]",
-        "Vale S.A. informs about Vale Day 2026 [Fintel]",
-        "Shares of companies in the broader metals sector are trading higher amid a drop in the US dollar following weak jobs data. [Benzinga]",
-        "Cobalt Miners News For The Month Of November 2026 [SeekingAlpha]",
-        "Deutsche Bank cuts price targets on 13 miners and upgrades Norsk Hydro to 'buy' [Yahoo]"
+        "Vale S.A. informs about Vale Day 2026 [Fintel]"
       ],
       "score": 35
     },
@@ -2107,17 +2238,17 @@
         ],
         "avg_weight_pct": 1.5,
         "direction": "long",
-        "avg_profit_pct": 6.21,
+        "avg_profit_pct": 5.36,
         "conviction": 29
       },
       "quote": {
         "symbol": "NOW",
-        "price": 92.16,
-        "change_pct": 0.4578,
-        "change_abs": 0.42,
-        "high_today": 92.81,
-        "low_today": 86.85,
-        "prev_close": 91.74,
+        "price": 92.8,
+        "change_pct": 0.6944,
+        "change_abs": 0.64,
+        "high_today": 94.57,
+        "low_today": 92.04,
+        "prev_close": 92.16,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
@@ -2150,7 +2281,7 @@
         "name": "ServiceNow, Inc.",
         "sector": "Technology",
         "industry": "Technology",
-        "market_cap": 95662.08380100002,
+        "market_cap": 96326.40382739584,
         "exchange": "NEW YORK STOCK EXCHANGE, INC.",
         "currency": "USD"
       },
@@ -2159,11 +2290,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Cathie Wood Says OpenAI and Anthropic Have 'Stolen the Show,' but Criticizes Dario Amodei's 'Negative Headlines' on Human Extinction Odds and Job Losses [Benzinga]",
-        "Salesforce Stock (CRM) Looks Mispriced After the AI Sell-Off [Yahoo]",
-        "Megadeals Defy Selloff, Head Toward Record [Yahoo]",
-        "EverCommerce (EVCM) Stock Is Up 9.9% Today Without Company News [Yahoo]",
-        "Global Risk Analysis Management Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on AI and Real-Time Risk with Microsoft, IBM, Oracle, SAP, and ServiceNow [Yahoo]"
+        "Palantir Stock (PLTR) Has No Room for Error at This Valuation [Yahoo]",
+        "Baron Fund Reestablishes Position in ServiceNow (NOW) Following Attractive Valuation Pullback [Yahoo]",
+        "ServiceNow vs. Synopsys: Which Technology Stock Is a Better Buy for 2027? [Yahoo]",
+        "ServiceNow (NOW) Down 16% Since Last Earnings Report: Can It Rebound? [Yahoo]",
+        "10 Best Strong Buy Stocks to Buy and Hold For the Next 5 Years [Yahoo]"
       ],
       "score": 35
     },
@@ -2178,25 +2309,25 @@
         ],
         "avg_weight_pct": 1.5,
         "direction": "long",
-        "avg_profit_pct": -32.92,
+        "avg_profit_pct": -31.82,
         "conviction": 29
       },
       "quote": {
         "symbol": "BIDU",
         "price": 63.49,
-        "change_pct": -0.0315,
-        "change_abs": -0.02,
-        "high_today": 63.6717,
-        "low_today": 60.12,
-        "prev_close": 63.51,
+        "change_pct": 0,
+        "change_abs": 0,
+        "high_today": 64.89,
+        "low_today": 63.2605,
+        "prev_close": 63.49,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 17.0635,
-        "pb": 1.1465,
-        "ps": 1.0773,
+        "pe_ttm": 16.7957,
+        "pb": 1.145,
+        "ps": 1.0604,
         "eps_ttm": null,
         "revenue_growth": -2.7,
         "gross_margin": 39.46,
@@ -2221,7 +2352,7 @@
         "name": "Baidu, Inc.",
         "sector": "Media",
         "industry": "Media",
-        "market_cap": 20527.163420736597,
+        "market_cap": 20230.736174817,
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "currency": "CNY"
       },
@@ -2230,11 +2361,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Here is What to Know Beyond Why Baidu, Inc. (BIDU) is a Trending Stock [Yahoo]",
-        "'ASML’s CEO makes the case for selling chips to China' - Semafor Interview [Benzinga]",
-        "'Nvidia sellers seek new buyers as U.S. curbs China AI chip access' - CNBC [Benzinga]",
-        "Alibaba vs. Baidu: which China AI stock offers better risk-adjusted returns [Yahoo]",
-        "'Chinese AI Firms Confront Dire Future as U.S. Tightens Access to Chips and Tokens' -The Information [Benzinga]"
+        "'Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang' - Bloomberg Exclusive [Benzinga]",
+        "Reported Thursday, \"US Chip Curbs, Distillation Crackdown Threaten Chinese AI Model Development, Sources Say\" - Reuters Exclusive [Benzinga]",
+        "4 Stocks With Double-Digit Earnings Growth Trading Below 20x Forward P/E [Benzinga]",
+        "Reported Earlier, 'Nvidia Tells Partners to Pause Shipments to Southeast Asia; Washington closes loophole that helped Chinese companies tap in to computing power in region' - WSJ Exclusive [Benzinga]",
+        "Here is What to Know Beyond Why Baidu, Inc. (BIDU) is a Trending Stock [Yahoo]"
       ],
       "score": 35
     },
@@ -2249,17 +2380,17 @@
         ],
         "avg_weight_pct": 0.99,
         "direction": "long",
-        "avg_profit_pct": 32.67,
+        "avg_profit_pct": 37.15,
         "conviction": 29
       },
       "quote": {
         "symbol": "NOC",
-        "price": 555.79,
-        "change_pct": 0.8986,
-        "change_abs": 4.95,
-        "high_today": 558,
-        "low_today": 547.79,
-        "prev_close": 550.84,
+        "price": 561.47,
+        "change_pct": 1.022,
+        "change_abs": 5.68,
+        "high_today": 562.89,
+        "low_today": 556.31,
+        "prev_close": 555.79,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
@@ -2292,7 +2423,7 @@
         "name": "Northrop Grumman Corp",
         "sector": "Aerospace & Defense",
         "industry": "Aerospace & Defense",
-        "market_cap": 78958.016242,
+        "market_cap": 79764.94247718697,
         "exchange": "NEW YORK STOCK EXCHANGE, INC.",
         "currency": "USD"
       },
@@ -2301,11 +2432,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Invest in the Fighter Jets, Submarines and Stealth Bombers for Passive Income: $90,000 Across These 3 Defense Contractors Pays More Than $1,700 a Year [Yahoo]",
-        "Global Aircraft Structural Repair and Overhaul Services Market Report 2026-2035 | $80 Billion Opportunity Fueled by AI, Aging Fleets, and Rising MRO Demand [Yahoo]",
-        "Military Reconnaissance Market Report 2026 | Capitalize on AI, Autonomous ISR and Space-Based Surveillance as Lockheed Martin, RTX, Northrop Grumman and Airbus Drive 8.7% CAGR [Yahoo]",
-        "Northrop Grumman Scores Major $1.13 Billion Win [Yahoo]",
-        "RTX, NOC Stocks Head For Green Week: RTX, Northrop Grumman Land $3.6B Navy Contracts For F-35 Engines, Military Communications [Yahoo]"
+        "Global Hypersonic Defense Market Report 2026: Trends and Forecast to 2030 | Capitalize on 17.9% CAGR as Lockheed Martin, RTX, Northrop Grumman, and Boeing Scale AI Defense [Yahoo]",
+        "Global Directed Energy Weapons Market Opportunities and Strategies to 2035 | Capitalize on $57.04 Billion Demand with Lockheed Martin, RTX, Northrop Grumman and Boeing [Yahoo]",
+        "GE vs. NOC: Which Aerospace & Defense Stock Should You Invest in Now? [Yahoo]",
+        "BA, NOC, RTX Secured Billion-Dollar Deals This Week But One Defense Stock Stole The Limelight – A Look At This Week’s Contracts [Yahoo]",
+        "Can L3Harris' Australian Defense Award Expand Its All-Domain Reach? [Yahoo]"
       ],
       "score": 35
     },
@@ -2320,30 +2451,30 @@
         ],
         "avg_weight_pct": 0.86,
         "direction": "long",
-        "avg_profit_pct": -0.42,
+        "avg_profit_pct": 1.32,
         "conviction": 29
       },
       "quote": {
         "symbol": "KSPI",
-        "price": 88.96,
-        "change_pct": 2.1355,
-        "change_abs": 1.86,
-        "high_today": 89.44,
-        "low_today": 85.31,
-        "prev_close": 87.1,
+        "price": 90.53,
+        "change_pct": 1.7648,
+        "change_abs": 1.57,
+        "high_today": 90.65,
+        "low_today": 88.51,
+        "prev_close": 88.96,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 7.0836,
-        "pb": 2.7903,
+        "pe_ttm": 7.1615,
+        "pb": 2.7952,
         "ps": null,
         "eps_ttm": null,
         "revenue_growth": null,
         "gross_margin": null,
         "net_margin": null,
-        "roe": 42.51,
+        "roe": 40.87,
         "debt_equity": 0.142,
         "current_ratio": null,
         "beta": 1.084274
@@ -2363,7 +2494,7 @@
         "name": "Kaspi.kz AO",
         "sector": "Financial Services",
         "industry": "Financial Services",
-        "market_cap": 16585.579903564045,
+        "market_cap": 16725.325237510344,
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "currency": "KZT"
       },
@@ -2384,26 +2515,26 @@
         ],
         "avg_weight_pct": 6.85,
         "direction": "long",
-        "avg_profit_pct": -37.54,
+        "avg_profit_pct": -35.88,
         "conviction": 14
       },
       "quote": {
         "symbol": "KGX.DE",
-        "price": 30.06,
-        "change_pct": 1.9,
-        "change_abs": 0.56,
+        "price": 31.04,
+        "change_pct": 2.44,
+        "change_abs": 0.74,
         "high_today": null,
         "low_today": null,
-        "prev_close": 29.5,
+        "prev_close": 30.299999237060547,
         "high_52w": 70.44999694824219,
         "low_52w": 29.139999389648438,
         "source": "yfinance"
       },
       "fundamentals": {
-        "pe_ttm": 10.401383,
-        "pb": 0.60338426,
-        "ps": 0.33924422,
-        "eps_ttm": 2.89,
+        "pe_ttm": 11.007092,
+        "pb": 0.62305546,
+        "ps": 0.3503041,
+        "eps_ttm": 2.82,
         "revenue_growth": 0.048,
         "gross_margin": 0.2628,
         "net_margin": 0.03187,
@@ -2418,15 +2549,15 @@
         "name": "KION GROUP AG",
         "sector": "Industrials",
         "industry": "Farm & Heavy Construction Machinery",
-        "market_cap": 3941610496,
+        "market_cap": 4070113024,
         "exchange": "GER",
         "currency": "EUR"
       },
       "valuation": {
-        "fair_value": 57.8,
-        "margin_of_safety_pct": -48.0,
-        "fair_pe_method": 57.8,
-        "discount_to_sector_pe": -48.0
+        "fair_value": 56.4,
+        "margin_of_safety_pct": -45.0,
+        "fair_pe_method": 56.4,
+        "discount_to_sector_pe": -45.0
       },
       "news": [],
       "score": 35
@@ -2441,25 +2572,25 @@
         ],
         "avg_weight_pct": 6.6,
         "direction": "long",
-        "avg_profit_pct": -4.58,
+        "avg_profit_pct": -4.26,
         "conviction": 14
       },
       "quote": {
         "symbol": "DG.PA",
-        "price": 114.5,
-        "change_pct": 1.6,
-        "change_abs": 1.8,
+        "price": 115.4,
+        "change_pct": 0.57,
+        "change_abs": 0.65,
         "high_today": null,
         "low_today": null,
-        "prev_close": 112.69999694824219,
+        "prev_close": 114.75,
         "high_52w": 143.14999389648438,
         "low_52w": 104.25,
         "source": "yfinance"
       },
       "fundamentals": {
-        "pe_ttm": 12.708102,
-        "pb": 2.0742002,
-        "ps": 0.8315115,
+        "pe_ttm": 12.807991,
+        "pb": 2.090504,
+        "ps": 0.8380474,
         "eps_ttm": 9.01,
         "revenue_growth": 0.023,
         "gross_margin": 0.17006999,
@@ -2475,15 +2606,15 @@
         "name": "Vinci SA",
         "sector": "Industrials",
         "industry": "Engineering & Construction",
-        "market_cap": 62986162176,
+        "market_cap": 63481249792,
         "exchange": "PAR",
         "currency": "EUR"
       },
       "valuation": {
         "fair_value": 180.2,
-        "margin_of_safety_pct": -36.5,
+        "margin_of_safety_pct": -36.0,
         "fair_pe_method": 180.2,
-        "discount_to_sector_pe": -36.5
+        "discount_to_sector_pe": -36.0
       },
       "news": [],
       "score": 35
@@ -2496,27 +2627,27 @@
         "investors": [
           "triangulacapital"
         ],
-        "avg_weight_pct": 3.66,
+        "avg_weight_pct": 5.46,
         "direction": "long",
-        "avg_profit_pct": 10.83,
+        "avg_profit_pct": 7.71,
         "conviction": 14
       },
       "quote": {
         "symbol": "LEG.DE",
-        "price": 53.8,
-        "change_pct": 3.86,
-        "change_abs": 2.0,
+        "price": 53.85,
+        "change_pct": 0.47,
+        "change_abs": 0.25,
         "high_today": null,
         "low_today": null,
-        "prev_close": 51.79999923706055,
+        "prev_close": 53.599998474121094,
         "high_52w": 71.6500015258789,
         "low_52w": 44.29999923706055,
         "source": "yfinance"
       },
       "fundamentals": {
-        "pe_ttm": 6.0997734,
-        "pb": 0.46301076,
-        "ps": 2.7950566,
+        "pe_ttm": 6.105442,
+        "pb": 0.46344107,
+        "ps": 2.7976542,
         "eps_ttm": 8.82,
         "revenue_growth": 0.006,
         "gross_margin": 0.46147,
@@ -2532,15 +2663,15 @@
         "name": "LEG Immobilien SE",
         "sector": "Real Estate",
         "industry": "Real Estate Services",
-        "market_cap": 4134447616,
+        "market_cap": 4138290176,
         "exchange": "GER",
         "currency": "EUR"
       },
       "valuation": {
         "fair_value": 264.6,
-        "margin_of_safety_pct": -79.7,
+        "margin_of_safety_pct": -79.6,
         "fair_pe_method": 264.6,
-        "discount_to_sector_pe": -79.7
+        "discount_to_sector_pe": -79.6
       },
       "news": [],
       "score": 35
@@ -2557,25 +2688,25 @@
         ],
         "avg_weight_pct": 3.39,
         "direction": "long",
-        "avg_profit_pct": 265.38,
+        "avg_profit_pct": 275.09,
         "conviction": 43
       },
       "quote": {
         "symbol": "RHM.DE",
-        "price": 765.7,
-        "change_pct": 3.64,
-        "change_abs": 26.9,
+        "price": 791.1,
+        "change_pct": 2.86,
+        "change_abs": 22.0,
         "high_today": null,
         "low_today": null,
-        "prev_close": 738.7999877929688,
+        "prev_close": 769.0999755859375,
         "high_52w": 1966.0,
         "low_52w": 692.2999877929688,
         "source": "yfinance"
       },
       "fundamentals": {
-        "pe_ttm": 26.942295,
-        "pb": 6.6897316,
-        "ps": 2.9160876,
+        "pe_ttm": 27.836031,
+        "pb": 6.911645,
+        "ps": 3.0128205,
         "eps_ttm": 28.42,
         "revenue_growth": 0.364,
         "gross_margin": 0.51983,
@@ -2591,293 +2722,17 @@
         "name": "Rheinmetall AG",
         "sector": "Industrials",
         "industry": "Aerospace & Defense",
-        "market_cap": 35733737472,
+        "market_cap": 36919103488,
         "exchange": "GER",
         "currency": "EUR"
       },
       "valuation": {
         "fair_value": 568.4,
-        "margin_of_safety_pct": 34.7,
+        "margin_of_safety_pct": 39.2,
         "fair_pe_method": 568.4,
-        "discount_to_sector_pe": 34.7
+        "discount_to_sector_pe": 39.2
       },
       "news": [],
-      "score": 30
-    },
-    {
-      "symbol": "CEG",
-      "watchlist_meta": {
-        "symbol": "CEG",
-        "investor_count": 1,
-        "investors": [
-          "JeppeKirkBonde"
-        ],
-        "avg_weight_pct": 4.58,
-        "direction": "long",
-        "avg_profit_pct": -22.31,
-        "conviction": 14
-      },
-      "quote": {
-        "symbol": "CEG",
-        "price": 235.28,
-        "change_pct": -3.9046,
-        "change_abs": -9.56,
-        "high_today": 239.08,
-        "low_today": 230.53,
-        "prev_close": 244.84,
-        "high_52w": null,
-        "low_52w": null,
-        "source": "finnhub"
-      },
-      "fundamentals": {
-        "pe_ttm": 18.9305,
-        "pb": 7.5996,
-        "ps": 2.4154,
-        "eps_ttm": null,
-        "revenue_growth": 37.88,
-        "gross_margin": 46.36,
-        "net_margin": 12.76,
-        "roe": 15.509999999999998,
-        "debt_equity": 0.6194,
-        "current_ratio": 1.5256,
-        "beta": 1.1562943
-      },
-      "analyst": {
-        "consensus": "Strong Buy",
-        "strong_buy": 6,
-        "buy": 19,
-        "hold": 4,
-        "sell": 0,
-        "strong_sell": 0,
-        "total": 29,
-        "period": "2026-11-01"
-      },
-      "price_target": {},
-      "profile": {
-        "name": "Constellation Energy Corp",
-        "sector": "Utilities",
-        "industry": "Utilities",
-        "market_cap": 82726.445096,
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "currency": "USD"
-      },
-      "valuation": {
-        "fair_value": null,
-        "margin_of_safety_pct": null
-      },
-      "news": [
-        "NEE or CEG: Which Clean Energy Stock Is Better Positioned for Growth? [Yahoo]",
-        "3 AI Infrastructure Stocks That Pay You While You Wait [Yahoo]",
-        "Constellation concludes 4.4GW natural gas-fired power plants sale [Yahoo]",
-        "How Investors May Respond To Constellation Energy Stock After Earnings Estimate Upgrades [Yahoo]",
-        "LS Power Completes Acquisition of 4.4 GW Natural Gas Generation Assets from Constellation [Yahoo]"
-      ],
-      "score": 30
-    },
-    {
-      "symbol": "OCGN",
-      "watchlist_meta": {
-        "symbol": "OCGN",
-        "investor_count": 1,
-        "investors": [
-          "Ctalbot44"
-        ],
-        "avg_weight_pct": 0.93,
-        "direction": "long",
-        "avg_profit_pct": -67.8,
-        "conviction": 14
-      },
-      "quote": {
-        "symbol": "OCGN",
-        "price": 0.8442,
-        "change_pct": -3.9481,
-        "change_abs": -0.0347,
-        "high_today": 0.8947,
-        "low_today": 0.82,
-        "prev_close": 0.8789,
-        "high_52w": null,
-        "low_52w": null,
-        "source": "finnhub"
-      },
-      "fundamentals": {
-        "pe_ttm": null,
-        "pb": 7.9142,
-        "ps": 60.0131,
-        "eps_ttm": null,
-        "revenue_growth": 0.4,
-        "gross_margin": null,
-        "net_margin": -1343.08,
-        "roe": -1306.71,
-        "debt_equity": 0.9676,
-        "current_ratio": 1.0563,
-        "beta": 1.8603572
-      },
-      "analyst": {
-        "consensus": "Strong Buy",
-        "strong_buy": 3,
-        "buy": 8,
-        "hold": 1,
-        "sell": 0,
-        "strong_sell": 0,
-        "total": 12,
-        "period": "2026-11-01"
-      },
-      "price_target": {},
-      "profile": {
-        "name": "Ocugen, Inc.",
-        "sector": "Biotechnology",
-        "industry": "Biotechnology",
-        "market_cap": 286.44262,
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "currency": "USD"
-      },
-      "valuation": {
-        "fair_value": null,
-        "margin_of_safety_pct": null
-      },
-      "news": [
-        "Ocugen to Participate in December Investor Conferences Hosted by Citi, Piper Sandler, and Barclays [Yahoo]"
-      ],
-      "score": 30
-    },
-    {
-      "symbol": "GOOGL",
-      "watchlist_meta": {
-        "symbol": "GOOGL",
-        "investor_count": 1,
-        "investors": [
-          "smudliczek"
-        ],
-        "avg_weight_pct": 0.9,
-        "direction": "long",
-        "avg_profit_pct": 69.03,
-        "conviction": 14
-      },
-      "quote": {
-        "symbol": "GOOGL",
-        "price": 273.1,
-        "change_pct": -2.1322,
-        "change_abs": -5.95,
-        "high_today": 273.62,
-        "low_today": 262.73,
-        "prev_close": 279.05,
-        "high_52w": null,
-        "low_52w": null,
-        "source": "finnhub"
-      },
-      "fundamentals": {
-        "pe_ttm": 14.2451,
-        "pb": 9.1044,
-        "ps": 7.1269,
-        "eps_ttm": null,
-        "revenue_growth": 22.21,
-        "gross_margin": 60.86,
-        "net_margin": 50.03,
-        "roe": 42.620000000000005,
-        "debt_equity": 0.1229,
-        "current_ratio": 2.0053,
-        "beta": 1.2283908
-      },
-      "analyst": {
-        "consensus": "Strong Buy",
-        "strong_buy": 20,
-        "buy": 41,
-        "hold": 7,
-        "sell": 0,
-        "strong_sell": 0,
-        "total": 68,
-        "period": "2026-11-01"
-      },
-      "price_target": {},
-      "profile": {
-        "name": "Alphabet Inc.",
-        "sector": "Media",
-        "industry": "Media",
-        "market_cap": 3357491.4000000004,
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "currency": "USD"
-      },
-      "valuation": {
-        "fair_value": null,
-        "margin_of_safety_pct": null
-      },
-      "news": [
-        "Jim Lebenthal Says This Is “a Correction, Not Something Worse.” Why He’s Buying More Alphabet [Yahoo]",
-        "Jensen Huang’s Return Doesn’t Make Nvidia Stock (NVDA) a Buy [Yahoo]",
-        "Broadcom Stocks Edge Lower After Rebounding From an Intraday Low of $278 [Yahoo]",
-        "Alphabet Stocks Slip 2.13% as Credit Swaps Hit Record Amid $9.1 Billion Cash Burn [Yahoo]",
-        "George Soros and 64 Other Big Funds Bought Meta Last Quarter. David Tepper and 33 Others Sold. Who’s Right? [Yahoo]"
-      ],
-      "score": 30
-    },
-    {
-      "symbol": "AMAT",
-      "watchlist_meta": {
-        "symbol": "AMAT",
-        "investor_count": 1,
-        "investors": [
-          "smudliczek"
-        ],
-        "avg_weight_pct": 0.56,
-        "direction": "long",
-        "avg_profit_pct": 110.69,
-        "conviction": 14
-      },
-      "quote": {
-        "symbol": "AMAT",
-        "price": 311.18,
-        "change_pct": -3.8856,
-        "change_abs": -12.58,
-        "high_today": 311.55,
-        "low_today": 289.47,
-        "prev_close": 323.76,
-        "high_52w": null,
-        "low_52w": null,
-        "source": "finnhub"
-      },
-      "fundamentals": {
-        "pe_ttm": 24.4797,
-        "pb": 11.7824,
-        "ps": 7.1692,
-        "eps_ttm": null,
-        "revenue_growth": 21.43,
-        "gross_margin": 49.99,
-        "net_margin": 29.29,
-        "roe": 41.449999999999996,
-        "debt_equity": 0.2502,
-        "current_ratio": 2.3436,
-        "beta": 1.7328858
-      },
-      "analyst": {
-        "consensus": "Strong Buy",
-        "strong_buy": 12,
-        "buy": 28,
-        "hold": 5,
-        "sell": 0,
-        "strong_sell": 0,
-        "total": 45,
-        "period": "2026-11-01"
-      },
-      "price_target": {},
-      "profile": {
-        "name": "Applied Materials Inc",
-        "sector": "Semiconductors",
-        "industry": "Semiconductors",
-        "market_cap": 246951.63688800004,
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "currency": "USD"
-      },
-      "valuation": {
-        "fair_value": null,
-        "margin_of_safety_pct": null
-      },
-      "news": [
-        "5 Most Oversold Semiconductor Stocks to Buy for 2027 [Yahoo]",
-        "Applied Materials Stocks Fall 3.89% as UBS Trims Target and China Curbs Loom [Yahoo]",
-        "Advanced Packaging Drives Lam Research's Growth: Can It Gain More Share? [Yahoo]",
-        "Michael Burry Turns Bullish, Exits Nasdaq Shorts but Eyes Nvidia at $200 [Yahoo]",
-        "“Another Record Year”: Applied Materials CEO Bets on 2027 as Chip Stocks Slide [Yahoo]"
-      ],
       "score": 30
     },
     {
@@ -2890,25 +2745,25 @@
         ],
         "avg_weight_pct": 6.7,
         "direction": "long",
-        "avg_profit_pct": -20.46,
+        "avg_profit_pct": -20.24,
         "conviction": 14
       },
       "quote": {
         "symbol": "PDD",
-        "price": 87.42,
-        "change_pct": 0.2293,
-        "change_abs": 0.2,
-        "high_today": 88.17,
-        "low_today": 84.925,
-        "prev_close": 87.22,
+        "price": 88.43,
+        "change_pct": 1.1553,
+        "change_abs": 1.01,
+        "high_today": 91.385,
+        "low_today": 88.12,
+        "prev_close": 87.42,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 8.9832,
-        "pb": 2.5541,
-        "ps": 1.8389,
+        "pe_ttm": 8.9717,
+        "pb": 2.5508,
+        "ps": 1.8366,
         "eps_ttm": null,
         "revenue_growth": 7.72,
         "gross_margin": 56.68,
@@ -2942,10 +2797,7 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Amazon Short Interest Rises As Bears Add To Bets [Benzinga]",
-        "Billionaire Charlie Munger’s Protege Li Lu: Himalaya Capital Has 45% of Its $3.78 Billion Portfolio in Alphabet [Yahoo]",
-        "Alibaba Cements Itself As The Ultimate Value Trap [SeekingAlpha]",
-        "China E-Commerce Exposure: Why I Favor PDD Over Alibaba [SeekingAlpha]"
+        "Amazon Short Interest Rises As Bears Add To Bets [Benzinga]"
       ],
       "score": 25
     },
@@ -2957,25 +2809,25 @@
         "investors": [
           "triangulacapital"
         ],
-        "avg_weight_pct": 6.35,
+        "avg_weight_pct": 6.65,
         "direction": "long",
-        "avg_profit_pct": -8.89,
+        "avg_profit_pct": -6.54,
         "conviction": 14
       },
       "quote": {
         "symbol": "BCS",
-        "price": 21.14,
-        "change_pct": -0.7046,
-        "change_abs": -0.15,
-        "high_today": 21.2,
-        "low_today": 20.43,
-        "prev_close": 21.29,
+        "price": 21.6,
+        "change_pct": 2.176,
+        "change_abs": 0.46,
+        "high_today": 21.655,
+        "low_today": 21.52,
+        "prev_close": 21.14,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 4.345,
+        "pe_ttm": 4.46,
         "pb": 0.8488,
         "ps": null,
         "eps_ttm": null,
@@ -3002,7 +2854,7 @@
         "name": "Barclays PLC",
         "sector": "Banking",
         "industry": "Banking",
-        "market_cap": 51874.984986,
+        "market_cap": 53247.618307,
         "exchange": "LONDON STOCK EXCHANGE",
         "currency": "GBP"
       },
@@ -3011,11 +2863,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
+        "Royal Bank Scaling Through Inorganic Efforts: Will It Drive Growth? [Yahoo]",
         "Barclays (LSE:BARC) Could Be 31% Undervalued As Metro Bank Bid Talk Builds [Yahoo]",
         "Barclays’ Best Egg unit discloses breach of 792,000 records [Yahoo]",
         "Barclays (LSE:BARC) Weighs A Move In A Formal Bank Sale Process [Yahoo]",
-        "Why Is URBN Stock Falling In Pre-Market? [Yahoo]",
-        "Barclays downgrades Partners Group as asset sales, redemptions weigh [Yahoo]"
+        "Why Is URBN Stock Falling In Pre-Market? [Yahoo]"
       ],
       "score": 25
     },
@@ -3029,23 +2881,23 @@
         ],
         "avg_weight_pct": 5.94,
         "direction": "long",
-        "avg_profit_pct": -2.54,
+        "avg_profit_pct": -0.38,
         "conviction": 14
       },
       "quote": {
         "symbol": "NWG",
-        "price": 15.37,
-        "change_pct": 0,
-        "change_abs": 0,
-        "high_today": 15.4,
-        "low_today": 14.85,
+        "price": 15.68,
+        "change_pct": 2.0169,
+        "change_abs": 0.31,
+        "high_today": 15.71,
+        "low_today": 15.605,
         "prev_close": 15.37,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 7.2199,
+        "pe_ttm": 7.4337,
         "pb": 1.2258,
         "ps": 1.1662,
         "eps_ttm": null,
@@ -3072,7 +2924,7 @@
         "name": "NatWest Group PLC",
         "sector": "Banking",
         "industry": "Banking",
-        "market_cap": 45304.90791,
+        "market_cap": 46646.224118,
         "exchange": "LONDON STOCK EXCHANGE",
         "currency": "GBP"
       },
@@ -3081,11 +2933,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
+        "BoE to Ease Capital Requirements: A Boost for U.K. Banks? [Yahoo]",
         "NatWest Group plc – Private Banking & Wealth Management Spotlight [Fintel]",
         "NatWest Group (LSE:NWG) Declares Preference Dividends On An Undervalued View [Yahoo]",
         "NatWest (LSE:NWG) Stock Looks Reasonable Given Its Earnings Power [Yahoo]",
-        "How Could NatWest Group (LSE:NWG) Change UK Investing With Targeted Support? [Yahoo]",
-        "NatWest Group Targets £200 Billion in Wealth Assets as Deal Savings Rise [Yahoo]"
+        "How Could NatWest Group (LSE:NWG) Change UK Investing With Targeted Support? [Yahoo]"
       ],
       "score": 25
     },
@@ -3099,25 +2951,25 @@
         ],
         "avg_weight_pct": 5.51,
         "direction": "long",
-        "avg_profit_pct": -18.06,
+        "avg_profit_pct": -17.32,
         "conviction": 14
       },
       "quote": {
         "symbol": "CRWD",
-        "price": 209.3,
-        "change_pct": -0.7398,
-        "change_abs": -1.56,
-        "high_today": 210.3,
-        "low_today": 194.7,
-        "prev_close": 210.86,
+        "price": 217.2,
+        "change_pct": 3.7745,
+        "change_abs": 7.9,
+        "high_today": 217.61,
+        "low_today": 205.77,
+        "prev_close": 209.3,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 3689.7684,
+        "pe_ttm": 3829.0383,
         "pb": 24.9828,
-        "ps": 39.9737,
+        "ps": 41.4825,
         "eps_ttm": null,
         "revenue_growth": 24.3,
         "gross_margin": 75.24,
@@ -3142,7 +2994,7 @@
         "name": "CrowdStrike Holdings, Inc.",
         "sector": "Technology",
         "industry": "Technology",
-        "market_cap": 215703.86265400003,
+        "market_cap": 223845.5755778729,
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "currency": "USD"
       },
@@ -3151,11 +3003,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Was CrowdStrike’s $43.9 Billion Bid for Zscaler the Right Move at the Wrong Time? [Yahoo]",
-        "Nvidia Wins Three Wall Street Upgrades as Jensen Huang Returns as CEO [Yahoo]",
-        "Own Palo Alto Stock? Watch Its Deferred Revenue [Yahoo]",
-        "BT launches nationwide cyber resilience drive as AI helps fuel 500% surge in malicious activity [Yahoo]",
-        "Truist Sees 52% Upside in Zscaler, and the Reason Has Nothing to Do With Zscaler’s Valuation [Yahoo]"
+        "5 Stocks That Should Double in 3 Years [Yahoo]",
+        "Investing.com’s stocks of the week [Yahoo]",
+        "CrowdStrike Stocks Climb 1.86% as $43.9 Billion Zscaler Deal Value Slips [Yahoo]",
+        "Palantir Raised Its 2026 Growth Outlook to 91%. Could the Stock Have More Room to Run? [Yahoo]",
+        "Stock Market Surges As Jensen Huang Returns As Nvidia CEO; Abercrombie Leads Retail Winners: Weekly Review [Yahoo]"
       ],
       "score": 25
     },
@@ -3169,25 +3021,25 @@
         ],
         "avg_weight_pct": 5.28,
         "direction": "long",
-        "avg_profit_pct": 12.17,
+        "avg_profit_pct": 13.23,
         "conviction": 14
       },
       "quote": {
         "symbol": "AZN",
-        "price": 184.21,
-        "change_pct": 0.5513,
-        "change_abs": 1.01,
-        "high_today": 185.11,
-        "low_today": 182.155,
-        "prev_close": 183.2,
+        "price": 183.69,
+        "change_pct": -0.2823,
+        "change_abs": -0.52,
+        "high_today": 183.94,
+        "low_today": 182.325,
+        "prev_close": 184.21,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 25.6735,
-        "pb": 5.7428,
-        "ps": 4.5393,
+        "pe_ttm": 25.8657,
+        "pb": 5.7511,
+        "ps": 4.5733,
         "eps_ttm": null,
         "revenue_growth": 7.32,
         "gross_margin": 81.68,
@@ -3212,7 +3064,7 @@
         "name": "AstraZeneca PLC",
         "sector": "Pharmaceuticals",
         "industry": "Pharmaceuticals",
-        "market_cap": 215980.79381,
+        "market_cap": 217283.582684,
         "exchange": "LONDON STOCK EXCHANGE",
         "currency": "USD"
       },
@@ -3221,11 +3073,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "Wall Street Sees Upside in AstraZeneca PLC (AZN) as Shares Retreat [Yahoo]",
-        "Can Merck's Gardasil Sustain Its Q3 Recovery Amid 2027 Headwinds? [Yahoo]",
-        "Can Oncology Emerge as Eli Lilly's Next Major Growth Driver? [Yahoo]",
-        "Alumis: Autoimmune Markets May Be Too Competitive To Make Room For Envu [SeekingAlpha]",
-        "UCB SA: Small Wins, Big Value Inflection, Still Cheap [SeekingAlpha]"
+        "AstraZeneca (LSE:AZN) Could Be 15% Undervalued After Fresh Drug Approval Wins [Yahoo]",
+        "Can Gilead's Trodelvy Growth and ADC Pipeline Drive Further Upside? [Yahoo]",
+        "What Led ABBV's Oncology Franchise to Return to Growth in Q3? [Yahoo]",
+        "Sector Update: Healthcare Stocks Edge Higher Pre-Bell Friday [Yahoo]",
+        "Wall Street Sees Upside in AstraZeneca PLC (AZN) as Shares Retreat [Yahoo]"
       ],
       "score": 25
     },
@@ -3239,25 +3091,25 @@
         ],
         "avg_weight_pct": 4.62,
         "direction": "long",
-        "avg_profit_pct": 10.01,
+        "avg_profit_pct": 9.66,
         "conviction": 14
       },
       "quote": {
         "symbol": "TM",
-        "price": 215.79,
-        "change_pct": 2.7718,
-        "change_abs": 5.82,
-        "high_today": 216.2199,
-        "low_today": 211.99,
-        "prev_close": 209.97,
+        "price": 215.01,
+        "change_pct": -0.3615,
+        "change_abs": -0.78,
+        "high_today": 215.125,
+        "low_today": 212.86,
+        "prev_close": 215.79,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 9.3556,
+        "pe_ttm": 9.276,
         "pb": 1.2432,
-        "ps": 0.7608,
+        "ps": 0.7543,
         "eps_ttm": null,
         "revenue_growth": 7.35,
         "gross_margin": 16.92,
@@ -3282,7 +3134,7 @@
         "name": "Toyota Motor Corp",
         "sector": "Automobiles",
         "industry": "Automobiles",
-        "market_cap": 40333286.550781,
+        "market_cap": 39989873.365234,
         "exchange": "TOKYO STOCK EXCHANGE-TOKYO PRO MARKET",
         "currency": "JPY"
       },
@@ -3291,11 +3143,80 @@
         "margin_of_safety_pct": null
       },
       "news": [
+        "Toyota Motor Corporation Reports Unaudited Condensed Consolidated Financial Statements for the First Half Ended September 30, 2026 [Fintel]",
         "Honda Motor (TSE:7267) Recalls 810,592 US Vehicles And Unveils Avancier Hybrid SUV [Yahoo]",
         "Six Japanese automakers plan over Bt134bn investment in Thailand by 2030 [Yahoo]",
-        "Practicality Takes the Wheel: New Zealand Drivers Shift Toward SUVs, Hybrids and Hard-Working Utes [Yahoo]",
-        "Toyota's 2027 Sienna brings a surprising gas-saving upgrade [Yahoo]",
-        "Micware Announces Participation in Upcoming Investor Events [Yahoo]"
+        "Practicality Takes the Wheel: New Zealand Drivers Shift Toward SUVs, Hybrids and Hard-Working Utes [Yahoo]"
+      ],
+      "score": 25
+    },
+    {
+      "symbol": "CEG",
+      "watchlist_meta": {
+        "symbol": "CEG",
+        "investor_count": 1,
+        "investors": [
+          "JeppeKirkBonde"
+        ],
+        "avg_weight_pct": 4.58,
+        "direction": "long",
+        "avg_profit_pct": -22.76,
+        "conviction": 14
+      },
+      "quote": {
+        "symbol": "CEG",
+        "price": 238.1,
+        "change_pct": 1.1986,
+        "change_abs": 2.82,
+        "high_today": 242.16,
+        "low_today": 232.66,
+        "prev_close": 235.28,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": 19.1574,
+        "pb": 7.5996,
+        "ps": 2.4443,
+        "eps_ttm": null,
+        "revenue_growth": 37.88,
+        "gross_margin": 46.36,
+        "net_margin": 12.76,
+        "roe": 15.509999999999998,
+        "debt_equity": 0.6194,
+        "current_ratio": 1.5256,
+        "beta": 1.1754227
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 6,
+        "buy": 19,
+        "hold": 4,
+        "sell": 0,
+        "strong_sell": 0,
+        "total": 29,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "Constellation Energy Corp",
+        "sector": "Utilities",
+        "industry": "Utilities",
+        "market_cap": 83717.98103263175,
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "currency": "USD"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "Is Constellation Energy (CEG) Below Fair Value After Its $5b Asset Sale? [Yahoo]",
+        "3 Stocks With Rising Earnings Estimates to Buy Before 2027 [Yahoo]",
+        "Top Stock Reports for Alphabet, Meta & Bank of America [Yahoo]",
+        "The Nuclear Stock AI Investors Loved Is Down 33% This Year. Is Constellation Energy a Buy Now? [Yahoo]",
+        "Constellation Energy Corporation (CEG) Is a Trending Stock: Facts to Know Before Betting on It [Yahoo]"
       ],
       "score": 25
     },
@@ -3309,25 +3230,25 @@
         ],
         "avg_weight_pct": 4.51,
         "direction": "long",
-        "avg_profit_pct": -32.41,
+        "avg_profit_pct": -27.18,
         "conviction": 14
       },
       "quote": {
         "symbol": "SKHY",
-        "price": 111.14,
-        "change_pct": -0.7501,
-        "change_abs": -0.84,
-        "high_today": 111.16,
-        "low_today": 101.91,
-        "prev_close": 111.98,
+        "price": 119.5,
+        "change_pct": 7.522,
+        "change_abs": 8.36,
+        "high_today": 119.96,
+        "low_today": 112.68,
+        "prev_close": 111.14,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 3.8449,
+        "pe_ttm": 3.9308,
         "pb": 3.7297,
-        "ps": 2.6967,
+        "ps": 2.7569,
         "eps_ttm": null,
         "revenue_growth": 220.31,
         "gross_margin": 81.64,
@@ -3352,7 +3273,7 @@
         "name": "SK Hynix Inc",
         "sector": "Semiconductors",
         "industry": "Semiconductors",
-        "market_cap": 726327408.447266,
+        "market_cap": 742546369.995117,
         "exchange": "KOREA EXCHANGE (STOCK MARKET)",
         "currency": "KRW"
       },
@@ -3361,11 +3282,11 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "SK hynix Stocks Rise 2.23% as Seoul Chip Rebound Fades From a 5.7% Gain [Yahoo]",
-        "Micron Stock Faces Surprising New Threat From Huawei [Yahoo]",
-        "SK Hynix Just Revealed the Next Generation of DRAM. Can It Beat Micron in the Next Memory Supercycle? [Yahoo]",
-        "Stock Futures Rise as Dow’s Rebound Goes Global. It Bodes Well for Black Friday Trading. [Yahoo]",
-        "Micron May Now Face a Threat From Two Chinese Rivals but Shouldn’t Sweat It [Yahoo]"
+        "SK hynix Stocks Jump 5.41% as 100 Trillion Won Payout Plan Sinks In [Yahoo]",
+        "Samsung Electronics Stocks Jump 4.55% as Seoul Rallies on Stabilization Hopes [Yahoo]",
+        "Micron Faces New AI Memory Threat as Huawei Develops HBM Chip [Yahoo]",
+        "This Beaten-Down AI Stock Looks Dirt Cheap at 4 Times Earnings With 130% Upside [Yahoo]",
+        "Anthropic Stock Jumps to Reveal Its True Place in the AI Trade [Yahoo]"
       ],
       "score": 25
     },
@@ -3379,25 +3300,25 @@
         ],
         "avg_weight_pct": 4.39,
         "direction": "long",
-        "avg_profit_pct": -11.3,
+        "avg_profit_pct": -9.44,
         "conviction": 14
       },
       "quote": {
         "symbol": "SAP",
-        "price": 209.37,
-        "change_pct": 0.297,
-        "change_abs": 0.62,
-        "high_today": 211.89,
-        "low_today": 207.08,
-        "prev_close": 208.75,
+        "price": 213.65,
+        "change_pct": 2.0442,
+        "change_abs": 4.28,
+        "high_today": 214.25,
+        "low_today": 211.44,
+        "prev_close": 209.37,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 27.5654,
+        "pe_ttm": 28.1928,
         "pb": 5.4541,
-        "ps": 5.627,
+        "ps": 5.7551,
         "eps_ttm": null,
         "revenue_growth": 7.92,
         "gross_margin": 73.56,
@@ -3422,7 +3343,7 @@
         "name": "SAP SE",
         "sector": "Technology",
         "industry": "Technology",
-        "market_cap": 221626.050331,
+        "market_cap": 226669.895774,
         "exchange": "XETRA",
         "currency": "EUR"
       },
@@ -3431,16 +3352,774 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "SAP Weighs Cutting at Least 10,000 Positions in AI Restructuring [Yahoo]",
-        "Global Risk Analysis Management Market Report 2026: Size, Share, Trends, and Forecast to 2030 | Capitalize on AI and Real-Time Risk with Microsoft, IBM, Oracle, SAP, and ServiceNow [Yahoo]",
-        "SAP (NYSE:SAP): A Quality Investing Candidate With High ROIC and Durable Cash Flow [ChartMill]",
-        "Alexander Karp Sells $38M Of Palantir Technologies As Shares Reel 19% In A Month [Benzinga]",
-        "PT Pan Brothers Tbk Advances Smart Manufacturing with More Resilient SAP Operations from Rimini Street [Yahoo]"
+        "SAP Stock Puts AI Software Leaders On Watch [Yahoo]",
+        "SAP Stocks Climb 2.06% Despite Confirmed Cybersecurity Incident [Yahoo]",
+        "SAP (XTRA:SAP) Is Planning To Cut 10,000 Jobs [Yahoo]",
+        "SAP Weighs 10,000 Job Cuts as AI Restructuring Accelerates [Yahoo]",
+        "Nvidia Pares Gains on Blackwell Report; Altria Lower | Stock Movers [Yahoo]"
+      ],
+      "score": 25
+    },
+    {
+      "symbol": "GE",
+      "watchlist_meta": {
+        "symbol": "GE",
+        "investor_count": 1,
+        "investors": [
+          "Ctalbot44"
+        ],
+        "avg_weight_pct": 4.11,
+        "direction": "long",
+        "avg_profit_pct": 9.49,
+        "conviction": 14
+      },
+      "quote": {
+        "symbol": "GE",
+        "price": 323.94,
+        "change_pct": 2.1957,
+        "change_abs": 6.96,
+        "high_today": 324.54,
+        "low_today": 319.384,
+        "prev_close": 316.98,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": 35.9908,
+        "pb": 17.3965,
+        "ps": 6.2302,
+        "eps_ttm": null,
+        "revenue_growth": 19.63,
+        "gross_margin": 33.47,
+        "net_margin": 17.31,
+        "roe": 50.629999999999995,
+        "debt_equity": 1.0973,
+        "current_ratio": 1.0415,
+        "beta": 1.4169451
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 9,
+        "buy": 18,
+        "hold": 4,
+        "sell": 1,
+        "strong_sell": 0,
+        "total": 32,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "General Electric Company",
+        "sector": "Aerospace & Defense",
+        "industry": "Aerospace & Defense",
+        "market_cap": 334744.03538911295,
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "currency": "USD"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "National Presto (NPK) Stock Is Up 4.9% Today Without Company News [Yahoo]",
+        "GE vs. NOC: Which Aerospace & Defense Stock Should You Invest in Now? [Yahoo]",
+        "Which Dates Could Move GE Vernova Stock The Most? [Yahoo]",
+        "Billionaire Chris Hohn’s TCI Has 30% of Its $49.6 Billion Stock Portfolio in GE Aerospace [Yahoo]",
+        "Billionaire Nelson Peltz’s Trian Has Nearly Half of Its $2.6 Billion Stock Portfolio in GE Aerospace [Yahoo]"
       ],
       "score": 25
     }
   ],
   "alerts_today": [
+    {
+      "symbol": "NIO",
+      "watchlist_meta": {
+        "symbol": "NIO",
+        "investor_count": 3,
+        "investors": [
+          "smudliczek",
+          "Ctalbot44",
+          "michalhla"
+        ],
+        "avg_weight_pct": 2.69,
+        "direction": "long",
+        "avg_profit_pct": -41.45,
+        "conviction": 43
+      },
+      "quote": {
+        "symbol": "NIO",
+        "price": 2.85,
+        "change_pct": 5.948,
+        "change_abs": 0.16,
+        "high_today": 2.9,
+        "low_today": 2.82,
+        "prev_close": 2.69,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": null,
+        "pb": 17.7505,
+        "ps": 0.3737,
+        "eps_ttm": null,
+        "revenue_growth": 64.38,
+        "gross_margin": 17.41,
+        "net_margin": -4.17,
+        "roe": -117.19,
+        "debt_equity": 4.5697,
+        "current_ratio": 0.9752,
+        "beta": 0.988558
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 6,
+        "buy": 14,
+        "hold": 8,
+        "sell": 1,
+        "strong_sell": 0,
+        "total": 29,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "NIO Inc.",
+        "sector": "Automobiles",
+        "industry": "Automobiles",
+        "market_cap": 6407.89273401972,
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "currency": "CNY"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "NIO And 2 Other Top EV Stocks [Yahoo]",
+        "Asian Equities Traded in the US as American Depositary Receipts Rise Sharply in Friday Trading [Yahoo]",
+        "Investors Heavily Search NIO Inc. (NIO): Here is What You Need to Know [Yahoo]",
+        "NIO Pre-Q3 Earnings Analysis: Buy, Hold or Sell the Stock Now? [Yahoo]",
+        "Beijing Calls in the 'National Team,' Silver Answers: 10 Metal Stocks To Watch Friday [Benzinga]"
+      ],
+      "score": 45
+    },
+    {
+      "symbol": "MU",
+      "watchlist_meta": {
+        "symbol": "MU",
+        "investor_count": 3,
+        "investors": [
+          "Ouzo83",
+          "smudliczek",
+          "JeppeKirkBonde"
+        ],
+        "avg_weight_pct": 1.93,
+        "direction": "long",
+        "avg_profit_pct": 231.71,
+        "conviction": 43
+      },
+      "quote": {
+        "symbol": "MU",
+        "price": 646.95,
+        "change_pct": 7.6008,
+        "change_abs": 45.7,
+        "high_today": 654.44,
+        "low_today": 607.2704,
+        "prev_close": 601.25,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": 9.5895,
+        "pb": 7.8202,
+        "ps": 6.1177,
+        "eps_ttm": null,
+        "revenue_growth": 256.33,
+        "gross_margin": 80.72,
+        "net_margin": 63.8,
+        "roe": 91.77,
+        "debt_equity": 0.0374,
+        "current_ratio": 3.3138,
+        "beta": 2.538588
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 18,
+        "buy": 35,
+        "hold": 4,
+        "sell": 0,
+        "strong_sell": 0,
+        "total": 57,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "Micron Technology, Inc.",
+        "sector": "Semiconductors",
+        "industry": "Semiconductors",
+        "market_cap": 828700.462317067,
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "currency": "USD"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "A 60-Year-Old Who Bought 1,000 Micron Shares at $192 Just Watched Jim Cramer’s Investing Club Call It ‘Comically Cheap.’ Here’s What’s Left of His $1 Million Gain [Yahoo]",
+        "Micron Stocks Climb 4.29% as Chip Rebound Meets Tight 2027 Memory Supply [Yahoo]",
+        "Jim Cramer Is Still Bullish On These 5 Tech Stocks Despite AI Bear Market [Yahoo]",
+        "Micron CEO Expects Memory Shortages to Worsen in 2028, but TrendForce Sees Prices Falling [Yahoo]",
+        "SanDisk Stocks Jump 12.85% After Kioxia and Nvidia Stretch GPU Memory With SSDs [Yahoo]"
+      ],
+      "score": 45
+    },
+    {
+      "symbol": "3750.HK",
+      "watchlist_meta": {
+        "symbol": "3750.HK",
+        "investor_count": 2,
+        "investors": [
+          "Ouzo83",
+          "smudliczek"
+        ],
+        "avg_weight_pct": 3.79,
+        "direction": "long",
+        "avg_profit_pct": -13.65,
+        "conviction": 29
+      },
+      "quote": {
+        "symbol": "3750.HK",
+        "price": 314.20001220703125,
+        "change_pct": 5.79,
+        "change_abs": 17.2,
+        "high_today": null,
+        "low_today": null,
+        "prev_close": 297.0,
+        "high_52w": 794.5,
+        "low_52w": 292.20001220703125,
+        "source": "yfinance"
+      },
+      "fundamentals": {
+        "pe_ttm": 14.393038,
+        "pb": 3.1779444,
+        "ps": 2.4947898,
+        "eps_ttm": 21.83,
+        "revenue_growth": 0.586,
+        "gross_margin": 0.23159,
+        "net_margin": 0.15048,
+        "roe": 0.24405001,
+        "debt_equity": 44.877,
+        "current_ratio": 1.568,
+        "beta": 0.576
+      },
+      "analyst": {},
+      "price_target": {},
+      "profile": {
+        "name": "Contemporary Amperex Technology Co., Limited",
+        "sector": "Industrials",
+        "industry": "Electrical Equipment & Parts",
+        "market_cap": 1453881950208,
+        "exchange": "HKG",
+        "currency": "HKD"
+      },
+      "valuation": {
+        "fair_value": 436.6,
+        "margin_of_safety_pct": -28.0,
+        "fair_pe_method": 436.6,
+        "discount_to_sector_pe": -28.0
+      },
+      "news": [],
+      "score": 38
+    },
+    {
+      "symbol": "VRTX",
+      "watchlist_meta": {
+        "symbol": "VRTX",
+        "investor_count": 1,
+        "investors": [
+          "JeppeKirkBonde"
+        ],
+        "avg_weight_pct": 1.81,
+        "direction": "long",
+        "avg_profit_pct": 91.8,
+        "conviction": 14
+      },
+      "quote": {
+        "symbol": "VRTX",
+        "price": 534.57,
+        "change_pct": -5.2382,
+        "change_abs": -29.55,
+        "high_today": 535.455,
+        "low_today": 502.9006,
+        "prev_close": 564.12,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": 34.5751,
+        "pb": 6.1624,
+        "ps": 10.6139,
+        "eps_ttm": null,
+        "revenue_growth": 10.48,
+        "gross_margin": 85.57,
+        "net_margin": 30.7,
+        "roe": 20.080000000000002,
+        "debt_equity": 0.006,
+        "current_ratio": 2.9009,
+        "beta": 0.22866987
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 12,
+        "buy": 20,
+        "hold": 6,
+        "sell": 0,
+        "strong_sell": 1,
+        "total": 39,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "Vertex Pharmaceuticals Incorporated",
+        "sector": "Biotechnology",
+        "industry": "Biotechnology",
+        "market_cap": 141654.24,
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "currency": "USD"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "Review Delay May Give Vera Therapeutics Stock More Time To Build TRUTAKNA Share [Yahoo]",
+        "Vertex Stocks Fall 7.06% as FDA Pushes Kidney Drug Decision to 2027 [Yahoo]",
+        "Here's Why Vera Therapeutics Stock Surged Today (Hint: It's Not Great News For Vertex Shareholders) [Yahoo]",
+        "Vertex shares drop after FDA delays kidney drug decision [Yahoo]",
+        "Citi Says Vertex’s Povetacicept Delay Is ‘Not Thesis Changing,’ Maintains Its ‘Buy’ Rating [Yahoo]"
+      ],
+      "score": 37
+    },
+    {
+      "symbol": "OCGN",
+      "watchlist_meta": {
+        "symbol": "OCGN",
+        "investor_count": 1,
+        "investors": [
+          "Ctalbot44"
+        ],
+        "avg_weight_pct": 0.93,
+        "direction": "long",
+        "avg_profit_pct": -70.49,
+        "conviction": 14
+      },
+      "quote": {
+        "symbol": "OCGN",
+        "price": 0.783,
+        "change_pct": -7.2495,
+        "change_abs": -0.0612,
+        "high_today": 0.875,
+        "low_today": 0.7601,
+        "prev_close": 0.8442,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": null,
+        "pb": 7.9142,
+        "ps": 53.4346,
+        "eps_ttm": null,
+        "revenue_growth": -7.41,
+        "gross_margin": null,
+        "net_margin": -1624.62,
+        "roe": -1306.71,
+        "debt_equity": 0.9676,
+        "current_ratio": 1.0563,
+        "beta": 1.8850387
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 3,
+        "buy": 8,
+        "hold": 1,
+        "sell": 0,
+        "strong_sell": 0,
+        "total": 12,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "Ocugen, Inc.",
+        "sector": "Biotechnology",
+        "industry": "Biotechnology",
+        "market_cap": 265.67705692963756,
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "currency": "USD"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [],
+      "score": 37
+    },
+    {
+      "symbol": "PLTR",
+      "watchlist_meta": {
+        "symbol": "PLTR",
+        "investor_count": 2,
+        "investors": [
+          "thomaspj",
+          "JeppeKirkBonde"
+        ],
+        "avg_weight_pct": 6.28,
+        "direction": "long",
+        "avg_profit_pct": 884.57,
+        "conviction": 29
+      },
+      "quote": {
+        "symbol": "PLTR",
+        "price": 172.17,
+        "change_pct": 5.2448,
+        "change_abs": 8.58,
+        "high_today": 173.22,
+        "low_today": 164.8,
+        "prev_close": 163.59,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": 113.0639,
+        "pb": 57.3495,
+        "ps": 56.9194,
+        "eps_ttm": null,
+        "revenue_growth": 87.06,
+        "gross_margin": 84.74,
+        "net_margin": 50.34,
+        "roe": 39.839999999999996,
+        "debt_equity": 0,
+        "current_ratio": 7.1098,
+        "beta": 1.7323258
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 12,
+        "buy": 19,
+        "hold": 8,
+        "sell": 1,
+        "strong_sell": 1,
+        "total": 41,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "Palantir Technologies Inc.",
+        "sector": "Technology",
+        "industry": "Technology",
+        "market_cap": 414843.14468826586,
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "currency": "USD"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "Palantir's new military AI deal has a surprising catch [Yahoo]",
+        "Palantir Stock (PLTR) Has No Room for Error at This Valuation [Yahoo]",
+        "Should You Pick Palantir Over Its Big Tech Rivals? [Yahoo]",
+        "Palantir Stocks Climb 3.72% on $300 Million Poland Defense AI Deal [Yahoo]",
+        "Intel Stocks Climb 2.86% as Court Filings Detail Washington's 10% Stake Push [Yahoo]"
+      ],
+      "score": 35
+    },
+    {
+      "symbol": "DELL",
+      "watchlist_meta": {
+        "symbol": "DELL",
+        "investor_count": 2,
+        "investors": [
+          "Ouzo83",
+          "smudliczek"
+        ],
+        "avg_weight_pct": 2.77,
+        "direction": "long",
+        "avg_profit_pct": 114.06,
+        "conviction": 29
+      },
+      "quote": {
+        "symbol": "DELL",
+        "price": 316.96,
+        "change_pct": 6.699,
+        "change_abs": 19.9,
+        "high_today": 317.5,
+        "low_today": 297.1,
+        "prev_close": 297.06,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": 12.9992,
+        "pb": 18.5202,
+        "ps": 1.125,
+        "eps_ttm": null,
+        "revenue_growth": 72.09,
+        "gross_margin": 20.04,
+        "net_margin": 8.65,
+        "roe": 130.7,
+        "debt_equity": 13.2911,
+        "current_ratio": 0.9104,
+        "beta": 1.6026193
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 8,
+        "buy": 18,
+        "hold": 10,
+        "sell": 0,
+        "strong_sell": 0,
+        "total": 36,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "Dell Technologies Inc",
+        "sector": "Technology",
+        "industry": "Technology",
+        "market_cap": 201527.2104435645,
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "currency": "USD"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "Plot Twist: Nvidia’s Vera Rubin Gets 2-6.5x GB300’s Tokens per Dollar. Amazon’s Trainium Edge Was Against the Old Chip [Yahoo]",
+        "Why DELL Stock Is Rising Today — and Why Analysts Still See 70%+ Upside [Yahoo]",
+        "Don't have time to shop Black Friday? AI will do it for you [Yahoo]",
+        "Dell Stocks Jump 5.28% as $132.3 Billion AI Backlog Keeps Buyers Coming [Yahoo]",
+        "Dell's Strong Results Fail to Ease Concerns About AI Spending Durability, UBS Says [Yahoo]"
+      ],
+      "score": 35
+    },
+    {
+      "symbol": "SKHY",
+      "watchlist_meta": {
+        "symbol": "SKHY",
+        "investor_count": 1,
+        "investors": [
+          "JeppeKirkBonde"
+        ],
+        "avg_weight_pct": 4.51,
+        "direction": "long",
+        "avg_profit_pct": -27.18,
+        "conviction": 14
+      },
+      "quote": {
+        "symbol": "SKHY",
+        "price": 119.5,
+        "change_pct": 7.522,
+        "change_abs": 8.36,
+        "high_today": 119.96,
+        "low_today": 112.68,
+        "prev_close": 111.14,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": 3.9308,
+        "pb": 3.7297,
+        "ps": 2.7569,
+        "eps_ttm": null,
+        "revenue_growth": 220.31,
+        "gross_margin": 81.64,
+        "net_margin": 70.14,
+        "roe": 88.31,
+        "debt_equity": 0.2054,
+        "current_ratio": 1.8582,
+        "beta": 1.7127192
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 17,
+        "buy": 29,
+        "hold": 2,
+        "sell": 0,
+        "strong_sell": 0,
+        "total": 48,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "SK Hynix Inc",
+        "sector": "Semiconductors",
+        "industry": "Semiconductors",
+        "market_cap": 742546369.995117,
+        "exchange": "KOREA EXCHANGE (STOCK MARKET)",
+        "currency": "KRW"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "SK hynix Stocks Jump 5.41% as 100 Trillion Won Payout Plan Sinks In [Yahoo]",
+        "Samsung Electronics Stocks Jump 4.55% as Seoul Rallies on Stabilization Hopes [Yahoo]",
+        "Micron Faces New AI Memory Threat as Huawei Develops HBM Chip [Yahoo]",
+        "This Beaten-Down AI Stock Looks Dirt Cheap at 4 Times Earnings With 130% Upside [Yahoo]",
+        "Anthropic Stock Jumps to Reveal Its True Place in the AI Trade [Yahoo]"
+      ],
+      "score": 25
+    },
+    {
+      "symbol": "B",
+      "watchlist_meta": {
+        "symbol": "B",
+        "investor_count": 1,
+        "investors": [
+          "JeppeKirkBonde"
+        ],
+        "avg_weight_pct": 3.09,
+        "direction": "long",
+        "avg_profit_pct": 79.25,
+        "conviction": 14
+      },
+      "quote": {
+        "symbol": "B",
+        "price": 36.54,
+        "change_pct": 5.8517,
+        "change_abs": 2.02,
+        "high_today": 36.63,
+        "low_today": 35.72,
+        "prev_close": 34.52,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": 8.7151,
+        "pb": 2.7041,
+        "ps": 2.642,
+        "eps_ttm": null,
+        "revenue_growth": 47.77,
+        "gross_margin": 55.18,
+        "net_margin": 30.32,
+        "roe": 24.060000000000002,
+        "debt_equity": 0.1962,
+        "current_ratio": 2.9216,
+        "beta": 2.574207
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 6,
+        "buy": 9,
+        "hold": 5,
+        "sell": 0,
+        "strong_sell": 0,
+        "total": 20,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "Barrick Mining Corp",
+        "sector": "Metals & Mining",
+        "industry": "Metals & Mining",
+        "market_cap": 81171.05354,
+        "exchange": "TORONTO STOCK EXCHANGE",
+        "currency": "USD"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "Gold Doesn’t Pay Dividends, but These 3 Gold Mining Stocks Do [Yahoo]",
+        "Bullish Signals Appear Across The Precious Metals Sector [SeekingAlpha]",
+        "What To Expect From November 2026's Job Report [SeekingAlpha]",
+        "Stanley Druckenmiller and 10 Other Big Funds Bought Newmont Last Quarter. Ken Fisher and 5 Others Sold. Who’s Right? [Yahoo]",
+        "Barrick’s CEO meets Mali’s PM for first time since resolution [Yahoo]"
+      ],
+      "score": 25
+    },
+    {
+      "symbol": "RKLB",
+      "watchlist_meta": {
+        "symbol": "RKLB",
+        "investor_count": 1,
+        "investors": [
+          "michalhla"
+        ],
+        "avg_weight_pct": 3.05,
+        "direction": "long",
+        "avg_profit_pct": -6.22,
+        "conviction": 14
+      },
+      "quote": {
+        "symbol": "RKLB",
+        "price": 50.88,
+        "change_pct": 8.2093,
+        "change_abs": 3.86,
+        "high_today": 50.95,
+        "low_today": 47.471,
+        "prev_close": 47.02,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": null,
+        "pb": 21.6411,
+        "ps": 36.4636,
+        "eps_ttm": null,
+        "revenue_growth": 59.03,
+        "gross_margin": 36.21,
+        "net_margin": -25.73,
+        "roe": -6.83,
+        "debt_equity": 0.0982,
+        "current_ratio": 4.0826,
+        "beta": 3.3240433
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 8,
+        "buy": 17,
+        "hold": 5,
+        "sell": 0,
+        "strong_sell": 0,
+        "total": 30,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "Rocket Lab Corp",
+        "sector": "Aerospace & Defense",
+        "industry": "Aerospace & Defense",
+        "market_cap": 32157.22548909571,
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "currency": "USD"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "Nvidia’s Key Man Problem [Yahoo]",
+        "Rocket Lab (RKLB) Completed Its 101st Electron Launch [Yahoo]",
+        "AST SpaceMobile Gains 2% Despite Berenberg’s Price Target Cut to $30, Rocket Lab Climbs 5% After Electron Launch; Cathie Wood-Backed SpaceX Rises 3% [Yahoo]",
+        "SpaceX Cratered 13.5% This Month: Near 300% Returns to Materialize at Today’s Price According to this Pro Analyst [Yahoo]",
+        "Rocket Lab Secures $515 Million in Neutron Launch Orders Ahead of 2027 Debut [Yahoo]"
+      ],
+      "score": 25
+    },
     {
       "symbol": "INTR",
       "watchlist_meta": {
@@ -3451,30 +4130,30 @@
         ],
         "avg_weight_pct": 1.88,
         "direction": "long",
-        "avg_profit_pct": -40.44,
+        "avg_profit_pct": -30.79,
         "conviction": 14
       },
       "quote": {
         "symbol": "INTR",
-        "price": 4.01,
-        "change_pct": 5.2493,
-        "change_abs": 0.2,
-        "high_today": 4.075,
-        "low_today": 3.72,
-        "prev_close": 3.81,
+        "price": 4.66,
+        "change_pct": 16.2095,
+        "change_abs": 0.65,
+        "high_today": 4.77,
+        "low_today": 4.58,
+        "prev_close": 4.01,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": 6.7211,
-        "pb": 2.132,
+        "pe_ttm": 7.1849,
+        "pb": 2.0755,
         "ps": null,
         "eps_ttm": null,
         "revenue_growth": null,
         "gross_margin": null,
         "net_margin": null,
-        "roe": 15.049999999999999,
+        "roe": 15.409999999999998,
         "debt_equity": 1.7785,
         "current_ratio": null,
         "beta": 1.0204693
@@ -3494,7 +4173,7 @@
         "name": "Inter & Co Inc",
         "sector": "Banking",
         "industry": "Banking",
-        "market_cap": 1764.421159,
+        "market_cap": 2050.4245887630927,
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "currency": "BRL"
       },
@@ -3503,64 +4182,68 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "UBS Maintains Buy on Inter & Co, Lowers Price Target to $6.6 [Benzinga]"
+        "Inter & Co (INTR) Stock Looks Cheap Relative To Current Earnings [Yahoo]",
+        "Premarket Movers on Nov. 27: Gainers and Losers [ChartMill]",
+        "Inter (INTR) Stock Jumps 14.5% Premarket: Latin American Stocks Rally [Yahoo]",
+        "Nu Holdings (NU) Stock Jumps 8.3% Premarket Without Company News [Yahoo]",
+        "Shares of integrated oil and gas companies are trading lower amid energy price declines after Iran's foreign minister said that the government has agreed to an accelerated two-day timeline to reopen the Strait of Hormuz that could be enacted if the U.S. meets its demands. [Benzinga]"
       ],
       "score": 25
     },
     {
-      "symbol": "ASTS",
+      "symbol": "WDC",
       "watchlist_meta": {
-        "symbol": "ASTS",
+        "symbol": "WDC",
         "investor_count": 1,
         "investors": [
           "michalhla"
         ],
-        "avg_weight_pct": 2.49,
+        "avg_weight_pct": 1.01,
         "direction": "long",
-        "avg_profit_pct": 2.11,
+        "avg_profit_pct": -35.9,
         "conviction": 14
       },
       "quote": {
-        "symbol": "ASTS",
-        "price": 26.02,
-        "change_pct": 10.2542,
-        "change_abs": 2.42,
-        "high_today": 26.665,
-        "low_today": 22.5,
-        "prev_close": 23.6,
+        "symbol": "WDC",
+        "price": 292.11,
+        "change_pct": 7.216,
+        "change_abs": 19.66,
+        "high_today": 292.6,
+        "low_today": 278.55,
+        "prev_close": 272.45,
         "high_52w": null,
         "low_52w": null,
         "source": "finnhub"
       },
       "fundamentals": {
-        "pe_ttm": null,
-        "pb": 14.4908,
-        "ps": 88.0376,
+        "pe_ttm": 9.2819,
+        "pb": 22.4549,
+        "ps": 6.4227,
         "eps_ttm": null,
-        "revenue_growth": 2256.89,
-        "gross_margin": 39.17,
-        "net_margin": -536.66,
-        "roe": -35.08,
-        "debt_equity": 1.2053,
-        "current_ratio": 16.3526,
-        "beta": 3.1959145
+        "revenue_growth": 43.02,
+        "gross_margin": 52.6,
+        "net_margin": 69.2,
+        "roe": 113.77,
+        "debt_equity": 0.1187,
+        "current_ratio": 1.3288,
+        "beta": 2.3993511
       },
       "analyst": {
-        "consensus": "Buy",
-        "strong_buy": 2,
-        "buy": 9,
-        "hold": 9,
-        "sell": 2,
+        "consensus": "Strong Buy",
+        "strong_buy": 7,
+        "buy": 16,
+        "hold": 8,
+        "sell": 0,
         "strong_sell": 0,
-        "total": 22,
+        "total": 31,
         "period": "2026-11-01"
       },
       "price_target": {},
       "profile": {
-        "name": "AST SpaceMobile, Inc.",
-        "sector": "Telecommunication",
-        "industry": "Telecommunication",
-        "market_cap": 10150.653657,
+        "name": "Western Digital Corp",
+        "sector": "Technology",
+        "industry": "Technology",
+        "market_cap": 137043.49,
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "currency": "USD"
       },
@@ -3569,13 +4252,412 @@
         "margin_of_safety_pct": null
       },
       "news": [
-        "SpaceX Just Slid 11% in a Week. Can Elon Musk’s FCC Win for 1 Million Satellites Get SPCX Stock Back Above Its $135 IPO Price? [Yahoo]",
-        "AST SpaceMobile Is Still Down 64% in 2026. Can Insider Buying and a B. Riley Upgrade Get ASTS Stock Back to $40? [Yahoo]",
-        "AST SpaceMobile Is Down 80% From Its May High. Jim Cramer Calls It “A Very Hard Stock to Own” [Yahoo]",
-        "SPCX Wins Million-Satellite Nod And Retail Attention — But ASTS Leads Space Stocks Into Thanksgiving [Yahoo]",
-        "AT&T Is Up 10% in a Month. Steve Eisman Calls the Big Three Carriers “Uninvestable.” Who’s Right? [Yahoo]"
+        "Western Digital Stock Gets A Lift From AI Storage Demand [Yahoo]",
+        "SanDisk Stocks Jump 12.85% After Kioxia and Nvidia Stretch GPU Memory With SSDs [Yahoo]",
+        "SanDisk Surges 16% as Memory Stocks Extend Their Rebound: Can SNDK Stock Blast Through $100 Before 2026 Ends? [Yahoo]",
+        "SanDisk Jumps 10% as Investors Return to Beaten-Down Memory Stocks; Micron and SK Hynix Rise 6% Despite TrendForce DRAM Warning [Yahoo]",
+        "Why SanDisk’s Path to $170 in 2027 Hinges on One Test of Its Multi-Year Contracts [Yahoo]"
+      ],
+      "score": 25
+    },
+    {
+      "symbol": "GGB",
+      "watchlist_meta": {
+        "symbol": "GGB",
+        "investor_count": 1,
+        "investors": [
+          "smudliczek"
+        ],
+        "avg_weight_pct": 0.84,
+        "direction": "long",
+        "avg_profit_pct": 3.46,
+        "conviction": 14
+      },
+      "quote": {
+        "symbol": "GGB",
+        "price": 4.78,
+        "change_pct": 6.9351,
+        "change_abs": 0.31,
+        "high_today": 4.82,
+        "low_today": 4.71,
+        "prev_close": 4.47,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": 21.7728,
+        "pb": 0.7113,
+        "ps": 1.4083,
+        "eps_ttm": null,
+        "revenue_growth": 2.92,
+        "gross_margin": 14.81,
+        "net_margin": 7.1,
+        "roe": 4.17,
+        "debt_equity": 0.2906,
+        "current_ratio": 2.8931,
+        "beta": 0.33559096
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 4,
+        "buy": 11,
+        "hold": 6,
+        "sell": 0,
+        "strong_sell": 0,
+        "total": 21,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "Gerdau SA",
+        "sector": "Metals & Mining",
+        "industry": "Metals & Mining",
+        "market_cap": 48707.505757,
+        "exchange": "B3 S.A.",
+        "currency": "BRL"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "Gerdau (BOVESPA:GGBR4) Stock Draws Fresh Price Target Split As Fair Value Gets A Bump [Yahoo]"
+      ],
+      "score": 25
+    },
+    {
+      "symbol": "RIOT",
+      "watchlist_meta": {
+        "symbol": "RIOT",
+        "investor_count": 1,
+        "investors": [
+          "JeppeKirkBonde"
+        ],
+        "avg_weight_pct": 0.54,
+        "direction": "long",
+        "avg_profit_pct": 154.77,
+        "conviction": 14
+      },
+      "quote": {
+        "symbol": "RIOT",
+        "price": 17.65,
+        "change_pct": 6.006,
+        "change_abs": 1,
+        "high_today": 17.67,
+        "low_today": 16.352,
+        "prev_close": 16.65,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": null,
+        "pb": 1.6481,
+        "ps": 9.6529,
+        "eps_ttm": null,
+        "revenue_growth": 6.05,
+        "gross_margin": 23.86,
+        "net_margin": -210.79,
+        "roe": -59.47,
+        "debt_equity": 0.2941,
+        "current_ratio": 0.9552,
+        "beta": 3.9056745
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 6,
+        "buy": 20,
+        "hold": 2,
+        "sell": 0,
+        "strong_sell": 0,
+        "total": 28,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "Riot Platforms, Inc.",
+        "sector": "Technology",
+        "industry": "Technology",
+        "market_cap": 6621.996741351351,
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "currency": "USD"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "Securitize shares are trading higher after Rosenblatt initiated its coverage on the stock with a Buy rating and announced a price target of $14. [Benzinga]"
+      ],
+      "score": 25
+    },
+    {
+      "symbol": "COHR",
+      "watchlist_meta": {
+        "symbol": "COHR",
+        "investor_count": 1,
+        "investors": [
+          "smudliczek"
+        ],
+        "avg_weight_pct": 0.34,
+        "direction": "long",
+        "avg_profit_pct": 98.89,
+        "conviction": 14
+      },
+      "quote": {
+        "symbol": "COHR",
+        "price": 223.79,
+        "change_pct": 14.068,
+        "change_abs": 27.6,
+        "high_today": 224.19,
+        "low_today": 207.2401,
+        "prev_close": 196.19,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": 40.1126,
+        "pb": 7.0779,
+        "ps": 4.8869,
+        "eps_ttm": null,
+        "revenue_growth": 30.84,
+        "gross_margin": 38.16,
+        "net_margin": 12.18,
+        "roe": 9.3,
+        "debt_equity": 0.2955,
+        "current_ratio": 2.4267,
+        "beta": 2.2092264
+      },
+      "analyst": {
+        "consensus": "Strong Buy",
+        "strong_buy": 8,
+        "buy": 18,
+        "hold": 6,
+        "sell": 0,
+        "strong_sell": 0,
+        "total": 32,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "Coherent Corp.",
+        "sector": "Electrical Equipment",
+        "industry": "Electrical Equipment",
+        "market_cap": 44077.38336655217,
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "currency": "USD"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "Coherent Jumps 12% as Optical Stocks Rebound From Wednesday’s AI Selloff; Applied Optoelectronics and Lumentum Rise 7% [Yahoo]",
+        "Anthropic Stock Jumps to Reveal Its True Place in the AI Trade [Yahoo]",
+        "Chip stocks lead a Black Friday rally, but Nvidia misses out: AlphaCheck [Yahoo]",
+        "S&P 500 Premarket Gainers on Nov. 27 Led by Technology and Semiconductor Stocks [ChartMill]",
+        "What To Expect From November 2026's Job Report [SeekingAlpha]"
+      ],
+      "score": 25
+    },
+    {
+      "symbol": "BE",
+      "watchlist_meta": {
+        "symbol": "BE",
+        "investor_count": 1,
+        "investors": [
+          "JeppeKirkBonde"
+        ],
+        "avg_weight_pct": 2.41,
+        "direction": "long",
+        "avg_profit_pct": -32.64,
+        "conviction": 14
+      },
+      "quote": {
+        "symbol": "BE",
+        "price": 163.02,
+        "change_pct": 6.6257,
+        "change_abs": 10.13,
+        "high_today": 163.15,
+        "low_today": 153.1101,
+        "prev_close": 152.89,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": 91.7706,
+        "pb": 26.736,
+        "ps": 12.4193,
+        "eps_ttm": null,
+        "revenue_growth": 110.59,
+        "gross_margin": 32.33,
+        "net_margin": 13.53,
+        "roe": 39.6,
+        "debt_equity": 3.7298,
+        "current_ratio": 5.9801,
+        "beta": 3.866705
+      },
+      "analyst": {
+        "consensus": "Buy",
+        "strong_buy": 7,
+        "buy": 17,
+        "hold": 15,
+        "sell": 1,
+        "strong_sell": 0,
+        "total": 40,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "Bloom Energy Corporation",
+        "sector": "Electrical Equipment",
+        "industry": "Electrical Equipment",
+        "market_cap": 48197.95133256643,
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "currency": "USD"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "Is Bloom Energy Stock A Buy At Today's Price? [Yahoo]",
+        "Target $140 Entries, $240 Exits After Ken Griffin and Citadel’s Distressed Bloom Energy Buy [Yahoo]",
+        "T1 Energy (TE) Stock Is Up 21.4% Today Without Company News [Yahoo]",
+        "Bloom Energy Corporation (BE) is Positioned for Margin Expansion [Yahoo]",
+        "Plug Power Surges 8% Amid Turnaround Hope: Was $1 the Permanent Floor for PLUG Stock? [Yahoo]"
       ],
       "score": 18
+    },
+    {
+      "symbol": "INTC",
+      "watchlist_meta": {
+        "symbol": "INTC",
+        "investor_count": 1,
+        "investors": [
+          "Ctalbot44"
+        ],
+        "avg_weight_pct": 4.82,
+        "direction": "long",
+        "avg_profit_pct": 20.57,
+        "conviction": 14
+      },
+      "quote": {
+        "symbol": "INTC",
+        "price": 57.4,
+        "change_pct": 5.3791,
+        "change_abs": 2.93,
+        "high_today": 58.38,
+        "low_today": 54.55,
+        "prev_close": 54.47,
+        "high_52w": null,
+        "low_52w": null,
+        "source": "finnhub"
+      },
+      "fundamentals": {
+        "pe_ttm": null,
+        "pb": 1.531,
+        "ps": 5.0064,
+        "eps_ttm": null,
+        "revenue_growth": 12.08,
+        "gross_margin": 39.9,
+        "net_margin": -20.09,
+        "roe": -11.24,
+        "debt_equity": 0.4076,
+        "current_ratio": 2.017,
+        "beta": 2.4639146
+      },
+      "analyst": {
+        "consensus": "Hold",
+        "strong_buy": 4,
+        "buy": 12,
+        "hold": 38,
+        "sell": 1,
+        "strong_sell": 0,
+        "total": 55,
+        "period": "2026-11-01"
+      },
+      "price_target": {},
+      "profile": {
+        "name": "Intel Corp",
+        "sector": "Semiconductors",
+        "industry": "Semiconductors",
+        "market_cap": 305081.0068369965,
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "currency": "USD"
+      },
+      "valuation": {
+        "fair_value": null,
+        "margin_of_safety_pct": null
+      },
+      "news": [
+        "Intel Stocks Climb 2.86% as Court Filings Detail Washington's 10% Stake Push [Yahoo]",
+        "I Tested More Than 100 Trading Strategies With AI. Most Of Them Failed, And The Reasons Why Were More Interesting Than The Winners [Yahoo]",
+        "Skyworks (SWKS) Stock Is Up 6.5% Today Along With Chip Rally [Yahoo]",
+        "SEALSQ (LAES) Stock Is Up 22.0% Today Without Company News [Yahoo]",
+        "No Threat to TSMC Before 2028: Intel’s Foundry Gap Is Still Huge [Yahoo]"
+      ],
+      "score": 10
+    },
+    {
+      "symbol": "6146.T",
+      "watchlist_meta": {
+        "symbol": "6146.T",
+        "investor_count": 1,
+        "investors": [
+          "smudliczek"
+        ],
+        "avg_weight_pct": 1.98,
+        "direction": "long",
+        "avg_profit_pct": -14.63,
+        "conviction": 14
+      },
+      "quote": {
+        "symbol": "6146.T",
+        "price": 44280.0,
+        "change_pct": 5.18,
+        "change_abs": 2180.0,
+        "high_today": null,
+        "low_today": null,
+        "prev_close": 42100.0,
+        "high_52w": 91680.0,
+        "low_52w": 37210.0,
+        "source": "yfinance"
+      },
+      "fundamentals": {
+        "pe_ttm": 28.696785,
+        "pb": 7.6438847,
+        "ps": 9.62077,
+        "eps_ttm": 1543.03,
+        "revenue_growth": 0.364,
+        "gross_margin": 0.71361,
+        "net_margin": 0.32033002,
+        "roe": 0.27926,
+        "debt_equity": null,
+        "current_ratio": 2.944,
+        "beta": 1.037
+      },
+      "analyst": {},
+      "price_target": {},
+      "profile": {
+        "name": "Disco Corporation",
+        "sector": "Technology",
+        "industry": "Semiconductor Equipment & Materials",
+        "market_cap": 4804708925440,
+        "exchange": "JPX",
+        "currency": "JPY"
+      },
+      "valuation": {
+        "fair_value": 43204.84,
+        "margin_of_safety_pct": 2.5,
+        "fair_pe_method": 43204.84,
+        "discount_to_sector_pe": 2.5
+      },
+      "news": [],
+      "score": 10
     }
   ]
 }
